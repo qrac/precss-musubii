@@ -28,6 +28,7 @@ $n-grid: "grid" !default;
 $n-column: if($option-om, "col", "column") !default;
 $n-gap: "gap" !default;
 $n-card: "card" !default;
+$n-box: "box" !default;
 
 // Modifier Name
 $n-light: "light" !default;
@@ -44,10 +45,14 @@ $n-bottom: "bottom" !default;
 $n-left: "left" !default;
 $n-vertical: "vertical" !default;
 $n-horizontal: "horizontal" !default;
+$n-up: "up" !default;
+$n-down: "down" !default;
 $n-disabled: "disabled" !default;
 $n-bg: "bg" !default;
 $n-outline: "outline" !default;
 $n-radius: "radius" !default;
+$n-flex: "flex" !default;
+$n-inline-flex: "inlineFlex" !default;
 $n-baseline: "baseline" !default;
 $n-middle: "middle" !default;
 $n-center: "center" !default;
@@ -58,6 +63,11 @@ $n-stretch: "stretch" !default;
 $n-link: "link" !default;
 $n-zoom: "zoom" !default;
 $n-floating: "floating" !default;
+$n-nowrap: "nowrap" !default;
+$n-separate: "separate" !default;
+$n-parent: "parent" !default;
+$n-child: "child" !default;
+$n-angle: "angle" !default;
 
 //----------------------------------------------------
 // / Option
@@ -158,3 +168,41 @@ $modifier-card-radius-md: $bl_+$n-card+$__+$n-radius+$_+$n-md !default;
 $modifier-card-radius-sm: $bl_+$n-card+$__+$n-radius+$_+$n-sm !default;
 $modifier-card-radius-xs: $bl_+$n-card+$__+$n-radius+$_+$n-xs !default;
 $modifier-card-radius-xxs: $bl_+$n-card+$__+$n-radius+$_+$n-xxs !default;
+
+//----------------------------------------------------
+// / Box
+// - Docs: https://musubii.qranoko.jp/styles/layouts/box
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/layouts/_box.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-box: $bl_+$n-box !default;
+
+// Modifiers
+$modifier-box-flex: $bl_+$n-box+$__+$n-flex !default;
+$modifier-box-inline-flex: $bl_+$n-box+$__+$n-inline-flex !default;
+$modifier-box-nowrap: $bl_+$n-box+$__+$n-nowrap !default;
+$modifier-box-baseline: $bl_+$n-box+$__+$n-baseline !default;
+$modifier-box-middle: $bl_+$n-box+$__+$n-middle !default;
+$modifier-box-bottom: $bl_+$n-box+$__+$n-bottom !default;
+$modifier-box-center: $bl_+$n-box+$__+$n-center !default;
+$modifier-box-right: $bl_+$n-box+$__+$n-right !default;
+$modifier-box-between: $bl_+$n-box+$__+$n-between !default;
+$modifier-box-around: $bl_+$n-box+$__+$n-around !default;
+$modifier-box-reverse: $bl_+$n-box+$__+$n-reverse !default;
+$modifier-box-bg: $bl_+$n-box+$__+$n-bg !default;
+$modifier-box-bg-light: $bl_+$n-box+$__+$n-bg+$_+$n-light !default;
+$modifier-box-outline: $bl_+$n-box+$__+$n-outline !default;
+$modifier-box-outline-top: $bl_+$n-box+$__+$n-outline+$_+$n-top !default;
+$modifier-box-outline-right: $bl_+$n-box+$__+$n-outline+$_+$n-right !default;
+$modifier-box-outline-bottom: $bl_+$n-box+$__+$n-outline+$_+$n-bottom !default;
+$modifier-box-outline-left: $bl_+$n-box+$__+$n-outline+$_+$n-left !default;
+$modifier-box-separate: $bl_+$n-box+$__+$n-separate !default;
+$modifier-box-separate-parent: $bl_+$n-box+$__+$n-separate+$_+$n-parent !default;
+$modifier-box-separate-child: $bl_+$n-box+$__+$n-separate+$_+$n-child !default;
+$modifier-box-disabled: $bl_+$n-box+$__+$n-disabled !default;
+$modifier-box-link: $bl_+$n-box+$__+$n-link !default;
+$modifier-box-angle-right: $bl_+$n-box+$__+$n-angle+$_+$n-right !default;
+$modifier-box-angle-left: $bl_+$n-box+$__+$n-angle+$_+$n-left !default;
+$modifier-box-angle-up: $bl_+$n-box+$__+$n-angle+$_+$n-up !default;
+$modifier-box-angle-down: $bl_+$n-box+$__+$n-angle+$_+$n-down !default;

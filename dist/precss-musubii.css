@@ -606,102 +606,102 @@ iframe {
   border-radius: 1px;
 }
 
-.box {
+.bl_box {
   position: relative;
   display: block;
 }
 
-.box.is-bg, .box.is-bg-light {
+.bl_box.bl_box__bg, .bl_box.bl_box__bg_light {
   background-color: white;
 }
 
-.box.is-disabled, .box[disabled] {
+.bl_box.bl_box__disabled, .bl_box[disabled] {
   cursor: not-allowed;
   pointer-events: none;
 }
 
-.box.is-flex {
+.bl_box.bl_box__flex {
   display: flex;
 }
 
-.box.is-inline-flex {
+.bl_box.bl_box__inlineFlex {
   display: inline-flex;
 }
 
-.box.is-flex:not(.is-nowrap), .box.is-inline-flex:not(.is-nowrap) {
+.bl_box.bl_box__flex:not(.bl_box__nowrap), .bl_box.bl_box__inlineFlex:not(.bl_box__nowrap) {
   flex-wrap: wrap;
 }
 
-.box.is-flex.is-baseline, .box.is-inline-flex.is-baseline {
+.bl_box.bl_box__flex.bl_box__baseline, .bl_box.bl_box__inlineFlex.bl_box__baseline {
   align-items: baseline;
 }
 
-.box.is-flex.is-middle, .box.is-inline-flex.is-middle {
+.bl_box.bl_box__flex.bl_box__middle, .bl_box.bl_box__inlineFlex.bl_box__middle {
   align-items: center;
 }
 
-.box.is-flex.is-bottom, .box.is-inline-flex.is-bottom {
+.bl_box.bl_box__flex.bl_box__bottom, .bl_box.bl_box__inlineFlex.bl_box__bottom {
   align-items: flex-end;
 }
 
-.box.is-flex.is-center, .box.is-inline-flex.is-center {
+.bl_box.bl_box__flex.bl_box__center, .bl_box.bl_box__inlineFlex.bl_box__center {
   justify-content: center;
 }
 
-.box.is-flex.is-right, .box.is-inline-flex.is-right {
+.bl_box.bl_box__flex.bl_box__right, .bl_box.bl_box__inlineFlex.bl_box__right {
   justify-content: flex-end;
 }
 
-.box.is-flex.is-between, .box.is-inline-flex.is-between {
+.bl_box.bl_box__flex.bl_box__between, .bl_box.bl_box__inlineFlex.bl_box__between {
   justify-content: space-between;
 }
 
-.box.is-flex.is-around, .box.is-inline-flex.is-around {
+.bl_box.bl_box__flex.bl_box__around, .bl_box.bl_box__inlineFlex.bl_box__around {
   justify-content: space-around;
 }
 
-.box.is-flex.is-reverse, .box.is-inline-flex.is-reverse {
+.bl_box.bl_box__flex.bl_box__reverse, .bl_box.bl_box__inlineFlex.bl_box__reverse {
   flex-direction: row-reverse;
 }
 
-.box.is-outline {
+.bl_box.bl_box__outline {
   border: 1px solid #d1d8dc;
 }
 
-.box.is-outline-top {
+.bl_box.bl_box__outline_top {
   border-top: 1px solid #d1d8dc;
 }
 
-.box.is-outline-right {
+.bl_box.bl_box__outline_right {
   border-right: 1px solid #d1d8dc;
 }
 
-.box.is-outline-bottom {
+.bl_box.bl_box__outline_bottom {
   border-bottom: 1px solid #d1d8dc;
 }
 
-.box.is-outline-left {
+.bl_box.bl_box__outline_left {
   border-left: 1px solid #d1d8dc;
 }
 
-.box.is-separate > *:not(:last-child) {
+.bl_box.bl_box__separate > *:not(:last-child) {
   border-bottom: 1px solid #d1d8dc;
 }
 
-.box.is-separate-parent > *:not(:last-child) .is-separate-child {
+.bl_box.bl_box__separate_parent > *:not(:last-child) .bl_box__separate_child {
   border-bottom: 1px solid #d1d8dc;
 }
 
-.box.is-link {
+.bl_box.bl_box__link {
   cursor: pointer;
   transition: ease-out 0.12s;
 }
 
-.box.is-link:not(.is-disabled):not([disabled]):hover {
+.bl_box.bl_box__link:not(.bl_box__disabled):not([disabled]):hover {
   background-color: whitesmoke;
 }
 
-.box.is-angle-right:after, .box.is-angle-left:after {
+.bl_box.bl_box__angle_right:after, .bl_box.bl_box__angle_left:after {
   content: "";
   position: absolute;
   top: 50%;
@@ -712,24 +712,24 @@ iframe {
   z-index: 2;
 }
 
-.box.is-angle-right:after {
+.bl_box.bl_box__angle_right:after {
   right: 0.75em;
   -webkit-transform: translateY(-50%) rotate(45deg);
           transform: translateY(-50%) rotate(45deg);
 }
 
-.box.is-angle-left:after {
+.bl_box.bl_box__angle_left:after {
   left: 0.75em;
   -webkit-transform: translateY(-50%) rotate(-135deg);
           transform: translateY(-50%) rotate(-135deg);
 }
 
-.box.is-angle-right.is-angle-up:after, .box.is-angle-left.is-angle-up:after {
+.bl_box.bl_box__angle_right.bl_box__angle_up:after, .bl_box.bl_box__angle_left.bl_box__angle_up:after {
   -webkit-transform: translateY(-30%) rotate(-45deg);
           transform: translateY(-30%) rotate(-45deg);
 }
 
-.box.is-angle-right.is-angle-down:after, .box.is-angle-left.is-angle-down:after {
+.bl_box.bl_box__angle_right.bl_box__angle_down:after, .bl_box.bl_box__angle_left.bl_box__angle_down:after {
   -webkit-transform: translateY(-70%) rotate(135deg);
           transform: translateY(-70%) rotate(135deg);
 }
