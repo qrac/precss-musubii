@@ -1,0 +1,57 @@
+{
+  "name": "precss-musubii",
+  "description": "Simple CSS Framework for PRECSS",
+  "version": "1.0.0",
+  "main": "dist/precss-musubii.css",
+  "license": "MIT",
+  "homepage": "https://precss-musubii.qranoko.jp",
+  "repository": "https://github.com/qrac/precss-musubii",
+  "bugs": "https://github.com/qrac/precss-musubii/issues",
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "framework",
+    "japanese",
+    "precss",
+    "precss-musubii",
+    "musubii"
+  ],
+  "author": {
+    "name": "Qrac",
+    "url": "https://qrac.jp"
+  },
+  "organization": {
+    "name": "QRANOKO",
+    "url": "https://qranoko.jp"
+  },
+  "scripts": {
+    "dev": "next",
+    "generate": "next build && next export",
+    "build": "yarn build:sass && yarn build:header && yarn build:postcss && yarn build:cleancss",
+    "build:sass": "bash ./tasks/build-sass.sh",
+    "build:header": "bash ./tasks/build-header.sh",
+    "build:postcss": "bash ./tasks/build-postcss.sh",
+    "build:cleancss": "bash ./tasks/build-cleancss.sh",
+    "clean": "rmtrash ./out ./.next ./temp"
+  },
+  "browserslist": [
+    "> 3% in JP",
+    "ie 11",
+    "android 4.4",
+    "last 1 versions"
+  ],
+  "dependencies": {
+    "musubii": "^7.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "clean-css-cli": "^4.3.0",
+    "concat": "^1.0.3",
+    "node-sass": "^4.13.1",
+    "postcss-cli": "^7.1.0",
+    "postcss-flexbugs-fixes": "^4.2.0",
+    "postcss-sort-media-queries": "^1.31.21",
+    "replace": "^1.1.5"
+  }
+}
