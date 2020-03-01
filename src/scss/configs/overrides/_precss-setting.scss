@@ -38,6 +38,8 @@ $n-button: "button" !default;
 $n-badge: "badge" !default;
 $n-list: "list" !default;
 $n-item: "item" !default;
+$n-table: "table" !default;
+$n-wrap: "wrap" !default;
 $n-input: "input" !default;
 $n-select: "select" !default;
 
@@ -90,10 +92,12 @@ $n-horizontal: "horizontal" !default;
 $n-up: "up" !default;
 $n-down: "down" !default;
 $n-disabled: "disabled" !default;
+$n-fixed: "fixed" !default;
 $n-height: "height" !default;
 $n-bg: "bg" !default;
 $n-plain: "plain" !default;
 $n-melt: "melt" !default;
+$n-border: "border" !default;
 $n-outline: "outline" !default;
 $n-line: "line" !default;
 $n-inline: "inline" !default;
@@ -130,6 +134,9 @@ $n-disc: "disc" !default;
 $n-kome: "kome" !default;
 $n-decimal: "decimal" !default;
 $n-note: "note" !default;
+$n-stripe: "stripe" !default;
+$n-paint: "paint" !default;
+$n-spot: "spot" !default;
 
 // Capitalize
 @function capitalize($string) {
@@ -459,3 +466,28 @@ $modifier-list-square: $selector-list + $__ + $n-square !default;
 $modifier-list-kome: $selector-list + $__ + $n-kome !default;
 $modifier-list-decimal: $selector-list + $__ + $n-decimal !default;
 $modifier-list-note: $selector-list + $__ + $n-note !default;
+
+//----------------------------------------------------
+// / Table
+// - Docs: https://musubii.qranoko.jp/styles/elements/table
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/elements/_table.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-table: $bl_ + $n-table !default;
+$selector-table-box: $bl_ + $n-box !default;
+$selector-table-wrap: $bl_ + $n-table + $_ + $n-wrap !default;
+
+// Modifiers
+$modifier-table-line: $selector-table + $__ + $n-line !default;
+$modifier-table-outline: $selector-table + $__ + $n-outline !default;
+$modifier-table-border: $selector-table + $__ + $n-border !default;
+$modifier-table-stripe: $selector-table + $__ + $n-stripe !default;
+$modifier-table-paint: $selector-table + $__ + $n-paint !default;
+$modifier-table-spot: $selector-table + $__ + $n-spot !default;
+$modifier-table-danger: $selector-table + $__ + $n-danger !default;
+$modifier-table-right: $selector-table + $__ + $n-right !default;
+$modifier-table-center: $selector-table + $__ + $n-center !default;
+$modifier-table-left: $selector-table + $__ + $n-left !default;
+$modifier-table-middle: $selector-table + $__ + $n-middle !default;
+$modifier-table-fixed: $selector-table + $__ + $n-fixed !default;
