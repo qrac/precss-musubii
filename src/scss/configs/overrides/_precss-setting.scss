@@ -51,6 +51,7 @@ $n-fieldset: "fieldset" !default;
 $n-iframe: "iframe" !default;
 $n-icon: "icon" !default;
 $n-alert: "alert" !default;
+$n-wysiwyg: "wysiwyg" !default;
 
 // Modifier Name
 $n-mobile: "mobile" !default;
@@ -166,6 +167,10 @@ $n-tail: "tail" !default;
 // - Docs: https://musubii.qranoko.jp/configs/variables/option
 // - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/configs/variables/_option.scss
 //----------------------------------------------------
+
+// Add Style
+$option-add-style-text-link-border: false !default;
+$option-add-style-wysiwyg-link-border: false !default;
 
 // Important
 $option-important-display: true !default;
@@ -634,3 +639,42 @@ $modifier-alert-tail-bottom-left: $selector-alert + $__ + $n-tail + $_ + $n-bott
 $modifier-alert-tail-left-top: $selector-alert + $__ + $n-tail + $_ + $n-left + $_ + $n-top !default;
 $modifier-alert-tail-left-middle: $selector-alert + $__ + $n-tail + $_ + $n-left + $_ + $n-middle !default;
 $modifier-alert-tail-left-bottom: $selector-alert + $__ + $n-tail + $_ + $n-left + $_ + $n-bottom !default;
+
+//----------------------------------------------------
+// / WYSIWYG
+// - Docs: https://musubii.qranoko.jp/styles/elements/wysiwyg
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/elements/_wysiwyg.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-wysiwyg: $bl_ + $n-wysiwyg !default;
+//$selector-wysiwyg-h1: "h1" !default;
+//$selector-wysiwyg-h2: "h2" !default;
+//$selector-wysiwyg-h3: "h3" !default;
+//$selector-wysiwyg-h4: "h4" !default;
+//$selector-wysiwyg-h5: "h5" !default;
+//$selector-wysiwyg-h6: "h6" !default;
+//$selector-wysiwyg-p: "p" !default;
+//$selector-wysiwyg-small: "small" !default;
+//$selector-wysiwyg-strong: "strong" !default;
+//$selector-wysiwyg-em: "em" !default;
+//$selector-wysiwyg-del: "del, s" !default;
+//$selector-wysiwyg-a: "a" !default;
+//$selector-wysiwyg-blockquote: "blockquote" !default;
+//$selector-wysiwyg-pre: "pre" !default;
+//$selector-wysiwyg-code: "code" !default;
+//$selector-wysiwyg-ul: "ul" !default;
+//$selector-wysiwyg-ol: "ol" !default;
+//$selector-wysiwyg-li: "li" !default;
+//$selector-wysiwyg-table: "table" !default;
+//$selector-wysiwyg-th: "th" !default;
+//$selector-wysiwyg-td: "td" !default;
+//$selector-wysiwyg-dl: "dl" !default;
+//$selector-wysiwyg-dt: "dt" !default;
+//$selector-wysiwyg-dd: "dd" !default;
+//$selector-wysiwyg-hr: "hr" !default;
+//$selector-wysiwyg-figure: "figure" !default;
+//$selector-wysiwyg-figcaption: "figcaption" !default;
+
+// Modifiers
+$modifier-wysiwyg-link-reverse: $selector-wysiwyg + $__ + $n-link + $_ + $n-reverse !default;
