@@ -50,6 +50,7 @@ $n-select: "select" !default;
 $n-fieldset: "fieldset" !default;
 $n-iframe: "iframe" !default;
 $n-icon: "icon" !default;
+$n-alert: "alert" !default;
 
 // Modifier Name
 $n-mobile: "mobile" !default;
@@ -153,6 +154,7 @@ $n-inside: "inside" !default;
 $n-multiple: "multiple" !default;
 $n-aspect: "aspect" !default;
 $n-fit: "fit" !default;
+$n-tail: "tail" !default;
 
 // Capitalize
 @function capitalize($string) {
@@ -598,3 +600,37 @@ $modifier-icon-warning: $selector-icon + $__ + $n-warning !default;
 $modifier-icon-danger: $selector-icon + $__ + $n-danger !default;
 
 $modifier-icon-fit: $selector-icon + $__ + $n-fit !default;
+
+//----------------------------------------------------
+// / Alert
+// - Docs: https://musubii.qranoko.jp/styles/elements/alert
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/elements/_alert.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-alert: $bl_ + $n-alert !default;
+
+// Modifiers
+$modifier-alert-primary: $selector-alert + $__ + $n-primary !default;
+$modifier-alert-info: $selector-alert + $__ + $n-info !default;
+$modifier-alert-success: $selector-alert + $__ + $n-success !default;
+$modifier-alert-warning: $selector-alert + $__ + $n-warning !default;
+$modifier-alert-danger: $selector-alert + $__ + $n-danger !default;
+
+$modifier-alert-tail: '[class\*="' + $selector-alert + $__ + $n-tail + '"]' !default;
+$modifier-alert-tail-top: '[class\*="' + $selector-alert + $__ + $n-tail + $_ + $n-top + '"]' !default;
+$modifier-alert-tail-right: '[class\*="' + $selector-alert + $__ + $n-tail + $_ + $n-right + '"]' !default;
+$modifier-alert-tail-bottom: '[class\*="' + $selector-alert + $__ + $n-tail + $_ + $n-bottom + '"]' !default;
+$modifier-alert-tail-left: '[class\*="' + $selector-alert + $__ + $n-tail + $_ + $n-left + '"]' !default;
+$modifier-alert-tail-top-right: $selector-alert + $__ + $n-tail + $_ + $n-top + $_ + $n-right !default;
+$modifier-alert-tail-top-center: $selector-alert + $__ + $n-tail + $_ + $n-top + $_ + $n-center !default;
+$modifier-alert-tail-top-left: $selector-alert + $__ + $n-tail + $_ + $n-top + $_ + $n-left !default;
+$modifier-alert-tail-right-top: $selector-alert + $__ + $n-tail + $_ + $n-right + $_ + $n-top !default;
+$modifier-alert-tail-right-middle: $selector-alert + $__ + $n-tail + $_ + $n-right + $_ + $n-middle !default;
+$modifier-alert-tail-right-bottom: $selector-alert + $__ + $n-tail + $_ + $n-right + $_ + $n-bottom !default;
+$modifier-alert-tail-bottom-right: $selector-alert + $__ + $n-tail + $_ + $n-bottom + $_ + $n-right !default;
+$modifier-alert-tail-bottom-center: $selector-alert + $__ + $n-tail + $_ + $n-bottom + $_ + $n-center !default;
+$modifier-alert-tail-bottom-left: $selector-alert + $__ + $n-tail + $_ + $n-bottom + $_ + $n-left !default;
+$modifier-alert-tail-left-top: $selector-alert + $__ + $n-tail + $_ + $n-left + $_ + $n-top !default;
+$modifier-alert-tail-left-middle: $selector-alert + $__ + $n-tail + $_ + $n-left + $_ + $n-middle !default;
+$modifier-alert-tail-left-bottom: $selector-alert + $__ + $n-tail + $_ + $n-left + $_ + $n-bottom !default;

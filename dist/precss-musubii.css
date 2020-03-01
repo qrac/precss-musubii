@@ -2518,7 +2518,7 @@ svg.el_icon {
   text-align: center;
 }
 
-.alert {
+.bl_alert {
   position: relative;
   padding: 0.675em 0.875em;
   background-color: whitesmoke;
@@ -2526,27 +2526,27 @@ svg.el_icon {
   border-radius: 2px;
 }
 
-.alert.is-primary {
+.bl_alert.bl_alert__primary {
   background-color: #ebf8f9;
   border-color: #9cdbe2;
 }
 
-.alert.is-info {
+.bl_alert.bl_alert__info {
   background-color: #eaf3fa;
   border-color: #abd0ed;
 }
 
-.alert.is-success {
+.bl_alert.bl_alert__success {
   background-color: #e7f9e7;
   border-color: #8ae08a;
 }
 
-.alert.is-warning {
+.bl_alert.bl_alert__warning {
   background-color: #fdf0e3;
   border-color: #f5bf84;
 }
 
-.alert.is-danger {
+.bl_alert.bl_alert__danger {
   background-color: #fbeeee;
   border-color: #f0b7b7;
 }
