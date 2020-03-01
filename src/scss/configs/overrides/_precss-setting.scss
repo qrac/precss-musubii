@@ -1,0 +1,125 @@
+//----------------------------------------------------
+// Overrides: PRECSS Setting
+//----------------------------------------------------
+
+//----------------------------------------------------
+// / Custom
+//----------------------------------------------------
+
+// Omitted
+$option-om: true !default;
+
+// Prefix
+$ly_: "\.ly_" !default;
+$bl_: "\.bl_" !default;
+$el_: "\.el_" !default;
+$un_: "\.un_" !default;
+$js_: "\.js_" !default;
+$is_: "\.is_" !default;
+
+// Pipe
+$_: "_" !default;
+$__: "__" !default;
+
+// Selector Name
+$n-section: if($option-om, "sect", "section") !default;
+$n-inner: "inner" !default;
+$n-grid: "grid" !default;
+$n-column: if($option-om, "col", "column") !default;
+$n-gap: "gap" !default;
+
+// Modifier Name
+$n-xxl: "xxl" !default;
+$n-xl: "xl" !default;
+$n-lg: "lg" !default;
+$n-md: "md" !default;
+$n-sm: "sm" !default;
+$n-xs: "xs" !default;
+$n-xxs: "xxs" !default;
+$n-top: "top" !default;
+$n-right: "right" !default;
+$n-bottom: "bottom" !default;
+$n-left: "left" !default;
+$n-vertical: "vertical" !default;
+$n-horizontal: "horizontal" !default;
+$n-baseline: "baseline" !default;
+$n-middle: "middle" !default;
+$n-center: "center" !default;
+$n-between: "between" !default;
+$n-around: "around" !default;
+$n-reverse: "reverse" !default;
+$n-stretch: "stretch" !default;
+
+//----------------------------------------------------
+// / Option
+// - Docs: https://musubii.qranoko.jp/configs/variables/option
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/configs/variables/_option.scss
+//----------------------------------------------------
+
+// Important
+$option-important-display: true !default;
+$option-important-size: true !default;
+$option-important-flex: true !default;
+$option-important-space: true !default;
+$option-important-margin: true !default;
+$option-important-padding: true !default;
+$option-important-overflow: true !default;
+$option-important-clearfix: true !default;
+
+//----------------------------------------------------
+// / Section
+// - Docs: https://musubii.qranoko.jp/styles/layouts/section
+// - SCSS: https://github.com/qrac/musubii/blob/master/src/scss/styles/layouts/_section.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-section: $ly_+$n-section !default;
+$selector-inner: $ly_+$n-section+$_+$n-inner !default;
+
+//----------------------------------------------------
+// / Grid
+// - Docs: https://musubii.qranoko.jp/styles/layouts/grid
+// - SCSS: https://github.com/qrac/musubii/blob/master/src/scss/styles/layouts/_grid.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-grid: $ly_+$n-grid !default;
+$selector-column: $ly_+$n-grid+$_+$n-column !default;
+
+// Modifiers
+$modifier-grid-baseline: $ly_+$n-grid+$__+$n-baseline !default;
+$modifier-grid-middle: $ly_+$n-grid+$__+$n-middle !default;
+$modifier-grid-bottom: $ly_+$n-grid+$__+$n-bottom !default;
+$modifier-grid-center: $ly_+$n-grid+$__+$n-center !default;
+$modifier-grid-right: $ly_+$n-grid+$__+$n-right !default;
+$modifier-grid-between: $ly_+$n-grid+$__+$n-between !default;
+$modifier-grid-around: $ly_+$n-grid+$__+$n-around !default;
+$modifier-grid-reverse: $ly_+$n-grid+$__+$n-reverse !default;
+$modifier-grid-stretch: $ly_+$n-grid+$__+$n-stretch !default;
+
+$modifier-grid-gap: $ly_+$n-grid+$__+$n-gap !default;
+$modifier-grid-gap-xxl: $ly_+$n-grid+$__+$n-gap+$_+$n-xxl !default;
+$modifier-grid-gap-xl: $ly_+$n-grid+$__+$n-gap+$_+$n-xl !default;
+$modifier-grid-gap-lg: $ly_+$n-grid+$__+$n-gap+$_+$n-lg !default;
+$modifier-grid-gap-md: $ly_+$n-grid+$__+$n-gap+$_+$n-md !default;
+$modifier-grid-gap-sm: $ly_+$n-grid+$__+$n-gap+$_+$n-sm !default;
+$modifier-grid-gap-xs: $ly_+$n-grid+$__+$n-gap+$_+$n-xs !default;
+$modifier-grid-gap-xxs: $ly_+$n-grid+$__+$n-gap+$_+$n-xxs !default;
+
+$modifier-grid-gap-vertical: $ly_+$n-grid+$__+$n-gap+$_+$n-vertical !default;
+$modifier-grid-gap-vertical-xxl: $ly_+$n-grid+$__+$n-gap+$_+$n-vertical+$_+$n-xxl !default;
+$modifier-grid-gap-vertical-xl: $ly_+$n-grid+$__+$n-gap+$_+$n-vertical+$_+$n-xl !default;
+$modifier-grid-gap-vertical-lg: $ly_+$n-grid+$__+$n-gap+$_+$n-vertical+$_+$n-lg !default;
+$modifier-grid-gap-vertical-md: $ly_+$n-grid+$__+$n-gap+$_+$n-vertical+$_+$n-md !default;
+$modifier-grid-gap-vertical-sm: $ly_+$n-grid+$__+$n-gap+$_+$n-vertical+$_+$n-sm !default;
+$modifier-grid-gap-vertical-xs: $ly_+$n-grid+$__+$n-gap+$_+$n-vertical+$_+$n-xs !default;
+$modifier-grid-gap-vertical-xxs: $ly_+$n-grid+$__+$n-gap+$_+$n-vertical+$_+$n-xxs !default;
+
+$modifier-grid-gap-horizontal: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal !default;
+$modifier-grid-gap-horizontal-xxl: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n-xxl !default;
+$modifier-grid-gap-horizontal-xl: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n-xl !default;
+$modifier-grid-gap-horizontal-lg: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n-lg !default;
+$modifier-grid-gap-horizontal-md: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n-md !default;
+$modifier-grid-gap-horizontal-sm: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n-sm !default;
+$modifier-grid-gap-horizontal-xs: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n-xs !default;
+$modifier-grid-gap-horizontal-xxs: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n-xxs !default;
