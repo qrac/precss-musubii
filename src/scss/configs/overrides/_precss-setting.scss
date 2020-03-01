@@ -30,13 +30,28 @@ $n-gap: "gap" !default;
 $n-card: "card" !default;
 $n-box: "box" !default;
 $n-joint: "joint" !default;
+$n-text: "text" !default;
+$n-blockquote: "blockquote" !default;
+$n-code: "code" !default;
+$n-pre: "pre" !default;
 $n-button: "button" !default;
 $n-badge: "badge" !default;
 $n-input: "input" !default;
 $n-select: "select" !default;
 
 // Modifier Name
+$n-mobile: "mobile" !default;
+$n-fablet: "fablet" !default;
+$n-tablet: "tablet" !default;
+$n-desktop: "desktop" !default;
+$n-wide: "wide" !default;
 $n-light: "light" !default;
+$n-dark: "dark" !default;
+$n-primary: "primary" !default;
+$n-info: "info" !default;
+$n-success: "success" !default;
+$n-warning: "warning" !default;
+$n-danger: "danger" !default;
 $n-xxl: "xxl" !default;
 $n-xl: "xl" !default;
 $n-lg: "lg" !default;
@@ -44,6 +59,26 @@ $n-md: "md" !default;
 $n-sm: "sm" !default;
 $n-xs: "xs" !default;
 $n-xxs: "xxs" !default;
+$n-1: "1" !default;
+$n-2: "2" !default;
+$n-3: "3" !default;
+$n-4: "4" !default;
+$n-5: "5" !default;
+$n-6: "6" !default;
+$n-7: "7" !default;
+$n-8: "8" !default;
+$n-9: "9" !default;
+$n-100: "100" !default;
+$n-200: "200" !default;
+$n-300: "300" !default;
+$n-400: "400" !default;
+$n-500: "500" !default;
+$n-600: "600" !default;
+$n-700: "700" !default;
+$n-800: "800" !default;
+$n-900: "900" !default;
+$n-normal: "normal" !default;
+$n-strong: "strong" !default;
 $n-top: "top" !default;
 $n-right: "right" !default;
 $n-bottom: "bottom" !default;
@@ -53,9 +88,11 @@ $n-horizontal: "horizontal" !default;
 $n-up: "up" !default;
 $n-down: "down" !default;
 $n-disabled: "disabled" !default;
+$n-height: "height" !default;
 $n-bg: "bg" !default;
 $n-outline: "outline" !default;
 $n-radius: "radius" !default;
+$n-line: "line" !default;
 $n-inline: "inline" !default;
 $n-flex: "flex" !default;
 $n-baseline: "baseline" !default;
@@ -74,6 +111,14 @@ $n-parent: "parent" !default;
 $n-child: "child" !default;
 $n-angle: "angle" !default;
 $n-exclude: "exclude" !default;
+$n-weight: "weight" !default;
+$n-italic: "italic" !default;
+$n-delete: "delete" !default;
+$n-capitalize: "capitalize" !default;
+$n-lowercase: "lowercase" !default;
+$n-uppercase: "uppercase" !default;
+$n-justify: "justify" !default;
+$n-break: "break" !default;
 
 // Capitalize
 @function capitalize($string) {
@@ -234,3 +279,102 @@ $selector-joint-child-select: $el_ + $n-select !default;
 
 // Modifiers
 $modifier-joint-exclude: $selector-joint + $__ + $n-exclude !default;
+
+//----------------------------------------------------
+// / Text
+// - Docs: https://musubii.qranoko.jp/styles/elements/text
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/elements/_text.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-text: $el_ + $n-text !default;
+$selector-blockquote: $el_ + $n-blockquote !default;
+$selector-code: $el_ + $n-code !default;
+$selector-pre: $el_ + $n-pre !default;
+
+// Modifiers
+$modifier-text-dark: $selector-text + $__ + $n-dark !default;
+$modifier-text-dark-1: $selector-text + $__ + $n-dark + $n-1 !default;
+$modifier-text-dark-2: $selector-text + $__ + $n-dark + $n-2 !default;
+$modifier-text-dark-3: $selector-text + $__ + $n-dark + $n-3 !default;
+$modifier-text-dark-4: $selector-text + $__ + $n-dark + $n-4 !default;
+$modifier-text-dark-5: $selector-text + $__ + $n-dark + $n-5 !default;
+$modifier-text-dark-6: $selector-text + $__ + $n-dark + $n-6 !default;
+$modifier-text-dark-7: $selector-text + $__ + $n-dark + $n-7 !default;
+$modifier-text-dark-8: $selector-text + $__ + $n-dark + $n-8 !default;
+$modifier-text-dark-9: $selector-text + $__ + $n-dark + $n-9 !default;
+
+$modifier-text-light: $selector-text + $__ + $n-light !default;
+$modifier-text-light-1: $selector-text + $__ + $n-light + $n-1 !default;
+$modifier-text-light-2: $selector-text + $__ + $n-light + $n-2 !default;
+$modifier-text-light-3: $selector-text + $__ + $n-light + $n-3 !default;
+$modifier-text-light-4: $selector-text + $__ + $n-light + $n-4 !default;
+$modifier-text-light-5: $selector-text + $__ + $n-light + $n-5 !default;
+$modifier-text-light-6: $selector-text + $__ + $n-light + $n-6 !default;
+$modifier-text-light-7: $selector-text + $__ + $n-light + $n-7 !default;
+$modifier-text-light-8: $selector-text + $__ + $n-light + $n-8 !default;
+$modifier-text-light-9: $selector-text + $__ + $n-light + $n-9 !default;
+
+$modifier-text-primary: $selector-text + $__ + $n-primary !default;
+$modifier-text-info: $selector-text + $__ + $n-info !default;
+$modifier-text-success: $selector-text + $__ + $n-success !default;
+$modifier-text-warning: $selector-text + $__ + $n-warning !default;
+$modifier-text-danger: $selector-text + $__ + $n-danger !default;
+
+$modifier-text-weight-normal: $selector-text + $__ + $n-normal !default;
+$modifier-text-weight-strong: $selector-text + $__ + $n-strong !default;
+$modifier-text-weight-100: $selector-text + $__ + $n-weight + $n-100 !default;
+$modifier-text-weight-200: $selector-text + $__ + $n-weight + $n-200 !default;
+$modifier-text-weight-300: $selector-text + $__ + $n-weight + $n-300 !default;
+$modifier-text-weight-400: $selector-text + $__ + $n-weight + $n-400 !default;
+$modifier-text-weight-500: $selector-text + $__ + $n-weight + $n-500 !default;
+$modifier-text-weight-600: $selector-text + $__ + $n-weight + $n-600 !default;
+$modifier-text-weight-700: $selector-text + $__ + $n-weight + $n-700 !default;
+$modifier-text-weight-800: $selector-text + $__ + $n-weight + $n-800 !default;
+$modifier-text-weight-900: $selector-text + $__ + $n-weight + $n-900 !default;
+
+$modifier-text-line-height-xxl: $selector-text + $__ + $n-line + capitalize($n-height) + $_ + $n-xxl !default;
+$modifier-text-line-height-xl: $selector-text + $__ + $n-line + capitalize($n-height) + $_ + $n-xl !default;
+$modifier-text-line-height-lg: $selector-text + $__ + $n-line + capitalize($n-height) + $_ + $n-lg !default;
+$modifier-text-line-height-md: $selector-text + $__ + $n-line + capitalize($n-height) + $_ + $n-md !default;
+$modifier-text-line-height-sm: $selector-text + $__ + $n-line + capitalize($n-height) + $_ + $n-sm !default;
+$modifier-text-line-height-xs: $selector-text + $__ + $n-line + capitalize($n-height) + $_ + $n-xs !default;
+$modifier-text-line-height-xxs: $selector-text + $__ + $n-line + capitalize($n-height) + $_ + $n-xxs !default;
+
+$modifier-text-italic: $selector-text + $__ + $n-italic !default;
+$modifier-text-delete: $selector-text + $__ + $n-delete !default;
+$modifier-text-capitalize: $selector-text + $__ + $n-capitalize !default;
+$modifier-text-lowercase: $selector-text + $__ + $n-lowercase !default;
+$modifier-text-uppercase: $selector-text + $__ + $n-uppercase !default;
+
+$modifier-text-right: $selector-text + $__ + $n-right !default;
+$modifier-text-center: $selector-text + $__ + $n-center !default;
+$modifier-text-left: $selector-text + $__ + $n-left !default;
+$modifier-text-mobile-right: $selector-text + $__ + $n-mobile + $_ + $n-right !default;
+$modifier-text-mobile-center: $selector-text + $__ + $n-mobile + $_ + $n-center !default;
+$modifier-text-mobile-left: $selector-text + $__ + $n-mobile + $_ + $n-left !default;
+$modifier-text-fablet-right: $selector-text + $__ + $n-fablet + $_ + $n-right !default;
+$modifier-text-fablet-center: $selector-text + $__ + $n-fablet + $_ + $n-center !default;
+$modifier-text-fablet-left: $selector-text + $__ + $n-fablet + $_ + $n-left !default;
+$modifier-text-tablet-right: $selector-text + $__ + $n-tablet + $_ + $n-right !default;
+$modifier-text-tablet-center: $selector-text + $__ + $n-tablet + $_ + $n-center !default;
+$modifier-text-tablet-left: $selector-text + $__ + $n-tablet + $_ + $n-left !default;
+$modifier-text-desktop-right: $selector-text + $__ + $n-desktop + $_ + $n-right !default;
+$modifier-text-desktop-center: $selector-text + $__ + $n-desktop + $_ + $n-center !default;
+$modifier-text-desktop-left: $selector-text + $__ + $n-desktop + $_ + $n-left !default;
+$modifier-text-wide-right: $selector-text + $__ + $n-wide + $_ + $n-right !default;
+$modifier-text-wide-center: $selector-text + $__ + $n-wide + $_ + $n-center !default;
+$modifier-text-wide-left: $selector-text + $__ + $n-wide + $_ + $n-left !default;
+
+$modifier-text-justify: $selector-text + $__ + $n-justify !default;
+$modifier-text-baseline: $selector-text + $__ + $n-baseline !default;
+$modifier-text-top: $selector-text + $__ + $n-top !default;
+$modifier-text-middle: $selector-text + $__ + $n-middle !default;
+$modifier-text-bottom: $selector-text + $__ + $n-bottom !default;
+
+$modifier-text-nowrap: $selector-text + $__ + $n-nowrap !default;
+$modifier-text-break: $selector-text + $__ + $n-break !default;
+
+$modifier-text-link: $selector-text + $__ + $n-link !default;
+$modifier-text-link-reverse: $selector-text + $__ + $n-link + $_ + $n-reverse !default;
+$modifier-text-disabled: $selector-text + $__ + $n-disabled !default;
