@@ -49,6 +49,7 @@ $n-checkbox: "checkbox" !default;
 $n-select: "select" !default;
 $n-fieldset: "fieldset" !default;
 $n-iframe: "iframe" !default;
+$n-icon: "icon" !default;
 
 // Modifier Name
 $n-mobile: "mobile" !default;
@@ -151,6 +152,7 @@ $n-spot: "spot" !default;
 $n-inside: "inside" !default;
 $n-multiple: "multiple" !default;
 $n-aspect: "aspect" !default;
+$n-fit: "fit" !default;
 
 // Capitalize
 @function capitalize($string) {
@@ -554,3 +556,45 @@ $selector-iframe: $el_ + $n-iframe !default;
 // Modifiers
 $modifier-iframe-aspect-16x9: $selector-iframe + $__ + $n-aspect + $n-16x9 !default;
 $modifier-iframe-aspect-4x3: $selector-iframe + $__ + $n-aspect + $n-4x3 !default;
+
+//----------------------------------------------------
+// / Icon
+// - Docs: https://musubii.qranoko.jp/styles/elements/icon
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/elements/_icon.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-icon: $el_ + $n-icon !default;
+$selector-icon-svg: "svg" + $selector-icon !default;
+//$selector-icon-material: "\.material-icons" !default;
+
+// Modifiers
+$modifier-icon-dark: $selector-icon + $__ + $n-dark !default;
+$modifier-icon-dark-1: $selector-icon + $__ + $n-dark + $n-1 !default;
+$modifier-icon-dark-2: $selector-icon + $__ + $n-dark + $n-2 !default;
+$modifier-icon-dark-3: $selector-icon + $__ + $n-dark + $n-3 !default;
+$modifier-icon-dark-4: $selector-icon + $__ + $n-dark + $n-4 !default;
+$modifier-icon-dark-5: $selector-icon + $__ + $n-dark + $n-5 !default;
+$modifier-icon-dark-6: $selector-icon + $__ + $n-dark + $n-6 !default;
+$modifier-icon-dark-7: $selector-icon + $__ + $n-dark + $n-7 !default;
+$modifier-icon-dark-8: $selector-icon + $__ + $n-dark + $n-8 !default;
+$modifier-icon-dark-9: $selector-icon + $__ + $n-dark + $n-9 !default;
+
+$modifier-icon-light: $selector-icon + $__ + $n-light !default;
+$modifier-icon-light-1: $selector-icon + $__ + $n-light + $n-1 !default;
+$modifier-icon-light-2: $selector-icon + $__ + $n-light + $n-2 !default;
+$modifier-icon-light-3: $selector-icon + $__ + $n-light + $n-3 !default;
+$modifier-icon-light-4: $selector-icon + $__ + $n-light + $n-4 !default;
+$modifier-icon-light-5: $selector-icon + $__ + $n-light + $n-5 !default;
+$modifier-icon-light-6: $selector-icon + $__ + $n-light + $n-6 !default;
+$modifier-icon-light-7: $selector-icon + $__ + $n-light + $n-7 !default;
+$modifier-icon-light-8: $selector-icon + $__ + $n-light + $n-8 !default;
+$modifier-icon-light-9: $selector-icon + $__ + $n-light + $n-9 !default;
+
+$modifier-icon-primary: $selector-icon + $__ + $n-primary !default;
+$modifier-icon-info: $selector-icon + $__ + $n-info !default;
+$modifier-icon-success: $selector-icon + $__ + $n-success !default;
+$modifier-icon-warning: $selector-icon + $__ + $n-warning !default;
+$modifier-icon-danger: $selector-icon + $__ + $n-danger !default;
+
+$modifier-icon-fit: $selector-icon + $__ + $n-fit !default;
