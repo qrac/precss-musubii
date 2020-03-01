@@ -90,8 +90,9 @@ $n-down: "down" !default;
 $n-disabled: "disabled" !default;
 $n-height: "height" !default;
 $n-bg: "bg" !default;
+$n-plain: "plain" !default;
+$n-melt: "melt" !default;
 $n-outline: "outline" !default;
-$n-radius: "radius" !default;
 $n-line: "line" !default;
 $n-inline: "inline" !default;
 $n-flex: "flex" !default;
@@ -111,6 +112,10 @@ $n-parent: "parent" !default;
 $n-child: "child" !default;
 $n-angle: "angle" !default;
 $n-exclude: "exclude" !default;
+$n-radius: "radius" !default;
+$n-round: "round" !default;
+$n-square: "square" !default;
+$n-circle: "circle" !default;
 $n-weight: "weight" !default;
 $n-italic: "italic" !default;
 $n-delete: "delete" !default;
@@ -378,3 +383,32 @@ $modifier-text-break: $selector-text + $__ + $n-break !default;
 $modifier-text-link: $selector-text + $__ + $n-link !default;
 $modifier-text-link-reverse: $selector-text + $__ + $n-link + $_ + $n-reverse !default;
 $modifier-text-disabled: $selector-text + $__ + $n-disabled !default;
+
+//----------------------------------------------------
+// / Button
+// - Docs: https://musubii.qranoko.jp/styles/elements/button
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/elements/_button.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-button: $el_ + $n-button !default;
+
+// Modifiers
+$modifier-button-strong: $selector-button + $__ + $n-strong !default;
+$modifier-button-round: $selector-button + $__ + $n-round !default;
+$modifier-button-floating: $selector-button + $__ + $n-floating !default;
+$modifier-button-square: $selector-button + $__ + $n-square !default;
+$modifier-button-circle: $selector-button + $__ + $n-circle !default;
+$modifier-button-disabled: $selector-button + $__ + $n-disabled !default;
+$modifier-button-plain: $selector-button + $__ + $n-plain !default;
+$modifier-button-outline: $selector-button + $__ + $n-outline !default;
+$modifier-button-melt: $selector-button + $__ + $n-melt !default;
+$modifier-button-primary: $selector-button + $__ + $n-primary !default;
+$modifier-button-info: $selector-button + $__ + $n-info !default;
+$modifier-button-success: $selector-button + $__ + $n-success !default;
+$modifier-button-warning: $selector-button + $__ + $n-warning !default;
+$modifier-button-danger: $selector-button + $__ + $n-danger !default;
+$modifier-button-angle-right: $selector-button + $__ + $n-angle + $_ + $n-right !default;
+$modifier-button-angle-left: $selector-button + $__ + $n-angle + $_ + $n-left !default;
+$modifier-button-angle-up: $selector-button + $__ + $n-angle + $_ + $n-up !default;
+$modifier-button-angle-down: $selector-button + $__ + $n-angle + $_ + $n-down !default;
