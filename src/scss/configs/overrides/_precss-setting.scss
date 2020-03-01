@@ -27,8 +27,10 @@ $n-inner: "inner" !default;
 $n-grid: "grid" !default;
 $n-column: if($option-om, "col", "column") !default;
 $n-gap: "gap" !default;
+$n-card: "card" !default;
 
 // Modifier Name
+$n-light: "light" !default;
 $n-xxl: "xxl" !default;
 $n-xl: "xl" !default;
 $n-lg: "lg" !default;
@@ -42,6 +44,10 @@ $n-bottom: "bottom" !default;
 $n-left: "left" !default;
 $n-vertical: "vertical" !default;
 $n-horizontal: "horizontal" !default;
+$n-disabled: "disabled" !default;
+$n-bg: "bg" !default;
+$n-outline: "outline" !default;
+$n-radius: "radius" !default;
 $n-baseline: "baseline" !default;
 $n-middle: "middle" !default;
 $n-center: "center" !default;
@@ -49,6 +55,9 @@ $n-between: "between" !default;
 $n-around: "around" !default;
 $n-reverse: "reverse" !default;
 $n-stretch: "stretch" !default;
+$n-link: "link" !default;
+$n-zoom: "zoom" !default;
+$n-floating: "floating" !default;
 
 //----------------------------------------------------
 // / Option
@@ -123,3 +132,29 @@ $modifier-grid-gap-horizontal-md: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n
 $modifier-grid-gap-horizontal-sm: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n-sm !default;
 $modifier-grid-gap-horizontal-xs: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n-xs !default;
 $modifier-grid-gap-horizontal-xxs: $ly_+$n-grid+$__+$n-gap+$_+$n-horizontal+$_+$n-xxs !default;
+
+//----------------------------------------------------
+// / Card
+// - Docs: https://musubii.qranoko.jp/styles/layouts/card
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/layouts/_card.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-card: $bl_+$n-card !default;
+
+// Modifiers
+$modifier-card-bg: $bl_+$n-card+$__+$n-bg !default;
+$modifier-card-bg-light: $bl_+$n-card+$__+$n-bg+$_+$n-light !default;
+$modifier-card-outline: $bl_+$n-card+$__+$n-outline !default;
+$modifier-card-disabled: $bl_+$n-card+$__+$n-disabled !default;
+$modifier-card-link: $bl_+$n-card+$__+$n-link !default;
+$modifier-card-zoom: $bl_+$n-card+$__+$n-zoom !default;
+$modifier-card-floating: $bl_+$n-card+$__+$n-floating !default;
+$modifier-card-radius: $bl_+$n-card+$__+$n-radius !default;
+$modifier-card-radius-xxl: $bl_+$n-card+$__+$n-radius+$_+$n-xxl !default;
+$modifier-card-radius-xl: $bl_+$n-card+$__+$n-radius+$_+$n-xl !default;
+$modifier-card-radius-lg: $bl_+$n-card+$__+$n-radius+$_+$n-lg !default;
+$modifier-card-radius-md: $bl_+$n-card+$__+$n-radius+$_+$n-md !default;
+$modifier-card-radius-sm: $bl_+$n-card+$__+$n-radius+$_+$n-sm !default;
+$modifier-card-radius-xs: $bl_+$n-card+$__+$n-radius+$_+$n-xs !default;
+$modifier-card-radius-xxs: $bl_+$n-card+$__+$n-radius+$_+$n-xxs !default;

@@ -517,92 +517,92 @@ iframe {
   padding-left: 4px;
 }
 
-.card {
+.bl_card {
   position: relative;
   display: block;
   overflow: hidden;
 }
 
-.card.is-bg, .card.is-bg-light {
+.bl_card.bl_card__bg, .bl_card.bl_card__bg_light {
   background-color: white;
 }
 
-.card.is-outline {
+.bl_card.bl_card__outline {
   border: 1px solid #d1d8dc;
 }
 
-.card.is-disabled, .card[disabled] {
+.bl_card.bl_card__disabled, .bl_card[disabled] {
   cursor: not-allowed;
   pointer-events: none;
 }
 
-.card.is-link {
+.bl_card.bl_card__link {
   cursor: pointer;
   transition: ease-out 0.12s;
 }
 
-.card.is-link:not(.is-disabled):not([disabled]):hover {
+.bl_card.bl_card__link:not(.bl_card__disabled):not([disabled]):hover {
   background-color: whitesmoke;
 }
 
-.card.is-link:focus {
+.bl_card.bl_card__link:focus {
   box-shadow: 0 0 0 4px rgba(36, 151, 240, 0.5);
   outline: none;
 }
 
-.card.is-zoom {
+.bl_card.bl_card__zoom {
   cursor: pointer;
   transition: ease-out 0.12s;
 }
 
-.card.is-zoom:not(.is-disabled):not([disabled]):hover {
+.bl_card.bl_card__zoom:not(.bl_card__disabled):not([disabled]):hover {
   -webkit-transform: scale(1.025);
           transform: scale(1.025);
 }
 
-.card.is-zoom:focus {
+.bl_card.bl_card__zoom:focus {
   box-shadow: 0 0 0 4px rgba(36, 151, 240, 0.5);
   outline: none;
 }
 
-.card.is-floating {
+.bl_card.bl_card__floating {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
-.card.is-floating.is-link:hover, .card.is-floating.is-zoom:hover {
+.bl_card.bl_card__floating.bl_card__link:hover, .bl_card.bl_card__floating.bl_card__zoom:hover {
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
 }
 
-.card.is-floating.is-link:focus, .card.is-floating.is-zoom:focus {
+.bl_card.bl_card__floating.bl_card__link:focus, .bl_card.bl_card__floating.bl_card__zoom:focus {
   box-shadow: 0 0 0 4px rgba(36, 151, 240, 0.5), 0 4px 12px 0 rgba(0, 0, 0, 0.15);
   outline: none;
 }
 
-.card.is-radius-xxl {
+.bl_card.bl_card__radius_xxl {
   border-radius: 16px;
 }
 
-.card.is-radius-xl {
+.bl_card.bl_card__radius_xl {
   border-radius: 12px;
 }
 
-.card.is-radius-lg {
+.bl_card.bl_card__radius_lg {
   border-radius: 8px;
 }
 
-.card.is-radius, .card.is-radius-md {
+.bl_card.bl_card__radius, .bl_card.bl_card__radius_md {
   border-radius: 4px;
 }
 
-.card.is-radius-sm {
+.bl_card.bl_card__radius_sm {
   border-radius: 3px;
 }
 
-.card.is-radius-xs {
+.bl_card.bl_card__radius_xs {
   border-radius: 2px;
 }
 
-.card.is-radius-xxs {
+.bl_card.bl_card__radius_xxs {
   border-radius: 1px;
 }
 
