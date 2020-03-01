@@ -412,3 +412,26 @@ $modifier-button-angle-right: $selector-button + $__ + $n-angle + $_ + $n-right 
 $modifier-button-angle-left: $selector-button + $__ + $n-angle + $_ + $n-left !default;
 $modifier-button-angle-up: $selector-button + $__ + $n-angle + $_ + $n-up !default;
 $modifier-button-angle-down: $selector-button + $__ + $n-angle + $_ + $n-down !default;
+
+//----------------------------------------------------
+// / Badge
+// - Docs: https://musubii.qranoko.jp/styles/elements/badge
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/elements/_badge.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-badge: $el_ + $n-badge !default;
+
+// Modifiers
+$modifier-badge-strong: $selector-badge + $__ + $n-strong !default;
+$modifier-badge-round: $selector-badge + $__ + $n-round !default;
+$modifier-badge-square: $selector-badge + $__ + $n-square !default;
+$modifier-badge-circle: $selector-badge + $__ + $n-circle !default;
+$modifier-badge-disabled: $selector-badge + $__ + $n-disabled !default;
+$modifier-badge-plain: $selector-badge + $__ + $n-plain !default;
+$modifier-badge-outline: $selector-badge + $__ + $n-outline !default;
+$modifier-badge-primary: $selector-badge + $__ + $n-primary !default;
+$modifier-badge-info: $selector-badge + $__ + $n-info !default;
+$modifier-badge-success: $selector-badge + $__ + $n-success !default;
+$modifier-badge-warning: $selector-badge + $__ + $n-warning !default;
+$modifier-badge-danger: $selector-badge + $__ + $n-danger !default;

@@ -1419,7 +1419,7 @@ iframe {
   border-color: currentColor;
 }
 
-.badge {
+.el_badge {
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -1432,15 +1432,15 @@ iframe {
   line-height: 1.25;
 }
 
-.badge.is-strong {
+.el_badge.el_badge__strong {
   font-weight: 700;
 }
 
-.badge.is-round {
+.el_badge.el_badge__round {
   border-radius: 999em;
 }
 
-.badge.is-square {
+.el_badge.el_badge__square {
   width: calc(1.75em + 1px * 2);
   height: calc(1.75em + 1px * 2);
   padding: 0;
@@ -1448,7 +1448,7 @@ iframe {
   line-height: 1;
 }
 
-.badge.is-circle {
+.el_badge.el_badge__circle {
   width: calc(1.75em + 1px * 2);
   height: calc(1.75em + 1px * 2);
   padding: 0;
@@ -1456,72 +1456,72 @@ iframe {
   line-height: 1;
 }
 
-.badge.is-plain {
+.el_badge.el_badge__plain {
   background-color: whitesmoke;
   border: 1px solid transparent;
 }
 
-.badge.is-plain.is-primary {
+.el_badge.el_badge__plain.el_badge__primary {
   background-color: #37b0be;
   color: white;
 }
 
-.badge.is-plain.is-info {
+.el_badge.el_badge__plain.el_badge__info {
   background-color: #4b9bd8;
   color: white;
 }
 
-.badge.is-plain.is-success {
+.el_badge.el_badge__plain.el_badge__success {
   background-color: #2ca52c;
   color: white;
 }
 
-.badge.is-plain.is-warning {
+.el_badge.el_badge__plain.el_badge__warning {
   background-color: #ec8313;
   color: white;
 }
 
-.badge.is-plain.is-danger {
+.el_badge.el_badge__plain.el_badge__danger {
   background-color: #db5757;
   color: white;
 }
 
-.badge.is-plain.is-disabled {
+.el_badge.el_badge__plain.el_badge__disabled {
   background-color: #bdbdbd;
   color: rgba(0, 0, 0, 0.26);
 }
 
-.badge.is-outline {
+.el_badge.el_badge__outline {
   background-color: white;
   border: 1px solid #d1d8dc;
 }
 
-.badge.is-outline.is-primary {
+.el_badge.el_badge__outline.el_badge__primary {
   border-color: #37b0be;
   color: #37b0be;
 }
 
-.badge.is-outline.is-info {
+.el_badge.el_badge__outline.el_badge__info {
   border-color: #4b9bd8;
   color: #4b9bd8;
 }
 
-.badge.is-outline.is-success {
+.el_badge.el_badge__outline.el_badge__success {
   border-color: #2ca52c;
   color: #2ca52c;
 }
 
-.badge.is-outline.is-warning {
+.el_badge.el_badge__outline.el_badge__warning {
   border-color: #ec8313;
   color: #ec8313;
 }
 
-.badge.is-outline.is-danger {
+.el_badge.el_badge__outline.el_badge__danger {
   border-color: #db5757;
   color: #db5757;
 }
 
-.badge.is-outline.is-disabled {
+.el_badge.el_badge__outline.el_badge__disabled {
   background-color: #bdbdbd;
   color: rgba(0, 0, 0, 0.26);
   border-color: #d1d8dc;
