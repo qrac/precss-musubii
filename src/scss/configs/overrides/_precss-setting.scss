@@ -40,8 +40,14 @@ $n-list: "list" !default;
 $n-item: "item" !default;
 $n-table: "table" !default;
 $n-wrap: "wrap" !default;
+$n-form: "form" !default;
 $n-input: "input" !default;
+$n-textarea: "textarea" !default;
+$n-label: "label" !default;
+$n-radio: "radio" !default;
+$n-checkbox: "checkbox" !default;
 $n-select: "select" !default;
+$n-fieldset: "fieldset" !default;
 
 // Modifier Name
 $n-mobile: "mobile" !default;
@@ -91,6 +97,7 @@ $n-vertical: "vertical" !default;
 $n-horizontal: "horizontal" !default;
 $n-up: "up" !default;
 $n-down: "down" !default;
+$n-checked: "checked" !default;
 $n-disabled: "disabled" !default;
 $n-fixed: "fixed" !default;
 $n-height: "height" !default;
@@ -101,6 +108,7 @@ $n-border: "border" !default;
 $n-outline: "outline" !default;
 $n-line: "line" !default;
 $n-inline: "inline" !default;
+$n-underline: "underline" !default;
 $n-flex: "flex" !default;
 $n-baseline: "baseline" !default;
 $n-middle: "middle" !default;
@@ -137,6 +145,8 @@ $n-note: "note" !default;
 $n-stripe: "stripe" !default;
 $n-paint: "paint" !default;
 $n-spot: "spot" !default;
+$n-inside: "inside" !default;
+$n-multiple: "multiple" !default;
 
 // Capitalize
 @function capitalize($string) {
@@ -476,6 +486,11 @@ $modifier-list-note: $selector-list + $__ + $n-note !default;
 // Selectors
 $selector-table: $bl_ + $n-table !default;
 $selector-table-box: $bl_ + $n-box !default;
+//$selector-table-thead: "thead" !default;
+//$selector-table-tbody: "tbody" !default;
+//$selector-table-tr: "tr" !default;
+//$selector-table-th: "th" !default;
+//$selector-table-td: "td" !default;
 $selector-table-wrap: $bl_ + $n-table + $_ + $n-wrap !default;
 
 // Modifiers
@@ -491,3 +506,33 @@ $modifier-table-center: $selector-table + $__ + $n-center !default;
 $modifier-table-left: $selector-table + $__ + $n-left !default;
 $modifier-table-middle: $selector-table + $__ + $n-middle !default;
 $modifier-table-fixed: $selector-table + $__ + $n-fixed !default;
+
+//----------------------------------------------------
+// / Form
+// - Docs: https://musubii.qranoko.jp/styles/elements/form
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/elements/_form.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-form: $el_ + $n-form !default; // Add Custom
+$selector-form-input: $selector-form + $_ + $n-input !default;
+$selector-form-textarea: $selector-form + $_ + $n-textarea !default;
+$selector-form-label: $selector-form + $_ + $n-label !default;
+$selector-form-radio: $selector-form + $_ + $n-radio !default;
+$selector-form-checkbox: $selector-form + $_ + $n-checkbox !default;
+$selector-form-select: $selector-form + $_ + $n-select !default;
+//$selector-form-select-core: "select" !default;
+$selector-form-fieldset: $selector-form + $_ + $n-fieldset !default;
+
+// Modifiers
+$modifier-form-success: $selector-form + $__ + $n-success !default;
+$modifier-form-danger: $selector-form + $__ + $n-danger !default;
+$modifier-form-round: $selector-form + $__ + $n-round !default;
+$modifier-form-plain: $selector-form + $__ + $n-plain !default;
+$modifier-form-underline: $selector-form + $__ + $n-underline !default;
+$modifier-form-inside: $selector-form + $__ + $n-inside !default;
+$modifier-form-middle: $selector-form + $__ + $n-middle !default;
+$modifier-form-center: $selector-form + $__ + $n-center !default;
+$modifier-form-checked: $selector-form + $__ + $n-checked !default;
+$modifier-form-disabled: $selector-form + $__ + $n-disabled !default;
+$modifier-form-multiple: $selector-form + $__ + $n-multiple !default;

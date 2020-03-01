@@ -1713,7 +1713,7 @@ iframe {
   background-color: transparent;
 }
 
-.input[type="text"], .input[type="search"], .input[type="url"], .input[type="email"], .input[type="tel"], .input[type="password"], .input[type="datetime-local"], .input[type="date"], .input[type="month"], .input[type="week"], .input[type="time"], .input[type="number"] {
+.el_form_input[type="text"], .el_form_input[type="search"], .el_form_input[type="url"], .el_form_input[type="email"], .el_form_input[type="tel"], .el_form_input[type="password"], .el_form_input[type="datetime-local"], .el_form_input[type="date"], .el_form_input[type="month"], .el_form_input[type="week"], .el_form_input[type="time"], .el_form_input[type="number"] {
   position: relative;
   max-width: 100%;
   height: calc(2.5em + (1px * 2));
@@ -1730,58 +1730,58 @@ iframe {
   transition: ease-out 0.12s;
 }
 
-.input[type="text"]:focus, .input[type="text"][readonly]:focus, .input[type="search"]:focus, .input[type="search"][readonly]:focus, .input[type="url"]:focus, .input[type="url"][readonly]:focus, .input[type="email"]:focus, .input[type="email"][readonly]:focus, .input[type="tel"]:focus, .input[type="tel"][readonly]:focus, .input[type="password"]:focus, .input[type="password"][readonly]:focus, .input[type="datetime-local"]:focus, .input[type="datetime-local"][readonly]:focus, .input[type="date"]:focus, .input[type="date"][readonly]:focus, .input[type="month"]:focus, .input[type="month"][readonly]:focus, .input[type="week"]:focus, .input[type="week"][readonly]:focus, .input[type="time"]:focus, .input[type="time"][readonly]:focus, .input[type="number"]:focus, .input[type="number"][readonly]:focus {
+.el_form_input[type="text"]:focus, .el_form_input[type="text"][readonly]:focus, .el_form_input[type="search"]:focus, .el_form_input[type="search"][readonly]:focus, .el_form_input[type="url"]:focus, .el_form_input[type="url"][readonly]:focus, .el_form_input[type="email"]:focus, .el_form_input[type="email"][readonly]:focus, .el_form_input[type="tel"]:focus, .el_form_input[type="tel"][readonly]:focus, .el_form_input[type="password"]:focus, .el_form_input[type="password"][readonly]:focus, .el_form_input[type="datetime-local"]:focus, .el_form_input[type="datetime-local"][readonly]:focus, .el_form_input[type="date"]:focus, .el_form_input[type="date"][readonly]:focus, .el_form_input[type="month"]:focus, .el_form_input[type="month"][readonly]:focus, .el_form_input[type="week"]:focus, .el_form_input[type="week"][readonly]:focus, .el_form_input[type="time"]:focus, .el_form_input[type="time"][readonly]:focus, .el_form_input[type="number"]:focus, .el_form_input[type="number"][readonly]:focus {
   border-color: #0f7dd2;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 4px rgba(36, 151, 240, 0.36);
   outline: none;
 }
 
-.input[type="text"]:placeholder-shown, .input[type="search"]:placeholder-shown, .input[type="url"]:placeholder-shown, .input[type="email"]:placeholder-shown, .input[type="tel"]:placeholder-shown, .input[type="password"]:placeholder-shown, .input[type="datetime-local"]:placeholder-shown, .input[type="date"]:placeholder-shown, .input[type="month"]:placeholder-shown, .input[type="week"]:placeholder-shown, .input[type="time"]:placeholder-shown, .input[type="number"]:placeholder-shown {
+.el_form_input[type="text"]:placeholder-shown, .el_form_input[type="search"]:placeholder-shown, .el_form_input[type="url"]:placeholder-shown, .el_form_input[type="email"]:placeholder-shown, .el_form_input[type="tel"]:placeholder-shown, .el_form_input[type="password"]:placeholder-shown, .el_form_input[type="datetime-local"]:placeholder-shown, .el_form_input[type="date"]:placeholder-shown, .el_form_input[type="month"]:placeholder-shown, .el_form_input[type="week"]:placeholder-shown, .el_form_input[type="time"]:placeholder-shown, .el_form_input[type="number"]:placeholder-shown {
   color: rgba(0, 0, 0, 0.26);
 }
 
-.input[type="text"]::-webkit-input-placeholder, .input[type="search"]::-webkit-input-placeholder, .input[type="url"]::-webkit-input-placeholder, .input[type="email"]::-webkit-input-placeholder, .input[type="tel"]::-webkit-input-placeholder, .input[type="password"]::-webkit-input-placeholder, .input[type="datetime-local"]::-webkit-input-placeholder, .input[type="date"]::-webkit-input-placeholder, .input[type="month"]::-webkit-input-placeholder, .input[type="week"]::-webkit-input-placeholder, .input[type="time"]::-webkit-input-placeholder, .input[type="number"]::-webkit-input-placeholder {
+.el_form_input[type="text"]::-webkit-input-placeholder, .el_form_input[type="search"]::-webkit-input-placeholder, .el_form_input[type="url"]::-webkit-input-placeholder, .el_form_input[type="email"]::-webkit-input-placeholder, .el_form_input[type="tel"]::-webkit-input-placeholder, .el_form_input[type="password"]::-webkit-input-placeholder, .el_form_input[type="datetime-local"]::-webkit-input-placeholder, .el_form_input[type="date"]::-webkit-input-placeholder, .el_form_input[type="month"]::-webkit-input-placeholder, .el_form_input[type="week"]::-webkit-input-placeholder, .el_form_input[type="time"]::-webkit-input-placeholder, .el_form_input[type="number"]::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.26);
 }
 
-.input[type="text"]:-moz-placeholder, .input[type="search"]:-moz-placeholder, .input[type="url"]:-moz-placeholder, .input[type="email"]:-moz-placeholder, .input[type="tel"]:-moz-placeholder, .input[type="password"]:-moz-placeholder, .input[type="datetime-local"]:-moz-placeholder, .input[type="date"]:-moz-placeholder, .input[type="month"]:-moz-placeholder, .input[type="week"]:-moz-placeholder, .input[type="time"]:-moz-placeholder, .input[type="number"]:-moz-placeholder {
+.el_form_input[type="text"]:-moz-placeholder, .el_form_input[type="search"]:-moz-placeholder, .el_form_input[type="url"]:-moz-placeholder, .el_form_input[type="email"]:-moz-placeholder, .el_form_input[type="tel"]:-moz-placeholder, .el_form_input[type="password"]:-moz-placeholder, .el_form_input[type="datetime-local"]:-moz-placeholder, .el_form_input[type="date"]:-moz-placeholder, .el_form_input[type="month"]:-moz-placeholder, .el_form_input[type="week"]:-moz-placeholder, .el_form_input[type="time"]:-moz-placeholder, .el_form_input[type="number"]:-moz-placeholder {
   opacity: 1;
   color: rgba(0, 0, 0, 0.26);
 }
 
-.input[type="text"]::-moz-placeholder, .input[type="search"]::-moz-placeholder, .input[type="url"]::-moz-placeholder, .input[type="email"]::-moz-placeholder, .input[type="tel"]::-moz-placeholder, .input[type="password"]::-moz-placeholder, .input[type="datetime-local"]::-moz-placeholder, .input[type="date"]::-moz-placeholder, .input[type="month"]::-moz-placeholder, .input[type="week"]::-moz-placeholder, .input[type="time"]::-moz-placeholder, .input[type="number"]::-moz-placeholder {
+.el_form_input[type="text"]::-moz-placeholder, .el_form_input[type="search"]::-moz-placeholder, .el_form_input[type="url"]::-moz-placeholder, .el_form_input[type="email"]::-moz-placeholder, .el_form_input[type="tel"]::-moz-placeholder, .el_form_input[type="password"]::-moz-placeholder, .el_form_input[type="datetime-local"]::-moz-placeholder, .el_form_input[type="date"]::-moz-placeholder, .el_form_input[type="month"]::-moz-placeholder, .el_form_input[type="week"]::-moz-placeholder, .el_form_input[type="time"]::-moz-placeholder, .el_form_input[type="number"]::-moz-placeholder {
   opacity: 1;
   color: rgba(0, 0, 0, 0.26);
 }
 
-.input[type="text"]:-ms-input-placeholder, .input[type="search"]:-ms-input-placeholder, .input[type="url"]:-ms-input-placeholder, .input[type="email"]:-ms-input-placeholder, .input[type="tel"]:-ms-input-placeholder, .input[type="password"]:-ms-input-placeholder, .input[type="datetime-local"]:-ms-input-placeholder, .input[type="date"]:-ms-input-placeholder, .input[type="month"]:-ms-input-placeholder, .input[type="week"]:-ms-input-placeholder, .input[type="time"]:-ms-input-placeholder, .input[type="number"]:-ms-input-placeholder {
+.el_form_input[type="text"]:-ms-input-placeholder, .el_form_input[type="search"]:-ms-input-placeholder, .el_form_input[type="url"]:-ms-input-placeholder, .el_form_input[type="email"]:-ms-input-placeholder, .el_form_input[type="tel"]:-ms-input-placeholder, .el_form_input[type="password"]:-ms-input-placeholder, .el_form_input[type="datetime-local"]:-ms-input-placeholder, .el_form_input[type="date"]:-ms-input-placeholder, .el_form_input[type="month"]:-ms-input-placeholder, .el_form_input[type="week"]:-ms-input-placeholder, .el_form_input[type="time"]:-ms-input-placeholder, .el_form_input[type="number"]:-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.26);
 }
 
-.input[type="text"][disabled], .input[type="search"][disabled], .input[type="url"][disabled], .input[type="email"][disabled], .input[type="tel"][disabled], .input[type="password"][disabled], .input[type="datetime-local"][disabled], .input[type="date"][disabled], .input[type="month"][disabled], .input[type="week"][disabled], .input[type="time"][disabled], .input[type="number"][disabled] {
+.el_form_input[type="text"][disabled], .el_form_input[type="search"][disabled], .el_form_input[type="url"][disabled], .el_form_input[type="email"][disabled], .el_form_input[type="tel"][disabled], .el_form_input[type="password"][disabled], .el_form_input[type="datetime-local"][disabled], .el_form_input[type="date"][disabled], .el_form_input[type="month"][disabled], .el_form_input[type="week"][disabled], .el_form_input[type="time"][disabled], .el_form_input[type="number"][disabled] {
   cursor: not-allowed;
   background-color: #bdbdbd;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   color: rgba(0, 0, 0, 0.26);
 }
 
-.input[type="text"][readonly], .input[type="search"][readonly], .input[type="url"][readonly], .input[type="email"][readonly], .input[type="tel"][readonly], .input[type="password"][readonly], .input[type="datetime-local"][readonly], .input[type="date"][readonly], .input[type="month"][readonly], .input[type="week"][readonly], .input[type="time"][readonly], .input[type="number"][readonly] {
+.el_form_input[type="text"][readonly], .el_form_input[type="search"][readonly], .el_form_input[type="url"][readonly], .el_form_input[type="email"][readonly], .el_form_input[type="tel"][readonly], .el_form_input[type="password"][readonly], .el_form_input[type="datetime-local"][readonly], .el_form_input[type="date"][readonly], .el_form_input[type="month"][readonly], .el_form_input[type="week"][readonly], .el_form_input[type="time"][readonly], .el_form_input[type="number"][readonly] {
   background-color: whitesmoke;
   border-color: #d1d8dc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   color: rgba(0, 0, 0, 0.7);
 }
 
-.input[type="text"].is-success:not([disabled]):not([readonly]), .input[type="search"].is-success:not([disabled]):not([readonly]), .input[type="url"].is-success:not([disabled]):not([readonly]), .input[type="email"].is-success:not([disabled]):not([readonly]), .input[type="tel"].is-success:not([disabled]):not([readonly]), .input[type="password"].is-success:not([disabled]):not([readonly]), .input[type="datetime-local"].is-success:not([disabled]):not([readonly]), .input[type="date"].is-success:not([disabled]):not([readonly]), .input[type="month"].is-success:not([disabled]):not([readonly]), .input[type="week"].is-success:not([disabled]):not([readonly]), .input[type="time"].is-success:not([disabled]):not([readonly]), .input[type="number"].is-success:not([disabled]):not([readonly]) {
+.el_form_input[type="text"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="search"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="url"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="email"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="tel"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="password"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="datetime-local"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="date"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="month"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="week"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="time"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="number"].el_form__success:not([disabled]):not([readonly]) {
   border-color: #7edd7e;
 }
 
-.input[type="text"].is-danger:not([disabled]):not([readonly]), .input[type="search"].is-danger:not([disabled]):not([readonly]), .input[type="url"].is-danger:not([disabled]):not([readonly]), .input[type="email"].is-danger:not([disabled]):not([readonly]), .input[type="tel"].is-danger:not([disabled]):not([readonly]), .input[type="password"].is-danger:not([disabled]):not([readonly]), .input[type="datetime-local"].is-danger:not([disabled]):not([readonly]), .input[type="date"].is-danger:not([disabled]):not([readonly]), .input[type="month"].is-danger:not([disabled]):not([readonly]), .input[type="week"].is-danger:not([disabled]):not([readonly]), .input[type="time"].is-danger:not([disabled]):not([readonly]), .input[type="number"].is-danger:not([disabled]):not([readonly]) {
+.el_form_input[type="text"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="search"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="url"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="email"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="tel"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="password"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="datetime-local"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="date"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="month"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="week"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="time"].el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="number"].el_form__danger:not([disabled]):not([readonly]) {
   background-color: #fbeaea;
   border-color: #eeafaf;
 }
 
-.textarea {
+.el_form_textarea {
   position: relative;
   max-width: 100%;
   padding: calc(0.5em - 1.5px) 0.5em;
@@ -1796,112 +1796,112 @@ iframe {
   transition: ease-out 0.12s;
 }
 
-.textarea:focus, .textarea[readonly]:focus {
+.el_form_textarea:focus, .el_form_textarea[readonly]:focus {
   border-color: #0f7dd2;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 4px rgba(36, 151, 240, 0.36);
   outline: none;
 }
 
-.textarea:placeholder-shown {
+.el_form_textarea:placeholder-shown {
   color: rgba(0, 0, 0, 0.26);
 }
 
-.textarea::-webkit-input-placeholder {
+.el_form_textarea::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.26);
 }
 
-.textarea:-moz-placeholder {
+.el_form_textarea:-moz-placeholder {
   opacity: 1;
   color: rgba(0, 0, 0, 0.26);
 }
 
-.textarea::-moz-placeholder {
+.el_form_textarea::-moz-placeholder {
   opacity: 1;
   color: rgba(0, 0, 0, 0.26);
 }
 
-.textarea:-ms-input-placeholder {
+.el_form_textarea:-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.26);
 }
 
-.textarea[disabled] {
+.el_form_textarea[disabled] {
   cursor: not-allowed;
   background-color: #bdbdbd;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   color: rgba(0, 0, 0, 0.26);
 }
 
-.textarea[readonly] {
+.el_form_textarea[readonly] {
   background-color: whitesmoke;
   border-color: #d1d8dc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   color: rgba(0, 0, 0, 0.7);
 }
 
-.textarea.is-success:not([disabled]):not([readonly]) {
+.el_form_textarea.el_form__success:not([disabled]):not([readonly]) {
   border-color: #7edd7e;
 }
 
-.textarea.is-danger:not([disabled]):not([readonly]) {
+.el_form_textarea.el_form__danger:not([disabled]):not([readonly]) {
   background-color: #fbeaea;
   border-color: #eeafaf;
 }
 
-.input[type="text"].is-round, .input[type="search"].is-round, .input[type="url"].is-round, .input[type="email"].is-round, .input[type="tel"].is-round, .input[type="password"].is-round, .input[type="datetime-local"].is-round, .input[type="date"].is-round, .input[type="month"].is-round, .input[type="week"].is-round, .input[type="time"].is-round, .input[type="number"].is-round {
+.el_form_input[type="text"].el_form__round, .el_form_input[type="search"].el_form__round, .el_form_input[type="url"].el_form__round, .el_form_input[type="email"].el_form__round, .el_form_input[type="tel"].el_form__round, .el_form_input[type="password"].el_form__round, .el_form_input[type="datetime-local"].el_form__round, .el_form_input[type="date"].el_form__round, .el_form_input[type="month"].el_form__round, .el_form_input[type="week"].el_form__round, .el_form_input[type="time"].el_form__round, .el_form_input[type="number"].el_form__round {
   border-radius: 999em;
 }
 
-.input[type="text"].is-plain, .input[type="search"].is-plain, .input[type="url"].is-plain, .input[type="email"].is-plain, .input[type="tel"].is-plain, .input[type="password"].is-plain, .input[type="datetime-local"].is-plain, .input[type="date"].is-plain, .input[type="month"].is-plain, .input[type="week"].is-plain, .input[type="time"].is-plain, .input[type="number"].is-plain {
+.el_form_input[type="text"].el_form__plain, .el_form_input[type="search"].el_form__plain, .el_form_input[type="url"].el_form__plain, .el_form_input[type="email"].el_form__plain, .el_form_input[type="tel"].el_form__plain, .el_form_input[type="password"].el_form__plain, .el_form_input[type="datetime-local"].el_form__plain, .el_form_input[type="date"].el_form__plain, .el_form_input[type="month"].el_form__plain, .el_form_input[type="week"].el_form__plain, .el_form_input[type="time"].el_form__plain, .el_form_input[type="number"].el_form__plain {
   background-color: whitesmoke;
   border: 1px solid transparent;
   box-shadow: none;
 }
 
-.input[type="text"].is-plain:focus, .input[type="text"].is-plain[readonly]:focus, .input[type="search"].is-plain:focus, .input[type="search"].is-plain[readonly]:focus, .input[type="url"].is-plain:focus, .input[type="url"].is-plain[readonly]:focus, .input[type="email"].is-plain:focus, .input[type="email"].is-plain[readonly]:focus, .input[type="tel"].is-plain:focus, .input[type="tel"].is-plain[readonly]:focus, .input[type="password"].is-plain:focus, .input[type="password"].is-plain[readonly]:focus, .input[type="datetime-local"].is-plain:focus, .input[type="datetime-local"].is-plain[readonly]:focus, .input[type="date"].is-plain:focus, .input[type="date"].is-plain[readonly]:focus, .input[type="month"].is-plain:focus, .input[type="month"].is-plain[readonly]:focus, .input[type="week"].is-plain:focus, .input[type="week"].is-plain[readonly]:focus, .input[type="time"].is-plain:focus, .input[type="time"].is-plain[readonly]:focus, .input[type="number"].is-plain:focus, .input[type="number"].is-plain[readonly]:focus {
+.el_form_input[type="text"].el_form__plain:focus, .el_form_input[type="text"].el_form__plain[readonly]:focus, .el_form_input[type="search"].el_form__plain:focus, .el_form_input[type="search"].el_form__plain[readonly]:focus, .el_form_input[type="url"].el_form__plain:focus, .el_form_input[type="url"].el_form__plain[readonly]:focus, .el_form_input[type="email"].el_form__plain:focus, .el_form_input[type="email"].el_form__plain[readonly]:focus, .el_form_input[type="tel"].el_form__plain:focus, .el_form_input[type="tel"].el_form__plain[readonly]:focus, .el_form_input[type="password"].el_form__plain:focus, .el_form_input[type="password"].el_form__plain[readonly]:focus, .el_form_input[type="datetime-local"].el_form__plain:focus, .el_form_input[type="datetime-local"].el_form__plain[readonly]:focus, .el_form_input[type="date"].el_form__plain:focus, .el_form_input[type="date"].el_form__plain[readonly]:focus, .el_form_input[type="month"].el_form__plain:focus, .el_form_input[type="month"].el_form__plain[readonly]:focus, .el_form_input[type="week"].el_form__plain:focus, .el_form_input[type="week"].el_form__plain[readonly]:focus, .el_form_input[type="time"].el_form__plain:focus, .el_form_input[type="time"].el_form__plain[readonly]:focus, .el_form_input[type="number"].el_form__plain:focus, .el_form_input[type="number"].el_form__plain[readonly]:focus {
   border-color: #0f7dd2;
   box-shadow: 0 0 0 4px rgba(36, 151, 240, 0.36);
 }
 
-.input[type="text"].is-plain[disabled], .input[type="search"].is-plain[disabled], .input[type="url"].is-plain[disabled], .input[type="email"].is-plain[disabled], .input[type="tel"].is-plain[disabled], .input[type="password"].is-plain[disabled], .input[type="datetime-local"].is-plain[disabled], .input[type="date"].is-plain[disabled], .input[type="month"].is-plain[disabled], .input[type="week"].is-plain[disabled], .input[type="time"].is-plain[disabled], .input[type="number"].is-plain[disabled] {
+.el_form_input[type="text"].el_form__plain[disabled], .el_form_input[type="search"].el_form__plain[disabled], .el_form_input[type="url"].el_form__plain[disabled], .el_form_input[type="email"].el_form__plain[disabled], .el_form_input[type="tel"].el_form__plain[disabled], .el_form_input[type="password"].el_form__plain[disabled], .el_form_input[type="datetime-local"].el_form__plain[disabled], .el_form_input[type="date"].el_form__plain[disabled], .el_form_input[type="month"].el_form__plain[disabled], .el_form_input[type="week"].el_form__plain[disabled], .el_form_input[type="time"].el_form__plain[disabled], .el_form_input[type="number"].el_form__plain[disabled] {
   background-color: #bdbdbd;
 }
 
-.input[type="text"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="search"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="url"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="email"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="tel"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="password"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="datetime-local"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="date"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="month"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="week"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="time"].is-plain.is-success:not([disabled]):not([readonly]), .input[type="number"].is-plain.is-success:not([disabled]):not([readonly]) {
+.el_form_input[type="text"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="search"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="url"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="email"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="tel"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="password"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="datetime-local"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="date"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="month"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="week"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="time"].el_form__plain.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="number"].el_form__plain.el_form__success:not([disabled]):not([readonly]) {
   background-color: #dbf5db;
   border-color: transparent;
 }
 
-.input[type="text"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="search"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="url"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="email"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="tel"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="password"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="datetime-local"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="date"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="month"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="week"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="time"].is-plain.is-danger:not([disabled]):not([readonly]), .input[type="number"].is-plain.is-danger:not([disabled]):not([readonly]) {
+.el_form_input[type="text"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="search"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="url"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="email"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="tel"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="password"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="datetime-local"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="date"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="month"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="week"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="time"].el_form__plain.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="number"].el_form__plain.el_form__danger:not([disabled]):not([readonly]) {
   background-color: #fbeaea;
   border-color: transparent;
 }
 
-.textarea.is-plain {
+.el_form_textarea.el_form__plain {
   background-color: whitesmoke;
   border: 1px solid transparent;
   box-shadow: none;
 }
 
-.textarea.is-plain:focus, .textarea.is-plain[readonly]:focus {
+.el_form_textarea.el_form__plain:focus, .el_form_textarea.el_form__plain[readonly]:focus {
   border-color: #0f7dd2;
   box-shadow: 0 0 0 4px rgba(36, 151, 240, 0.36);
 }
 
-.textarea.is-plain[disabled] {
+.el_form_textarea.el_form__plain[disabled] {
   background-color: #bdbdbd;
 }
 
-.textarea.is-plain.is-success:not([disabled]):not([readonly]) {
+.el_form_textarea.el_form__plain.el_form__success:not([disabled]):not([readonly]) {
   background-color: #dbf5db;
   border-color: transparent;
 }
 
-.textarea.is-plain.is-danger:not([disabled]):not([readonly]) {
+.el_form_textarea.el_form__plain.el_form__danger:not([disabled]):not([readonly]) {
   background-color: #fbeaea;
   border-color: transparent;
 }
 
-.input[type="text"].is-underline, .input[type="search"].is-underline, .input[type="url"].is-underline, .input[type="email"].is-underline, .input[type="tel"].is-underline, .input[type="password"].is-underline, .input[type="datetime-local"].is-underline, .input[type="date"].is-underline, .input[type="month"].is-underline, .input[type="week"].is-underline, .input[type="time"].is-underline, .input[type="number"].is-underline {
+.el_form_input[type="text"].el_form__underline, .el_form_input[type="search"].el_form__underline, .el_form_input[type="url"].el_form__underline, .el_form_input[type="email"].el_form__underline, .el_form_input[type="tel"].el_form__underline, .el_form_input[type="password"].el_form__underline, .el_form_input[type="datetime-local"].el_form__underline, .el_form_input[type="date"].el_form__underline, .el_form_input[type="month"].el_form__underline, .el_form_input[type="week"].el_form__underline, .el_form_input[type="time"].el_form__underline, .el_form_input[type="number"].el_form__underline {
   padding-left: 0;
   padding-right: 0;
   background-color: transparent;
@@ -1911,26 +1911,26 @@ iframe {
   box-shadow: none;
 }
 
-.input[type="text"].is-underline:focus, .input[type="text"].is-underline[readonly]:focus, .input[type="search"].is-underline:focus, .input[type="search"].is-underline[readonly]:focus, .input[type="url"].is-underline:focus, .input[type="url"].is-underline[readonly]:focus, .input[type="email"].is-underline:focus, .input[type="email"].is-underline[readonly]:focus, .input[type="tel"].is-underline:focus, .input[type="tel"].is-underline[readonly]:focus, .input[type="password"].is-underline:focus, .input[type="password"].is-underline[readonly]:focus, .input[type="datetime-local"].is-underline:focus, .input[type="datetime-local"].is-underline[readonly]:focus, .input[type="date"].is-underline:focus, .input[type="date"].is-underline[readonly]:focus, .input[type="month"].is-underline:focus, .input[type="month"].is-underline[readonly]:focus, .input[type="week"].is-underline:focus, .input[type="week"].is-underline[readonly]:focus, .input[type="time"].is-underline:focus, .input[type="time"].is-underline[readonly]:focus, .input[type="number"].is-underline:focus, .input[type="number"].is-underline[readonly]:focus {
+.el_form_input[type="text"].el_form__underline:focus, .el_form_input[type="text"].el_form__underline[readonly]:focus, .el_form_input[type="search"].el_form__underline:focus, .el_form_input[type="search"].el_form__underline[readonly]:focus, .el_form_input[type="url"].el_form__underline:focus, .el_form_input[type="url"].el_form__underline[readonly]:focus, .el_form_input[type="email"].el_form__underline:focus, .el_form_input[type="email"].el_form__underline[readonly]:focus, .el_form_input[type="tel"].el_form__underline:focus, .el_form_input[type="tel"].el_form__underline[readonly]:focus, .el_form_input[type="password"].el_form__underline:focus, .el_form_input[type="password"].el_form__underline[readonly]:focus, .el_form_input[type="datetime-local"].el_form__underline:focus, .el_form_input[type="datetime-local"].el_form__underline[readonly]:focus, .el_form_input[type="date"].el_form__underline:focus, .el_form_input[type="date"].el_form__underline[readonly]:focus, .el_form_input[type="month"].el_form__underline:focus, .el_form_input[type="month"].el_form__underline[readonly]:focus, .el_form_input[type="week"].el_form__underline:focus, .el_form_input[type="week"].el_form__underline[readonly]:focus, .el_form_input[type="time"].el_form__underline:focus, .el_form_input[type="time"].el_form__underline[readonly]:focus, .el_form_input[type="number"].el_form__underline:focus, .el_form_input[type="number"].el_form__underline[readonly]:focus {
   border-color: #0f7dd2;
   box-shadow: none;
 }
 
-.input[type="text"].is-underline[disabled], .input[type="text"].is-underline[readonly], .input[type="search"].is-underline[disabled], .input[type="search"].is-underline[readonly], .input[type="url"].is-underline[disabled], .input[type="url"].is-underline[readonly], .input[type="email"].is-underline[disabled], .input[type="email"].is-underline[readonly], .input[type="tel"].is-underline[disabled], .input[type="tel"].is-underline[readonly], .input[type="password"].is-underline[disabled], .input[type="password"].is-underline[readonly], .input[type="datetime-local"].is-underline[disabled], .input[type="datetime-local"].is-underline[readonly], .input[type="date"].is-underline[disabled], .input[type="date"].is-underline[readonly], .input[type="month"].is-underline[disabled], .input[type="month"].is-underline[readonly], .input[type="week"].is-underline[disabled], .input[type="week"].is-underline[readonly], .input[type="time"].is-underline[disabled], .input[type="time"].is-underline[readonly], .input[type="number"].is-underline[disabled], .input[type="number"].is-underline[readonly] {
+.el_form_input[type="text"].el_form__underline[disabled], .el_form_input[type="text"].el_form__underline[readonly], .el_form_input[type="search"].el_form__underline[disabled], .el_form_input[type="search"].el_form__underline[readonly], .el_form_input[type="url"].el_form__underline[disabled], .el_form_input[type="url"].el_form__underline[readonly], .el_form_input[type="email"].el_form__underline[disabled], .el_form_input[type="email"].el_form__underline[readonly], .el_form_input[type="tel"].el_form__underline[disabled], .el_form_input[type="tel"].el_form__underline[readonly], .el_form_input[type="password"].el_form__underline[disabled], .el_form_input[type="password"].el_form__underline[readonly], .el_form_input[type="datetime-local"].el_form__underline[disabled], .el_form_input[type="datetime-local"].el_form__underline[readonly], .el_form_input[type="date"].el_form__underline[disabled], .el_form_input[type="date"].el_form__underline[readonly], .el_form_input[type="month"].el_form__underline[disabled], .el_form_input[type="month"].el_form__underline[readonly], .el_form_input[type="week"].el_form__underline[disabled], .el_form_input[type="week"].el_form__underline[readonly], .el_form_input[type="time"].el_form__underline[disabled], .el_form_input[type="time"].el_form__underline[readonly], .el_form_input[type="number"].el_form__underline[disabled], .el_form_input[type="number"].el_form__underline[readonly] {
   background-color: transparent;
 }
 
-.input[type="text"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="search"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="url"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="email"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="tel"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="password"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="datetime-local"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="date"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="month"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="week"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="time"].is-underline.is-success:not([disabled]):not([readonly]), .input[type="number"].is-underline.is-success:not([disabled]):not([readonly]) {
+.el_form_input[type="text"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="search"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="url"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="email"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="tel"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="password"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="datetime-local"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="date"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="month"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="week"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="time"].el_form__underline.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="number"].el_form__underline.el_form__success:not([disabled]):not([readonly]) {
   background-color: transparent;
   border-bottom-color: #7edd7e;
 }
 
-.input[type="text"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="search"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="url"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="email"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="tel"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="password"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="datetime-local"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="date"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="month"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="week"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="time"].is-underline.is-danger:not([disabled]):not([readonly]), .input[type="number"].is-underline.is-danger:not([disabled]):not([readonly]) {
+.el_form_input[type="text"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="search"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="url"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="email"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="tel"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="password"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="datetime-local"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="date"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="month"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="week"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="time"].el_form__underline.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="number"].el_form__underline.el_form__danger:not([disabled]):not([readonly]) {
   background-color: transparent;
   border-bottom-color: #eeafaf;
 }
 
-.textarea.is-underline {
+.el_form_textarea.el_form__underline {
   padding-left: 0;
   padding-right: 0;
   background-color: transparent;
@@ -1940,26 +1940,26 @@ iframe {
   box-shadow: none;
 }
 
-.textarea.is-underline:focus, .textarea.is-underline[readonly]:focus {
+.el_form_textarea.el_form__underline:focus, .el_form_textarea.el_form__underline[readonly]:focus {
   border-color: #0f7dd2;
   box-shadow: none;
 }
 
-.textarea.is-underline[disabled], .textarea.is-underline[readonly] {
+.el_form_textarea.el_form__underline[disabled], .el_form_textarea.el_form__underline[readonly] {
   background-color: transparent;
 }
 
-.textarea.is-underline.is-success:not([disabled]):not([readonly]) {
+.el_form_textarea.el_form__underline.el_form__success:not([disabled]):not([readonly]) {
   background-color: transparent;
   border-bottom-color: #7edd7e;
 }
 
-.textarea.is-underline.is-danger:not([disabled]):not([readonly]) {
+.el_form_textarea.el_form__underline.el_form__danger:not([disabled]):not([readonly]) {
   background-color: transparent;
   border-bottom-color: #eeafaf;
 }
 
-.input[type="text"].is-inside, .input[type="search"].is-inside, .input[type="url"].is-inside, .input[type="email"].is-inside, .input[type="tel"].is-inside, .input[type="password"].is-inside, .input[type="datetime-local"].is-inside, .input[type="date"].is-inside, .input[type="month"].is-inside, .input[type="week"].is-inside, .input[type="time"].is-inside, .input[type="number"].is-inside {
+.el_form_input[type="text"].el_form__inside, .el_form_input[type="search"].el_form__inside, .el_form_input[type="url"].el_form__inside, .el_form_input[type="email"].el_form__inside, .el_form_input[type="tel"].el_form__inside, .el_form_input[type="password"].el_form__inside, .el_form_input[type="datetime-local"].el_form__inside, .el_form_input[type="date"].el_form__inside, .el_form_input[type="month"].el_form__inside, .el_form_input[type="week"].el_form__inside, .el_form_input[type="time"].el_form__inside, .el_form_input[type="number"].el_form__inside {
   padding: 0.5em 0.75em;
   background-color: transparent;
   border-color: transparent;
@@ -1967,27 +1967,27 @@ iframe {
   box-shadow: none;
 }
 
-.input[type="text"].is-inside:focus, .input[type="text"].is-inside[readonly]:focus, .input[type="search"].is-inside:focus, .input[type="search"].is-inside[readonly]:focus, .input[type="url"].is-inside:focus, .input[type="url"].is-inside[readonly]:focus, .input[type="email"].is-inside:focus, .input[type="email"].is-inside[readonly]:focus, .input[type="tel"].is-inside:focus, .input[type="tel"].is-inside[readonly]:focus, .input[type="password"].is-inside:focus, .input[type="password"].is-inside[readonly]:focus, .input[type="datetime-local"].is-inside:focus, .input[type="datetime-local"].is-inside[readonly]:focus, .input[type="date"].is-inside:focus, .input[type="date"].is-inside[readonly]:focus, .input[type="month"].is-inside:focus, .input[type="month"].is-inside[readonly]:focus, .input[type="week"].is-inside:focus, .input[type="week"].is-inside[readonly]:focus, .input[type="time"].is-inside:focus, .input[type="time"].is-inside[readonly]:focus, .input[type="number"].is-inside:focus, .input[type="number"].is-inside[readonly]:focus {
+.el_form_input[type="text"].el_form__inside:focus, .el_form_input[type="text"].el_form__inside[readonly]:focus, .el_form_input[type="search"].el_form__inside:focus, .el_form_input[type="search"].el_form__inside[readonly]:focus, .el_form_input[type="url"].el_form__inside:focus, .el_form_input[type="url"].el_form__inside[readonly]:focus, .el_form_input[type="email"].el_form__inside:focus, .el_form_input[type="email"].el_form__inside[readonly]:focus, .el_form_input[type="tel"].el_form__inside:focus, .el_form_input[type="tel"].el_form__inside[readonly]:focus, .el_form_input[type="password"].el_form__inside:focus, .el_form_input[type="password"].el_form__inside[readonly]:focus, .el_form_input[type="datetime-local"].el_form__inside:focus, .el_form_input[type="datetime-local"].el_form__inside[readonly]:focus, .el_form_input[type="date"].el_form__inside:focus, .el_form_input[type="date"].el_form__inside[readonly]:focus, .el_form_input[type="month"].el_form__inside:focus, .el_form_input[type="month"].el_form__inside[readonly]:focus, .el_form_input[type="week"].el_form__inside:focus, .el_form_input[type="week"].el_form__inside[readonly]:focus, .el_form_input[type="time"].el_form__inside:focus, .el_form_input[type="time"].el_form__inside[readonly]:focus, .el_form_input[type="number"].el_form__inside:focus, .el_form_input[type="number"].el_form__inside[readonly]:focus {
   border-color: transparent;
   box-shadow: none;
 }
 
-.input[type="text"].is-inside[disabled], .input[type="text"].is-inside[readonly], .input[type="search"].is-inside[disabled], .input[type="search"].is-inside[readonly], .input[type="url"].is-inside[disabled], .input[type="url"].is-inside[readonly], .input[type="email"].is-inside[disabled], .input[type="email"].is-inside[readonly], .input[type="tel"].is-inside[disabled], .input[type="tel"].is-inside[readonly], .input[type="password"].is-inside[disabled], .input[type="password"].is-inside[readonly], .input[type="datetime-local"].is-inside[disabled], .input[type="datetime-local"].is-inside[readonly], .input[type="date"].is-inside[disabled], .input[type="date"].is-inside[readonly], .input[type="month"].is-inside[disabled], .input[type="month"].is-inside[readonly], .input[type="week"].is-inside[disabled], .input[type="week"].is-inside[readonly], .input[type="time"].is-inside[disabled], .input[type="time"].is-inside[readonly], .input[type="number"].is-inside[disabled], .input[type="number"].is-inside[readonly] {
+.el_form_input[type="text"].el_form__inside[disabled], .el_form_input[type="text"].el_form__inside[readonly], .el_form_input[type="search"].el_form__inside[disabled], .el_form_input[type="search"].el_form__inside[readonly], .el_form_input[type="url"].el_form__inside[disabled], .el_form_input[type="url"].el_form__inside[readonly], .el_form_input[type="email"].el_form__inside[disabled], .el_form_input[type="email"].el_form__inside[readonly], .el_form_input[type="tel"].el_form__inside[disabled], .el_form_input[type="tel"].el_form__inside[readonly], .el_form_input[type="password"].el_form__inside[disabled], .el_form_input[type="password"].el_form__inside[readonly], .el_form_input[type="datetime-local"].el_form__inside[disabled], .el_form_input[type="datetime-local"].el_form__inside[readonly], .el_form_input[type="date"].el_form__inside[disabled], .el_form_input[type="date"].el_form__inside[readonly], .el_form_input[type="month"].el_form__inside[disabled], .el_form_input[type="month"].el_form__inside[readonly], .el_form_input[type="week"].el_form__inside[disabled], .el_form_input[type="week"].el_form__inside[readonly], .el_form_input[type="time"].el_form__inside[disabled], .el_form_input[type="time"].el_form__inside[readonly], .el_form_input[type="number"].el_form__inside[disabled], .el_form_input[type="number"].el_form__inside[readonly] {
   background-color: transparent;
   border-color: transparent;
 }
 
-.input[type="text"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="search"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="url"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="email"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="tel"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="password"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="datetime-local"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="date"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="month"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="week"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="time"].is-inside.is-success:not([disabled]):not([readonly]), .input[type="number"].is-inside.is-success:not([disabled]):not([readonly]) {
+.el_form_input[type="text"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="search"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="url"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="email"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="tel"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="password"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="datetime-local"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="date"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="month"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="week"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="time"].el_form__inside.el_form__success:not([disabled]):not([readonly]), .el_form_input[type="number"].el_form__inside.el_form__success:not([disabled]):not([readonly]) {
   background-color: #dbf5db;
   border-color: transparent;
 }
 
-.input[type="text"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="search"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="url"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="email"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="tel"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="password"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="datetime-local"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="date"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="month"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="week"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="time"].is-inside.is-danger:not([disabled]):not([readonly]), .input[type="number"].is-inside.is-danger:not([disabled]):not([readonly]) {
+.el_form_input[type="text"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="search"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="url"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="email"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="tel"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="password"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="datetime-local"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="date"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="month"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="week"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="time"].el_form__inside.el_form__danger:not([disabled]):not([readonly]), .el_form_input[type="number"].el_form__inside.el_form__danger:not([disabled]):not([readonly]) {
   background-color: #fbeaea;
   border-color: transparent;
 }
 
-.textarea.is-inside {
+.el_form_textarea.el_form__inside {
   padding: 0.5em 0.75em;
   background-color: transparent;
   border-color: transparent;
@@ -1995,52 +1995,52 @@ iframe {
   box-shadow: none;
 }
 
-.textarea.is-inside:focus, .textarea.is-inside[readonly]:focus {
+.el_form_textarea.el_form__inside:focus, .el_form_textarea.el_form__inside[readonly]:focus {
   border-color: transparent;
   box-shadow: none;
 }
 
-.textarea.is-inside[disabled], .textarea.is-inside[readonly] {
+.el_form_textarea.el_form__inside[disabled], .el_form_textarea.el_form__inside[readonly] {
   background-color: transparent;
   border-color: transparent;
 }
 
-.textarea.is-inside.is-success:not([disabled]):not([readonly]) {
+.el_form_textarea.el_form__inside.el_form__success:not([disabled]):not([readonly]) {
   background-color: #dbf5db;
   border-color: transparent;
 }
 
-.textarea.is-inside.is-danger:not([disabled]):not([readonly]) {
+.el_form_textarea.el_form__inside.el_form__danger:not([disabled]):not([readonly]) {
   background-color: #fbeaea;
   border-color: transparent;
 }
 
-.input[type="file"] {
+.el_form_input[type="file"] {
   display: none;
 }
 
-.label {
+.el_form_label {
   cursor: pointer;
   display: flex;
 }
 
-.label:not(.is-middle) .radio {
+.el_form_label:not(.el_form__middle) .el_form_radio {
   top: 0.25em;
 }
 
-.label:not(.is-middle) .checkbox {
+.el_form_label:not(.el_form__middle) .el_form_checkbox {
   top: 0.25em;
 }
 
-.label.is-middle {
+.el_form_label.el_form__middle {
   align-items: center;
 }
 
-.label.is-center {
+.el_form_label.el_form__center {
   justify-content: center;
 }
 
-.radio {
+.el_form_radio {
   position: relative;
   display: inline-block;
   flex: none;
@@ -2052,7 +2052,7 @@ iframe {
   transition: ease-out 0.12s;
 }
 
-.radio:before {
+.el_form_radio:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -2067,54 +2067,54 @@ iframe {
   opacity: 0;
 }
 
-.input[type="radio"] {
+.el_form_input[type="radio"] {
   position: absolute;
   opacity: 0;
   z-index: -1;
 }
 
-.radio:focus {
+.el_form_radio:focus {
   box-shadow: 0 0 0 4px rgba(36, 151, 240, 0.36);
   outline: none;
 }
 
-.input[type="radio"]:focus + .label .radio {
+.el_form_input[type="radio"]:focus + .el_form_label .el_form_radio {
   box-shadow: 0 0 0 4px rgba(36, 151, 240, 0.36);
   outline: none;
 }
 
-.radio.is-checked {
+.el_form_radio.el_form__checked {
   border-color: #37b0be;
 }
 
-.radio.is-checked:before {
+.el_form_radio.el_form__checked:before {
   opacity: 1;
 }
 
-.input[type="radio"]:checked + .label .radio {
+.el_form_input[type="radio"]:checked + .el_form_label .el_form_radio {
   border-color: #37b0be;
 }
 
-.input[type="radio"]:checked + .label .radio:before {
+.el_form_input[type="radio"]:checked + .el_form_label .el_form_radio:before {
   opacity: 1;
 }
 
-.radio.is-disabled {
+.el_form_radio.el_form__disabled {
   cursor: not-allowed;
   border-color: #eef0f2;
 }
 
-.input[type="radio"][disabled] + .label {
+.el_form_input[type="radio"][disabled] + .el_form_label {
   cursor: not-allowed;
   color: rgba(0, 0, 0, 0.26);
 }
 
-.input[type="radio"][disabled] + .label .radio {
+.el_form_input[type="radio"][disabled] + .el_form_label .el_form_radio {
   cursor: not-allowed;
   border-color: #eef0f2;
 }
 
-.checkbox {
+.el_form_checkbox {
   position: relative;
   display: inline-block;
   flex: none;
@@ -2126,7 +2126,7 @@ iframe {
   transition: ease-out 0.12s;
 }
 
-.checkbox:before {
+.el_form_checkbox:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -2141,63 +2141,63 @@ iframe {
   opacity: 0;
 }
 
-.input[type="checkbox"] {
+.el_form_input[type="checkbox"] {
   position: absolute;
   opacity: 0;
   z-index: -1;
 }
 
-.checkbox:focus {
+.el_form_checkbox:focus {
   border-color: #0f7dd2;
   box-shadow: 0 0 0 4px rgba(36, 151, 240, 0.36);
   outline: none;
 }
 
-.input[type="checkbox"]:focus + .label .checkbox {
+.el_form_input[type="checkbox"]:focus + .el_form_label .el_form_checkbox {
   border-color: #0f7dd2;
   box-shadow: 0 0 0 4px rgba(36, 151, 240, 0.36);
   outline: none;
 }
 
-.checkbox.is-checked {
+.el_form_checkbox.el_form__checked {
   background-color: #37b0be;
   border-color: #37b0be;
 }
 
-.checkbox.is-checked:before {
+.el_form_checkbox.el_form__checked:before {
   opacity: 1;
 }
 
-.input[type="checkbox"]:checked + .label .checkbox {
+.el_form_input[type="checkbox"]:checked + .el_form_label .el_form_checkbox {
   background-color: #37b0be;
   border-color: #37b0be;
 }
 
-.input[type="checkbox"]:checked + .label .checkbox:before {
+.el_form_input[type="checkbox"]:checked + .el_form_label .el_form_checkbox:before {
   opacity: 1;
 }
 
-.checkbox.is-disabled {
+.el_form_checkbox.el_form__disabled {
   cursor: not-allowed;
   border-color: #eef0f2;
 }
 
-.input[type="checkbox"][disabled] + .label {
+.el_form_input[type="checkbox"][disabled] + .el_form_label {
   cursor: not-allowed;
   color: rgba(0, 0, 0, 0.26);
 }
 
-.input[type="checkbox"][disabled] + .label .checkbox {
+.el_form_input[type="checkbox"][disabled] + .el_form_label .el_form_checkbox {
   cursor: not-allowed;
   border-color: #eef0f2;
 }
 
-.select {
+.el_form_select {
   position: relative;
   display: inline-flex;
 }
 
-.select > select {
+.el_form_select > select {
   cursor: pointer;
   flex: none;
   width: 100%;
@@ -2214,32 +2214,32 @@ iframe {
           appearance: none;
 }
 
-.select > select::-ms-expand {
+.el_form_select > select::-ms-expand {
   display: none;
 }
 
-.select > select:focus, .select > select[readonly]:focus {
+.el_form_select > select:focus, .el_form_select > select[readonly]:focus {
   border-color: #0f7dd2;
   box-shadow: 0 0 0 4px rgba(36, 151, 240, 0.36);
   outline: none;
 }
 
-.select > select[disabled] {
+.el_form_select > select[disabled] {
   cursor: not-allowed;
   background-color: #bdbdbd;
   color: rgba(0, 0, 0, 0.26);
 }
 
-.select > select[disabled] > option {
+.el_form_select > select[disabled] > option {
   color: rgba(0, 0, 0, 0.26);
 }
 
-.select > select[readonly] {
+.el_form_select > select[readonly] {
   background-color: whitesmoke;
   color: rgba(0, 0, 0, 0.7);
 }
 
-.select:not(.is-multiple):after {
+.el_form_select:not(.el_form__multiple):after {
   content: "";
   pointer-events: none;
   position: absolute;
@@ -2254,47 +2254,47 @@ iframe {
   z-index: 3;
 }
 
-.select:not(.is-multiple) > select {
+.el_form_select:not(.el_form__multiple) > select {
   padding-right: 2.5em;
 }
 
-.select.is-success > select:not([disabled]):not([readonly]) {
+.el_form_select.el_form__success > select:not([disabled]):not([readonly]) {
   border-color: #7edd7e;
 }
 
-.select.is-danger > select:not([disabled]):not([readonly]) {
+.el_form_select.el_form__danger > select:not([disabled]):not([readonly]) {
   background-color: #fbeaea;
   border-color: #eeafaf;
 }
 
-.select.is-round:not(.is-multiple) > select {
+.el_form_select.el_form__round:not(.el_form__multiple) > select {
   border-radius: 999em;
 }
 
-.select.is-plain > select {
+.el_form_select.el_form__plain > select {
   background-color: whitesmoke;
   border: 1px solid transparent;
 }
 
-.select.is-plain > select:focus, .select.is-plain > select[readonly]:focus {
+.el_form_select.el_form__plain > select:focus, .el_form_select.el_form__plain > select[readonly]:focus {
   border-color: #0f7dd2;
 }
 
-.select.is-plain > select[disabled] {
+.el_form_select.el_form__plain > select[disabled] {
   background-color: #bdbdbd;
 }
 
-.select.is-plain.is-success > select:not([disabled]):not([readonly]) {
+.el_form_select.el_form__plain.el_form__success > select:not([disabled]):not([readonly]) {
   background-color: #dbf5db;
   border-color: transparent;
 }
 
-.select.is-plain.is-danger > select:not([disabled]):not([readonly]) {
+.el_form_select.el_form__plain.el_form__danger > select:not([disabled]):not([readonly]) {
   background-color: #fbeaea;
   border-color: transparent;
 }
 
-.select.is-underline > select {
+.el_form_select.el_form__underline > select {
   padding-left: 0;
   background-color: transparent;
   border: none;
@@ -2303,26 +2303,26 @@ iframe {
   box-shadow: none;
 }
 
-.select.is-underline > select:focus, .select.is-underline > select[readonly]:focus {
+.el_form_select.el_form__underline > select:focus, .el_form_select.el_form__underline > select[readonly]:focus {
   border-color: #0f7dd2;
   box-shadow: none;
 }
 
-.select.is-underline > select[disabled], .select.is-underline > select[readonly] {
+.el_form_select.el_form__underline > select[disabled], .el_form_select.el_form__underline > select[readonly] {
   background-color: transparent;
 }
 
-.select.is-underline.is-success > select:not([disabled]):not([readonly]) {
+.el_form_select.el_form__underline.el_form__success > select:not([disabled]):not([readonly]) {
   background-color: transparent;
   border-bottom-color: #7edd7e;
 }
 
-.select.is-underline.is-danger > select:not([disabled]):not([readonly]) {
+.el_form_select.el_form__underline.el_form__danger > select:not([disabled]):not([readonly]) {
   background-color: transparent;
   border-bottom-color: #eeafaf;
 }
 
-.select.is-inside > select {
+.el_form_select.el_form__inside > select {
   padding: 0.5em 0.75em;
   background-color: transparent;
   border-color: transparent;
@@ -2330,41 +2330,41 @@ iframe {
   box-shadow: none;
 }
 
-.select.is-inside > select:focus, .select.is-inside > select[readonly]:focus {
+.el_form_select.el_form__inside > select:focus, .el_form_select.el_form__inside > select[readonly]:focus {
   border-color: transparent;
   box-shadow: none;
 }
 
-.select.is-inside > select[disabled], .select.is-inside > select[readonly] {
+.el_form_select.el_form__inside > select[disabled], .el_form_select.el_form__inside > select[readonly] {
   background-color: transparent;
   border-color: transparent;
 }
 
-.select.is-inside:not(.is-multiple) > select {
+.el_form_select.el_form__inside:not(.el_form__multiple) > select {
   padding-right: 2.5em;
 }
 
-.select.is-inside.is-success > select:not([disabled]):not([readonly]) {
+.el_form_select.el_form__inside.el_form__success > select:not([disabled]):not([readonly]) {
   background-color: #dbf5db;
   border-color: transparent;
 }
 
-.select.is-inside.is-danger > select:not([disabled]):not([readonly]) {
+.el_form_select.el_form__inside.el_form__danger > select:not([disabled]):not([readonly]) {
   background-color: #fbeaea;
   border-color: transparent;
 }
 
-.select.is-multiple > select {
+.el_form_select.el_form__multiple > select {
   height: auto;
   padding: 0;
 }
 
-.select.is-multiple > select > option {
+.el_form_select.el_form__multiple > select > option {
   min-height: 1.5em;
   padding: 0.5em 0.75em;
 }
 
-.fieldset {
+.el_form_fieldset {
   padding: 0;
   border: none;
 }
