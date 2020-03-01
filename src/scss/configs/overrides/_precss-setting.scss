@@ -51,8 +51,8 @@ $n-disabled: "disabled" !default;
 $n-bg: "bg" !default;
 $n-outline: "outline" !default;
 $n-radius: "radius" !default;
+$n-inline: "inline" !default;
 $n-flex: "flex" !default;
-$n-inline-flex: "inlineFlex" !default;
 $n-baseline: "baseline" !default;
 $n-middle: "middle" !default;
 $n-center: "center" !default;
@@ -68,6 +68,11 @@ $n-separate: "separate" !default;
 $n-parent: "parent" !default;
 $n-child: "child" !default;
 $n-angle: "angle" !default;
+
+// Capitalize
+@function capitalize($string) {
+  @return to-upper-case(str-slice($string, 1, 1)) + str-slice($string, 2);
+}
 
 //----------------------------------------------------
 // / Option
@@ -180,7 +185,7 @@ $selector-box: $bl_+$n-box !default;
 
 // Modifiers
 $modifier-box-flex: $selector-box+$__+$n-flex !default;
-$modifier-box-inline-flex: $selector-box+$__+$n-inline-flex !default;
+$modifier-box-inline-flex: $selector-box+$__+$n-inline+capitalize($n-flex) !default;
 $modifier-box-nowrap: $selector-box+$__+$n-nowrap !default;
 $modifier-box-baseline: $selector-box+$__+$n-baseline !default;
 $modifier-box-middle: $selector-box+$__+$n-middle !default;
