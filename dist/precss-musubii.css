@@ -1527,48 +1527,48 @@ iframe {
   border-color: #d1d8dc;
 }
 
-.list.is-disc, .list.is-circle, .list.is-square, .list.is-kome, .list.is-decimal {
+.el_list.el_list__disc, .el_list.el_list__circle, .el_list.el_list__square, .el_list.el_list__kome, .el_list.el_list__decimal {
   margin-left: 1.5em;
 }
 
-.list.is-disc > .item:not(:first-child), .list.is-circle > .item:not(:first-child), .list.is-square > .item:not(:first-child), .list.is-kome > .item:not(:first-child), .list.is-decimal > .item:not(:first-child) {
+.el_list.el_list__disc > .el_list_item:not(:first-child), .el_list.el_list__circle > .el_list_item:not(:first-child), .el_list.el_list__square > .el_list_item:not(:first-child), .el_list.el_list__kome > .el_list_item:not(:first-child), .el_list.el_list__decimal > .el_list_item:not(:first-child) {
   margin-top: 0.25em;
 }
 
-.list.is-disc > .item > .list, .list.is-circle > .item > .list, .list.is-square > .item > .list, .list.is-kome > .item > .list, .list.is-decimal > .item > .list {
+.el_list.el_list__disc > .el_list_item > .el_list, .el_list.el_list__circle > .el_list_item > .el_list, .el_list.el_list__square > .el_list_item > .el_list, .el_list.el_list__kome > .el_list_item > .el_list, .el_list.el_list__decimal > .el_list_item > .el_list {
   margin-top: 0.5em;
 }
 
-.list.is-disc > .item {
+.el_list.el_list__disc > .el_list_item {
   display: list-item;
   list-style: disc outside;
 }
 
-.list.is-circle > .item {
+.el_list.el_list__circle > .el_list_item {
   display: list-item;
   list-style: circle outside;
 }
 
-.list.is-square > .item {
+.el_list.el_list__square > .el_list_item {
   display: list-item;
   list-style: square outside;
 }
 
-.list.is-kome > .item {
+.el_list.el_list__kome > .el_list_item {
   display: list-item;
   list-style: "\203B" outside;
 }
 
-.list.is-decimal > .item {
+.el_list.el_list__decimal > .el_list_item {
   display: list-item;
   list-style: decimal outside;
 }
 
-.list.is-note > .item {
+.el_list.el_list__note > .el_list_item {
   display: flex;
 }
 
-.list.is-note > .item > *:not(:first-child) {
+.el_list.el_list__note > .el_list_item > *:not(:first-child) {
   margin-left: 0.25em;
 }
 

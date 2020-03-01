@@ -36,6 +36,8 @@ $n-code: "code" !default;
 $n-pre: "pre" !default;
 $n-button: "button" !default;
 $n-badge: "badge" !default;
+$n-list: "list" !default;
+$n-item: "item" !default;
 $n-input: "input" !default;
 $n-select: "select" !default;
 
@@ -124,6 +126,10 @@ $n-lowercase: "lowercase" !default;
 $n-uppercase: "uppercase" !default;
 $n-justify: "justify" !default;
 $n-break: "break" !default;
+$n-disc: "disc" !default;
+$n-kome: "kome" !default;
+$n-decimal: "decimal" !default;
+$n-note: "note" !default;
 
 // Capitalize
 @function capitalize($string) {
@@ -435,3 +441,21 @@ $modifier-badge-info: $selector-badge + $__ + $n-info !default;
 $modifier-badge-success: $selector-badge + $__ + $n-success !default;
 $modifier-badge-warning: $selector-badge + $__ + $n-warning !default;
 $modifier-badge-danger: $selector-badge + $__ + $n-danger !default;
+
+//----------------------------------------------------
+// / List
+// - Docs: https://musubii.qranoko.jp/styles/elements/list
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/elements/_list.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-list: $el_ + $n-list !default;
+$selector-list-item: $selector-list + $_ + $n-item !default;
+
+// Modifiers
+$modifier-list-disc: $selector-list + $__ + $n-disc !default;
+$modifier-list-circle: $selector-list + $__ + $n-circle !default;
+$modifier-list-square: $selector-list + $__ + $n-square !default;
+$modifier-list-kome: $selector-list + $__ + $n-kome !default;
+$modifier-list-decimal: $selector-list + $__ + $n-decimal !default;
+$modifier-list-note: $selector-list + $__ + $n-note !default;
