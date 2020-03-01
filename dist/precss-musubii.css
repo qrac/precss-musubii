@@ -2369,26 +2369,26 @@ iframe {
   border: none;
 }
 
-.iframe {
+.el_iframe {
   position: relative;
   display: block;
   width: 100%;
 }
 
-.iframe:before {
+.el_iframe:before {
   content: "";
   display: block;
 }
 
-.iframe.is-aspect-16x9:before {
+.el_iframe.el_iframe__aspect16x9:before {
   padding-top: 56.25%;
 }
 
-.iframe.is-aspect-4x3:before {
+.el_iframe.el_iframe__aspect4x3:before {
   padding-top: 75%;
 }
 
-.iframe > iframe {
+.el_iframe > iframe {
   position: absolute;
   top: 0;
   left: 0;

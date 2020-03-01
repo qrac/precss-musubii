@@ -48,6 +48,7 @@ $n-radio: "radio" !default;
 $n-checkbox: "checkbox" !default;
 $n-select: "select" !default;
 $n-fieldset: "fieldset" !default;
+$n-iframe: "iframe" !default;
 
 // Modifier Name
 $n-mobile: "mobile" !default;
@@ -89,6 +90,8 @@ $n-800: "800" !default;
 $n-900: "900" !default;
 $n-normal: "normal" !default;
 $n-strong: "strong" !default;
+$n-16x9: "16x9" !default;
+$n-4x3: "4x3" !default;
 $n-top: "top" !default;
 $n-right: "right" !default;
 $n-bottom: "bottom" !default;
@@ -147,6 +150,7 @@ $n-paint: "paint" !default;
 $n-spot: "spot" !default;
 $n-inside: "inside" !default;
 $n-multiple: "multiple" !default;
+$n-aspect: "aspect" !default;
 
 // Capitalize
 @function capitalize($string) {
@@ -536,3 +540,17 @@ $modifier-form-center: $selector-form + $__ + $n-center !default;
 $modifier-form-checked: $selector-form + $__ + $n-checked !default;
 $modifier-form-disabled: $selector-form + $__ + $n-disabled !default;
 $modifier-form-multiple: $selector-form + $__ + $n-multiple !default;
+
+//----------------------------------------------------
+// / iframe
+// - Docs: https://musubii.qranoko.jp/styles/elements/iframe
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/elements/_iframe.scss
+//----------------------------------------------------
+
+// Selectors
+$selector-iframe: $el_ + $n-iframe !default;
+//$selector-iframe-core: "iframe" !default;
+
+// Modifiers
+$modifier-iframe-aspect-16x9: $selector-iframe + $__ + $n-aspect + $n-16x9 !default;
+$modifier-iframe-aspect-4x3: $selector-iframe + $__ + $n-aspect + $n-4x3 !default;
