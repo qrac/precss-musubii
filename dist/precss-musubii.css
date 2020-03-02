@@ -2755,38 +2755,38 @@ svg.el_icon {
   display: none !important;
 }
 
-.is-xxl,
-.is-mobile-xxl {
+.hp_xxl,
+.hp_mobile_xxl {
   font-size: 200% !important;
 }
 
-.is-xl,
-.is-mobile-xl {
+.hp_xl,
+.hp_mobile_xl {
   font-size: 150% !important;
 }
 
-.is-lg,
-.is-mobile-lg {
+.hp_lg,
+.hp_mobile_lg {
   font-size: 125% !important;
 }
 
-.is-md,
-.is-mobile-md {
+.hp_md,
+.hp_mobile_md {
   font-size: 100% !important;
 }
 
-.is-sm,
-.is-mobile-sm {
+.hp_sm,
+.hp_mobile_sm {
   font-size: 87.5% !important;
 }
 
-.is-xs,
-.is-mobile-xs {
+.hp_xs,
+.hp_mobile_xs {
   font-size: 75% !important;
 }
 
-.is-xxs,
-.is-mobile-xxs {
+.hp_xxs,
+.hp_mobile_xxs {
   font-size: 62.5% !important;
 }
 
@@ -3809,25 +3809,25 @@ svg.el_icon {
   .hp_fablet_none {
     display: none !important;
   }
-  .is-fablet-xxl {
+  .hp_fablet_xxl {
     font-size: 200% !important;
   }
-  .is-fablet-xl {
+  .hp_fablet_xl {
     font-size: 150% !important;
   }
-  .is-fablet-lg {
+  .hp_fablet_lg {
     font-size: 125% !important;
   }
-  .is-fablet-md {
+  .hp_fablet_md {
     font-size: 100% !important;
   }
-  .is-fablet-sm {
+  .hp_fablet_sm {
     font-size: 87.5% !important;
   }
-  .is-fablet-xs {
+  .hp_fablet_xs {
     font-size: 75% !important;
   }
-  .is-fablet-xxs {
+  .hp_fablet_xxs {
     font-size: 62.5% !important;
   }
   .is-fablet-0 {
@@ -3928,25 +3928,25 @@ svg.el_icon {
   .hp_tablet_none {
     display: none !important;
   }
-  .is-tablet-xxl {
+  .hp_tablet_xxl {
     font-size: 200% !important;
   }
-  .is-tablet-xl {
+  .hp_tablet_xl {
     font-size: 150% !important;
   }
-  .is-tablet-lg {
+  .hp_tablet_lg {
     font-size: 125% !important;
   }
-  .is-tablet-md {
+  .hp_tablet_md {
     font-size: 100% !important;
   }
-  .is-tablet-sm {
+  .hp_tablet_sm {
     font-size: 87.5% !important;
   }
-  .is-tablet-xs {
+  .hp_tablet_xs {
     font-size: 75% !important;
   }
-  .is-tablet-xxs {
+  .hp_tablet_xxs {
     font-size: 62.5% !important;
   }
   .is-tablet-0 {
@@ -4047,25 +4047,25 @@ svg.el_icon {
   .hp_desktop_none {
     display: none !important;
   }
-  .is-desktop-xxl {
+  .hp_desktop_xxl {
     font-size: 200% !important;
   }
-  .is-desktop-xl {
+  .hp_desktop_xl {
     font-size: 150% !important;
   }
-  .is-desktop-lg {
+  .hp_desktop_lg {
     font-size: 125% !important;
   }
-  .is-desktop-md {
+  .hp_desktop_md {
     font-size: 100% !important;
   }
-  .is-desktop-sm {
+  .hp_desktop_sm {
     font-size: 87.5% !important;
   }
-  .is-desktop-xs {
+  .hp_desktop_xs {
     font-size: 75% !important;
   }
-  .is-desktop-xxs {
+  .hp_desktop_xxs {
     font-size: 62.5% !important;
   }
   .is-desktop-0 {
@@ -4166,25 +4166,25 @@ svg.el_icon {
   .hp_wide_none {
     display: none !important;
   }
-  .is-wide-xxl {
+  .hp_wide_xxl {
     font-size: 200% !important;
   }
-  .is-wide-xl {
+  .hp_wide_xl {
     font-size: 150% !important;
   }
-  .is-wide-lg {
+  .hp_wide_lg {
     font-size: 125% !important;
   }
-  .is-wide-md {
+  .hp_wide_md {
     font-size: 100% !important;
   }
-  .is-wide-sm {
+  .hp_wide_sm {
     font-size: 87.5% !important;
   }
-  .is-wide-xs {
+  .hp_wide_xs {
     font-size: 75% !important;
   }
-  .is-wide-xxs {
+  .hp_wide_xxs {
     font-size: 62.5% !important;
   }
   .is-wide-0 {

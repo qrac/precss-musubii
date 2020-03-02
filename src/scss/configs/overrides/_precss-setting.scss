@@ -792,3 +792,162 @@ $modifier-display-ie-block: $hp_ + $n-ie + $_ + $n-block !default;
 $modifier-display-ie-inline: $hp_ + $n-ie + $_ + $n-inline !default;
 $modifier-display-ie-inline-block: $hp_ + $n-ie + $_ + $n-inline + capitalize($n-block) !default;
 $modifier-display-ie-none: $hp_ + $n-ie + $_ + $n-none !default;
+
+//----------------------------------------------------
+// / Size
+// - Docs: https://musubii.qranoko.jp/styles/utilities/size
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/utilities/_size.scss
+//----------------------------------------------------
+
+// Modifiers
+$modifier-size-xxl: $hp_ + $n-xxl !default;
+$modifier-size-xl: $hp_ + $n-xl !default;
+$modifier-size-lg: $hp_ + $n-lg !default;
+$modifier-size-md: $hp_ + $n-md !default;
+$modifier-size-sm: $hp_ + $n-sm !default;
+$modifier-size-xs: $hp_ + $n-xs !default;
+$modifier-size-xxs: $hp_ + $n-xxs !default;
+
+$modifier-size-mobile-xxl: $hp_ + $n-mobile + $_ + $n-xxl !default;
+$modifier-size-mobile-xl: $hp_ + $n-mobile + $_ + $n-xl !default;
+$modifier-size-mobile-lg: $hp_ + $n-mobile + $_ + $n-lg !default;
+$modifier-size-mobile-md: $hp_ + $n-mobile + $_ + $n-md !default;
+$modifier-size-mobile-sm: $hp_ + $n-mobile + $_ + $n-sm !default;
+$modifier-size-mobile-xs: $hp_ + $n-mobile + $_ + $n-xs !default;
+$modifier-size-mobile-xxs: $hp_ + $n-mobile + $_ + $n-xxs !default;
+
+$modifier-size-fablet-xxl: $hp_ + $n-fablet + $_ + $n-xxl !default;
+$modifier-size-fablet-xl: $hp_ + $n-fablet + $_ + $n-xl !default;
+$modifier-size-fablet-lg: $hp_ + $n-fablet + $_ + $n-lg !default;
+$modifier-size-fablet-md: $hp_ + $n-fablet + $_ + $n-md !default;
+$modifier-size-fablet-sm: $hp_ + $n-fablet + $_ + $n-sm !default;
+$modifier-size-fablet-xs: $hp_ + $n-fablet + $_ + $n-xs !default;
+$modifier-size-fablet-xxs: $hp_ + $n-fablet + $_ + $n-xxs !default;
+
+$modifier-size-tablet-xxl: $hp_ + $n-tablet + $_ + $n-xxl !default;
+$modifier-size-tablet-xl: $hp_ + $n-tablet + $_ + $n-xl !default;
+$modifier-size-tablet-lg: $hp_ + $n-tablet + $_ + $n-lg !default;
+$modifier-size-tablet-md: $hp_ + $n-tablet + $_ + $n-md !default;
+$modifier-size-tablet-sm: $hp_ + $n-tablet + $_ + $n-sm !default;
+$modifier-size-tablet-xs: $hp_ + $n-tablet + $_ + $n-xs !default;
+$modifier-size-tablet-xxs: $hp_ + $n-tablet + $_ + $n-xxs !default;
+
+$modifier-size-desktop-xxl: $hp_ + $n-desktop + $_ + $n-xxl !default;
+$modifier-size-desktop-xl: $hp_ + $n-desktop + $_ + $n-xl !default;
+$modifier-size-desktop-lg: $hp_ + $n-desktop + $_ + $n-lg !default;
+$modifier-size-desktop-md: $hp_ + $n-desktop + $_ + $n-md !default;
+$modifier-size-desktop-sm: $hp_ + $n-desktop + $_ + $n-sm !default;
+$modifier-size-desktop-xs: $hp_ + $n-desktop + $_ + $n-xs !default;
+$modifier-size-desktop-xxs: $hp_ + $n-desktop + $_ + $n-xxs !default;
+
+$modifier-size-wide-xxl: $hp_ + $n-wide + $_ + $n-xxl !default;
+$modifier-size-wide-xl: $hp_ + $n-wide + $_ + $n-xl !default;
+$modifier-size-wide-lg: $hp_ + $n-wide + $_ + $n-lg !default;
+$modifier-size-wide-md: $hp_ + $n-wide + $_ + $n-md !default;
+$modifier-size-wide-sm: $hp_ + $n-wide + $_ + $n-sm !default;
+$modifier-size-wide-xs: $hp_ + $n-wide + $_ + $n-xs !default;
+$modifier-size-wide-xxs: $hp_ + $n-wide + $_ + $n-xxs !default;
+
+$modifier-size-iphone5-only-xxl: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-xxl !default;
+$modifier-size-iphone5-only-xl: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-xl !default;
+$modifier-size-iphone5-only-lg: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-lg !default;
+$modifier-size-iphone5-only-md: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-md !default;
+$modifier-size-iphone5-only-sm: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-sm !default;
+$modifier-size-iphone5-only-xs: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-xs !default;
+$modifier-size-iphone5-only-xxs: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-xxs !default;
+
+$modifier-size-mobile-only-xxl: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-xxl !default;
+$modifier-size-mobile-only-xl: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-xl !default;
+$modifier-size-mobile-only-lg: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-lg !default;
+$modifier-size-mobile-only-md: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-md !default;
+$modifier-size-mobile-only-sm: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-sm !default;
+$modifier-size-mobile-only-xs: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-xs !default;
+$modifier-size-mobile-only-xxs: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-xxs !default;
+
+$modifier-size-fablet-only-xxl: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-xxl !default;
+$modifier-size-fablet-only-xl: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-xl !default;
+$modifier-size-fablet-only-lg: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-lg !default;
+$modifier-size-fablet-only-md: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-md !default;
+$modifier-size-fablet-only-sm: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-sm !default;
+$modifier-size-fablet-only-xs: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-xs !default;
+$modifier-size-fablet-only-xxs: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-xxs !default;
+
+$modifier-size-tablet-only-xxl: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-xxl !default;
+$modifier-size-tablet-only-xl: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-xl !default;
+$modifier-size-tablet-only-lg: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-lg !default;
+$modifier-size-tablet-only-md: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-md !default;
+$modifier-size-tablet-only-sm: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-sm !default;
+$modifier-size-tablet-only-xs: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-xs !default;
+$modifier-size-tablet-only-xxs: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-xxs !default;
+
+$modifier-size-desktop-only-xxl: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-xxl !default;
+$modifier-size-desktop-only-xl: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-xl !default;
+$modifier-size-desktop-only-lg: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-lg !default;
+$modifier-size-desktop-only-md: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-md !default;
+$modifier-size-desktop-only-sm: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-sm !default;
+$modifier-size-desktop-only-xs: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-xs !default;
+$modifier-size-desktop-only-xxs: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-xxs !default;
+
+$modifier-size-landscape-xxl: $hp_ + $n-landscape + $_ + $n-xxl !default;
+$modifier-size-landscape-xl: $hp_ + $n-landscape + $_ + $n-xl !default;
+$modifier-size-landscape-lg: $hp_ + $n-landscape + $_ + $n-lg !default;
+$modifier-size-landscape-md: $hp_ + $n-landscape + $_ + $n-md !default;
+$modifier-size-landscape-sm: $hp_ + $n-landscape + $_ + $n-sm !default;
+$modifier-size-landscape-xs: $hp_ + $n-landscape + $_ + $n-xs !default;
+$modifier-size-landscape-xxs: $hp_ + $n-landscape + $_ + $n-xxs !default;
+
+$modifier-size-landscape-all-xxl: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-xxl !default;
+$modifier-size-landscape-all-xl: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-xl !default;
+$modifier-size-landscape-all-lg: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-lg !default;
+$modifier-size-landscape-all-md: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-md !default;
+$modifier-size-landscape-all-sm: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-sm !default;
+$modifier-size-landscape-all-xs: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-xs !default;
+$modifier-size-landscape-all-xxs: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-xxs !default;
+
+$modifier-size-portrait-xxl: $hp_ + $n-portrait + $_ + $n-xxl !default;
+$modifier-size-portrait-xl: $hp_ + $n-portrait + $_ + $n-xl !default;
+$modifier-size-portrait-lg: $hp_ + $n-portrait + $_ + $n-lg !default;
+$modifier-size-portrait-md: $hp_ + $n-portrait + $_ + $n-md !default;
+$modifier-size-portrait-sm: $hp_ + $n-portrait + $_ + $n-sm !default;
+$modifier-size-portrait-xs: $hp_ + $n-portrait + $_ + $n-xs !default;
+$modifier-size-portrait-xxs: $hp_ + $n-portrait + $_ + $n-xxs !default;
+
+$modifier-size-portrait-all-xxl: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-xxl !default;
+$modifier-size-portrait-all-xl: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-xl !default;
+$modifier-size-portrait-all-lg: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-lg !default;
+$modifier-size-portrait-all-md: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-md !default;
+$modifier-size-portrait-all-sm: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-sm !default;
+$modifier-size-portrait-all-xs: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-xs !default;
+$modifier-size-portrait-all-xxs: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-xxs !default;
+
+$modifier-size-chrome-xxl: $hp_ + $n-chrome + $_ + $n-xxl !default;
+$modifier-size-chrome-xl: $hp_ + $n-chrome + $_ + $n-xl !default;
+$modifier-size-chrome-lg: $hp_ + $n-chrome + $_ + $n-lg !default;
+$modifier-size-chrome-md: $hp_ + $n-chrome + $_ + $n-md !default;
+$modifier-size-chrome-sm: $hp_ + $n-chrome + $_ + $n-sm !default;
+$modifier-size-chrome-xs: $hp_ + $n-chrome + $_ + $n-xs !default;
+$modifier-size-chrome-xxs: $hp_ + $n-chrome + $_ + $n-xxs !default;
+
+$modifier-size-firefox-xxl: $hp_ + $n-firefox + $_ + $n-xxl !default;
+$modifier-size-firefox-xl: $hp_ + $n-firefox + $_ + $n-xl !default;
+$modifier-size-firefox-lg: $hp_ + $n-firefox + $_ + $n-lg !default;
+$modifier-size-firefox-md: $hp_ + $n-firefox + $_ + $n-md !default;
+$modifier-size-firefox-sm: $hp_ + $n-firefox + $_ + $n-sm !default;
+$modifier-size-firefox-xs: $hp_ + $n-firefox + $_ + $n-xs !default;
+$modifier-size-firefox-xxs: $hp_ + $n-firefox + $_ + $n-xxs !default;
+
+$modifier-size-edge-xxl: $hp_ + $n-edge + $_ + $n-xxl !default;
+$modifier-size-edge-xl: $hp_ + $n-edge + $_ + $n-xl !default;
+$modifier-size-edge-lg: $hp_ + $n-edge + $_ + $n-lg !default;
+$modifier-size-edge-md: $hp_ + $n-edge + $_ + $n-md !default;
+$modifier-size-edge-sm: $hp_ + $n-edge + $_ + $n-sm !default;
+$modifier-size-edge-xs: $hp_ + $n-edge + $_ + $n-xs !default;
+$modifier-size-edge-xxs: $hp_ + $n-edge + $_ + $n-xxs !default;
+
+$modifier-size-ie-xxl: $hp_ + $n-ie + $_ + $n-xxl !default;
+$modifier-size-ie-xl: $hp_ + $n-ie + $_ + $n-xl !default;
+$modifier-size-ie-lg: $hp_ + $n-ie + $_ + $n-lg !default;
+$modifier-size-ie-md: $hp_ + $n-ie + $_ + $n-md !default;
+$modifier-size-ie-sm: $hp_ + $n-ie + $_ + $n-sm !default;
+$modifier-size-ie-xs: $hp_ + $n-ie + $_ + $n-xs !default;
+$modifier-size-ie-xxs: $hp_ + $n-ie + $_ + $n-xxs !default;
