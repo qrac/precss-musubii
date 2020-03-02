@@ -103,6 +103,9 @@ $n-800: "800" !default;
 $n-900: "900" !default;
 $n-normal: "normal" !default;
 $n-strong: "strong" !default;
+$n-auto: "auto" !default;
+$n-full: "full" !default;
+$n-grow: "grow" !default;
 $n-16x9: "16x9" !default;
 $n-4x3: "4x3" !default;
 $n-top: "top" !default;
@@ -951,3 +954,35 @@ $modifier-size-ie-md: $hp_ + $n-ie + $_ + $n-md !default;
 $modifier-size-ie-sm: $hp_ + $n-ie + $_ + $n-sm !default;
 $modifier-size-ie-xs: $hp_ + $n-ie + $_ + $n-xs !default;
 $modifier-size-ie-xxs: $hp_ + $n-ie + $_ + $n-xxs !default;
+
+//----------------------------------------------------
+// / Size
+// - Docs: https://musubii.qranoko.jp/styles/utilities/size
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/utilities/_size.scss
+//----------------------------------------------------
+
+// Modifiers
+$modifier-flex: $hp_ + $n-flex !default;
+$modifier-flex-mobile: $hp_ + $n-flex + $_ + $n-mobile !default;
+$modifier-flex-fablet: $hp_ + $n-flex + $_ + $n-fablet !default;
+$modifier-flex-tablet: $hp_ + $n-flex + $_ + $n-tablet !default;
+$modifier-flex-desktop: $hp_ + $n-flex + $_ + $n-desktop !default;
+$modifier-flex-wide: $hp_ + $n-flex + $_ + $n-wide !default;
+$modifier-flex-iphone5-only: $hp_ + $n-flex + $_ + $n-iphone5 + $_ + $n-only !default;
+$modifier-flex-mobile-only: $hp_ + $n-flex + $_ + $n-mobile + $_ + $n-only !default;
+$modifier-flex-fablet-only: $hp_ + $n-flex + $_ + $n-fablet + $_ + $n-only !default;
+$modifier-flex-tablet-only: $hp_ + $n-flex + $_ + $n-mobile + $_ + $n-only !default;
+$modifier-flex-desktop-only: $hp_ + $n-flex + $_ + $n-desktop + $_ + $n-only !default;
+$modifier-flex-landscape: $hp_ + $n-flex + $_ + $n-landscape !default;
+$modifier-flex-landscape-all: $hp_ + $n-flex + $_ + $n-landscape + $_ + $n-all !default;
+$modifier-flex-portrait: $hp_ + $n-flex + $_ + $n-portrait !default;
+$modifier-flex-portrait-all: $hp_ + $n-flex + $_ + $n-portrait + $_ + $n-all !default;
+$modifier-flex-chrome: $hp_ + $n-flex + $_ + $n-chrome !default;
+$modifier-flex-firefox: $hp_ + $n-flex + $_ + $n-firefox !default;
+$modifier-flex-edge: $hp_ + $n-flex + $_ + $n-edge !default;
+$modifier-flex-ie: $hp_ + $n-flex + $_ + $n-ie !default;
+
+// Suffix
+$suffix-flex-grow: $_ + $n-grow !default;
+$suffix-flex-full: $_ + $n-full !default;
+$suffix-flex-auto: $_ + $n-auto !default;
