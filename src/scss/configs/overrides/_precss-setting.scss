@@ -124,6 +124,9 @@ $n-none: "none" !default;
 $n-inline: "inline" !default;
 $n-flex: "flex" !default;
 $n-height: "height" !default;
+$n-space: "space" !default;
+$n-margin: "margin" !default;
+$n-padding: "padding" !default;
 $n-bg: "bg" !default;
 $n-plain: "plain" !default;
 $n-melt: "melt" !default;
@@ -171,6 +174,13 @@ $n-multiple: "multiple" !default;
 $n-aspect: "aspect" !default;
 $n-fit: "fit" !default;
 $n-tail: "tail" !default;
+$n-overflow: "overflow" !default;
+$n-hidden: "hidden" !default;
+$n-scroll: "scroll" !default;
+$n-x: "x" !default;
+$n-y: "y" !default;
+$n-ellipsis: "ellipsis" !default;
+$n-clearfix: "clearfix" !default;
 
 // Capitalize
 @function capitalize($string) {
@@ -987,3 +997,55 @@ $suffix-flex-pipe: "" !default;
 $suffix-flex-grow: $_ + $n-grow !default;
 $suffix-flex-full: $_ + $n-full !default;
 $suffix-flex-auto: $_ + $n-auto !default;
+
+//----------------------------------------------------
+// / Space
+// - Docs: https://musubii.qranoko.jp/styles/utilities/space
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/utilities/_space.scss
+//----------------------------------------------------
+
+// Modifiers
+$modifier-space: $hp_ + $n-space !default;
+$modifier-space-xxl: $hp_ + $n-space + $_ + $n-xxl !default;
+$modifier-space-xl: $hp_ + $n-space + $_ + $n-xl !default;
+$modifier-space-lg: $hp_ + $n-space + $_ + $n-lg !default;
+$modifier-space-md: $hp_ + $n-space + $_ + $n-md !default;
+$modifier-space-sm: $hp_ + $n-space + $_ + $n-sm !default;
+$modifier-space-xs: $hp_ + $n-space + $_ + $n-xs !default;
+$modifier-space-xxs: $hp_ + $n-space + $_ + $n-xxs !default;
+
+$modifier-space-top: $hp_ + $n-space + $_ + $n-top !default;
+$modifier-space-top-xxl: $hp_ + $n-space + $_ + $n-top + $_ + $n-xxl !default;
+$modifier-space-top-xl: $hp_ + $n-space + $_ + $n-top + $_ + $n-xl !default;
+$modifier-space-top-lg: $hp_ + $n-space + $_ + $n-top + $_ + $n-lg !default;
+$modifier-space-top-md: $hp_ + $n-space + $_ + $n-top + $_ + $n-md !default;
+$modifier-space-top-sm: $hp_ + $n-space + $_ + $n-top + $_ + $n-sm !default;
+$modifier-space-top-xs: $hp_ + $n-space + $_ + $n-top + $_ + $n-xs !default;
+$modifier-space-top-xxs: $hp_ + $n-space + $_ + $n-top + $_ + $n-xxs !default;
+
+$modifier-space-right: $hp_ + $n-space + $_ + $n-right !default;
+$modifier-space-right-xxl: $hp_ + $n-space + $_ + $n-right + $_ + $n-xxl !default;
+$modifier-space-right-xl: $hp_ + $n-space + $_ + $n-right + $_ + $n-xl !default;
+$modifier-space-right-lg: $hp_ + $n-space + $_ + $n-right + $_ + $n-lg !default;
+$modifier-space-right-md: $hp_ + $n-space + $_ + $n-right + $_ + $n-md !default;
+$modifier-space-right-sm: $hp_ + $n-space + $_ + $n-right + $_ + $n-sm !default;
+$modifier-space-right-xs: $hp_ + $n-space + $_ + $n-right + $_ + $n-xs !default;
+$modifier-space-right-xxs: $hp_ + $n-space + $_ + $n-right + $_ + $n-xxs !default;
+
+$modifier-space-bottom: $hp_ + $n-space + $_ + $n-bottom !default;
+$modifier-space-bottom-xxl: $hp_ + $n-space + $_ + $n-bottom + $_ + $n-xxl !default;
+$modifier-space-bottom-xl: $hp_ + $n-space + $_ + $n-bottom + $_ + $n-xl !default;
+$modifier-space-bottom-lg: $hp_ + $n-space + $_ + $n-bottom + $_ + $n-lg !default;
+$modifier-space-bottom-md: $hp_ + $n-space + $_ + $n-bottom + $_ + $n-md !default;
+$modifier-space-bottom-sm: $hp_ + $n-space + $_ + $n-bottom + $_ + $n-sm !default;
+$modifier-space-bottom-xs: $hp_ + $n-space + $_ + $n-bottom + $_ + $n-xs !default;
+$modifier-space-bottom-xxs: $hp_ + $n-space + $_ + $n-bottom + $_ + $n-xxs !default;
+
+$modifier-space-left: $hp_ + $n-space + $_ + $n-left !default;
+$modifier-space-left-xxl: $hp_ + $n-space + $_ + $n-left + $_ + $n-xxl !default;
+$modifier-space-left-xl: $hp_ + $n-space + $_ + $n-left + $_ + $n-xl !default;
+$modifier-space-left-lg: $hp_ + $n-space + $_ + $n-left + $_ + $n-lg !default;
+$modifier-space-left-md: $hp_ + $n-space + $_ + $n-left + $_ + $n-md !default;
+$modifier-space-left-sm: $hp_ + $n-space + $_ + $n-left + $_ + $n-sm !default;
+$modifier-space-left-xs: $hp_ + $n-space + $_ + $n-left + $_ + $n-xs !default;
+$modifier-space-left-xxs: $hp_ + $n-space + $_ + $n-left + $_ + $n-xxs !default;
