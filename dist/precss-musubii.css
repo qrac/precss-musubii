@@ -3767,7 +3767,7 @@ svg.el_icon {
   text-overflow: ellipsis !important;
 }
 
-.is-clearfix:after {
+.hp_clearfix:after {
   content: "" !important;
   display: block !important;
   clear: both !important;

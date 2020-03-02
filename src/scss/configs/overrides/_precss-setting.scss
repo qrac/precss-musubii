@@ -1278,3 +1278,12 @@ $modifier-overflow-hidden: $hp_ + $n-overflow + $_ + $n-hidden !default;
 $modifier-overflow-scroll-x: $hp_ + $n-overflow + $_ + $n-scroll + capitalize($n-x) !default;
 $modifier-overflow-scroll-y: $hp_ + $n-overflow + $_ + $n-scroll + capitalize($n-y) !default;
 $modifier-overflow-ellipsis: $hp_ + $n-overflow + $_ + $n-ellipsis !default;
+
+//----------------------------------------------------
+// / Clearfix
+// - Docs: https://musubii.qranoko.jp/styles/utilities/clearfix
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/utilities/_clearfix.scss
+//----------------------------------------------------
+
+// Modifiers
+$modifier-clearfix: $hp_ + $n-clearfix !default;
