@@ -1266,3 +1266,15 @@ $modifier-padding-bottom-safe: $hp_ + $n-padding + $_ + $n-bottom + $_ + $n-safe
 $modifier-padding-left-safe: $hp_ + $n-padding + $_ + $n-left + $_ + $n-safe !default;
 $modifier-padding-vertical-safe: $hp_ + $n-padding + $_ + $n-vertical + $_ + $n-safe !default;
 $modifier-padding-horizontal-safe: $hp_ + $n-padding + $_ + $n-horizontal + $_ + $n-safe !default;
+
+//----------------------------------------------------
+// / Overflow
+// - Docs: https://musubii.qranoko.jp/styles/utilities/overflow
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/utilities/_overflow.scss
+//----------------------------------------------------
+
+// Modifiers
+$modifier-overflow-hidden: $hp_ + $n-overflow + $_ + $n-hidden !default;
+$modifier-overflow-scroll-x: $hp_ + $n-overflow + $_ + $n-scroll + capitalize($n-x) !default;
+$modifier-overflow-scroll-y: $hp_ + $n-overflow + $_ + $n-scroll + capitalize($n-y) !default;
+$modifier-overflow-ellipsis: $hp_ + $n-overflow + $_ + $n-ellipsis !default;

@@ -3745,23 +3745,23 @@ svg.el_icon {
   padding-left: env(safe-area-inset-left);
 }
 
-.is-overflow-hidden {
+.hp_overflow_hidden {
   overflow: hidden !important;
 }
 
-.is-overflow-scroll-x {
+.hp_overflow_scrollX {
   overflow: hidden !important;
   overflow-x: auto !important;
   -webkit-overflow-scrolling: touch !important;
 }
 
-.is-overflow-scroll-y {
+.hp_overflow_scrollY {
   overflow: hidden !important;
   overflow-y: auto !important;
   -webkit-overflow-scrolling: touch !important;
 }
 
-.is-overflow-ellipsis {
+.hp_overflow_ellipsis {
   white-space: nowrap !important;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
