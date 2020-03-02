@@ -2791,102 +2791,102 @@ svg.el_icon {
 }
 
 .hp_flex_grow,
-.hp_flex_mobile_grow {
+.hp_mobile_flex_grow {
   flex: 1 0 !important;
 }
 
 .hp_flex1,
-.hp_flex_mobile1 {
+.hp_mobile_flex1 {
   flex: 0 0 8.33333% !important;
   width: 8.33333% !important;
   max-width: 8.33333% !important;
 }
 
 .hp_flex2,
-.hp_flex_mobile2 {
+.hp_mobile_flex2 {
   flex: 0 0 16.66667% !important;
   width: 16.66667% !important;
   max-width: 16.66667% !important;
 }
 
 .hp_flex3,
-.hp_flex_mobile3 {
+.hp_mobile_flex3 {
   flex: 0 0 25% !important;
   width: 25% !important;
   max-width: 25% !important;
 }
 
 .hp_flex4,
-.hp_flex_mobile4 {
+.hp_mobile_flex4 {
   flex: 0 0 33.33333% !important;
   width: 33.33333% !important;
   max-width: 33.33333% !important;
 }
 
 .hp_flex5,
-.hp_flex_mobile5 {
+.hp_mobile_flex5 {
   flex: 0 0 41.66667% !important;
   width: 41.66667% !important;
   max-width: 41.66667% !important;
 }
 
 .hp_flex6,
-.hp_flex_mobile6 {
+.hp_mobile_flex6 {
   flex: 0 0 50% !important;
   width: 50% !important;
   max-width: 50% !important;
 }
 
 .hp_flex7,
-.hp_flex_mobile7 {
+.hp_mobile_flex7 {
   flex: 0 0 58.33333% !important;
   width: 58.33333% !important;
   max-width: 58.33333% !important;
 }
 
 .hp_flex8,
-.hp_flex_mobile8 {
+.hp_mobile_flex8 {
   flex: 0 0 66.66667% !important;
   width: 66.66667% !important;
   max-width: 66.66667% !important;
 }
 
 .hp_flex9,
-.hp_flex_mobile9 {
+.hp_mobile_flex9 {
   flex: 0 0 75% !important;
   width: 75% !important;
   max-width: 75% !important;
 }
 
 .hp_flex10,
-.hp_flex_mobile10 {
+.hp_mobile_flex10 {
   flex: 0 0 83.33333% !important;
   width: 83.33333% !important;
   max-width: 83.33333% !important;
 }
 
 .hp_flex11,
-.hp_flex_mobile11 {
+.hp_mobile_flex11 {
   flex: 0 0 91.66667% !important;
   width: 91.66667% !important;
   max-width: 91.66667% !important;
 }
 
 .hp_flex12,
-.hp_flex_mobile12 {
+.hp_mobile_flex12 {
   flex: 0 0 100% !important;
   width: 100% !important;
   max-width: 100% !important;
 }
 
 .hp_flex_full,
-.hp_flex_mobile_full {
+.hp_mobile_flex_full {
   flex: 0 1 100% !important;
   width: 100% !important;
 }
 
 .hp_flex_auto,
-.hp_flex_mobile_auto {
+.hp_mobile_flex_auto {
   flex: 0 1 auto !important;
   width: auto !important;
 }
@@ -3830,74 +3830,74 @@ svg.el_icon {
   .hp_fablet_xxs {
     font-size: 62.5% !important;
   }
-  .hp_flex_fablet_grow {
+  .hp_fablet_flex_grow {
     flex: 1 0 !important;
   }
-  .hp_flex_fablet1 {
+  .hp_fablet_flex1 {
     flex: 0 0 8.33333% !important;
     width: 8.33333% !important;
     max-width: 8.33333% !important;
   }
-  .hp_flex_fablet2 {
+  .hp_fablet_flex2 {
     flex: 0 0 16.66667% !important;
     width: 16.66667% !important;
     max-width: 16.66667% !important;
   }
-  .hp_flex_fablet3 {
+  .hp_fablet_flex3 {
     flex: 0 0 25% !important;
     width: 25% !important;
     max-width: 25% !important;
   }
-  .hp_flex_fablet4 {
+  .hp_fablet_flex4 {
     flex: 0 0 33.33333% !important;
     width: 33.33333% !important;
     max-width: 33.33333% !important;
   }
-  .hp_flex_fablet5 {
+  .hp_fablet_flex5 {
     flex: 0 0 41.66667% !important;
     width: 41.66667% !important;
     max-width: 41.66667% !important;
   }
-  .hp_flex_fablet6 {
+  .hp_fablet_flex6 {
     flex: 0 0 50% !important;
     width: 50% !important;
     max-width: 50% !important;
   }
-  .hp_flex_fablet7 {
+  .hp_fablet_flex7 {
     flex: 0 0 58.33333% !important;
     width: 58.33333% !important;
     max-width: 58.33333% !important;
   }
-  .hp_flex_fablet8 {
+  .hp_fablet_flex8 {
     flex: 0 0 66.66667% !important;
     width: 66.66667% !important;
     max-width: 66.66667% !important;
   }
-  .hp_flex_fablet9 {
+  .hp_fablet_flex9 {
     flex: 0 0 75% !important;
     width: 75% !important;
     max-width: 75% !important;
   }
-  .hp_flex_fablet10 {
+  .hp_fablet_flex10 {
     flex: 0 0 83.33333% !important;
     width: 83.33333% !important;
     max-width: 83.33333% !important;
   }
-  .hp_flex_fablet11 {
+  .hp_fablet_flex11 {
     flex: 0 0 91.66667% !important;
     width: 91.66667% !important;
     max-width: 91.66667% !important;
   }
-  .hp_flex_fablet12 {
+  .hp_fablet_flex12 {
     flex: 0 0 100% !important;
     width: 100% !important;
     max-width: 100% !important;
   }
-  .hp_flex_fablet_full {
+  .hp_fablet_flex_full {
     flex: 0 1 100% !important;
     width: 100% !important;
   }
-  .hp_flex_fablet_auto {
+  .hp_fablet_flex_auto {
     flex: 0 1 auto !important;
     width: auto !important;
   }
@@ -3949,74 +3949,74 @@ svg.el_icon {
   .hp_tablet_xxs {
     font-size: 62.5% !important;
   }
-  .hp_flex_tablet_grow {
+  .hp_tablet_flex_grow {
     flex: 1 0 !important;
   }
-  .hp_flex_tablet1 {
+  .hp_tablet_flex1 {
     flex: 0 0 8.33333% !important;
     width: 8.33333% !important;
     max-width: 8.33333% !important;
   }
-  .hp_flex_tablet2 {
+  .hp_tablet_flex2 {
     flex: 0 0 16.66667% !important;
     width: 16.66667% !important;
     max-width: 16.66667% !important;
   }
-  .hp_flex_tablet3 {
+  .hp_tablet_flex3 {
     flex: 0 0 25% !important;
     width: 25% !important;
     max-width: 25% !important;
   }
-  .hp_flex_tablet4 {
+  .hp_tablet_flex4 {
     flex: 0 0 33.33333% !important;
     width: 33.33333% !important;
     max-width: 33.33333% !important;
   }
-  .hp_flex_tablet5 {
+  .hp_tablet_flex5 {
     flex: 0 0 41.66667% !important;
     width: 41.66667% !important;
     max-width: 41.66667% !important;
   }
-  .hp_flex_tablet6 {
+  .hp_tablet_flex6 {
     flex: 0 0 50% !important;
     width: 50% !important;
     max-width: 50% !important;
   }
-  .hp_flex_tablet7 {
+  .hp_tablet_flex7 {
     flex: 0 0 58.33333% !important;
     width: 58.33333% !important;
     max-width: 58.33333% !important;
   }
-  .hp_flex_tablet8 {
+  .hp_tablet_flex8 {
     flex: 0 0 66.66667% !important;
     width: 66.66667% !important;
     max-width: 66.66667% !important;
   }
-  .hp_flex_tablet9 {
+  .hp_tablet_flex9 {
     flex: 0 0 75% !important;
     width: 75% !important;
     max-width: 75% !important;
   }
-  .hp_flex_tablet10 {
+  .hp_tablet_flex10 {
     flex: 0 0 83.33333% !important;
     width: 83.33333% !important;
     max-width: 83.33333% !important;
   }
-  .hp_flex_tablet11 {
+  .hp_tablet_flex11 {
     flex: 0 0 91.66667% !important;
     width: 91.66667% !important;
     max-width: 91.66667% !important;
   }
-  .hp_flex_tablet12 {
+  .hp_tablet_flex12 {
     flex: 0 0 100% !important;
     width: 100% !important;
     max-width: 100% !important;
   }
-  .hp_flex_tablet_full {
+  .hp_tablet_flex_full {
     flex: 0 1 100% !important;
     width: 100% !important;
   }
-  .hp_flex_tablet_auto {
+  .hp_tablet_flex_auto {
     flex: 0 1 auto !important;
     width: auto !important;
   }
@@ -4068,74 +4068,74 @@ svg.el_icon {
   .hp_desktop_xxs {
     font-size: 62.5% !important;
   }
-  .hp_flex_desktop_grow {
+  .hp_desktop_flex_grow {
     flex: 1 0 !important;
   }
-  .hp_flex_desktop1 {
+  .hp_desktop_flex1 {
     flex: 0 0 8.33333% !important;
     width: 8.33333% !important;
     max-width: 8.33333% !important;
   }
-  .hp_flex_desktop2 {
+  .hp_desktop_flex2 {
     flex: 0 0 16.66667% !important;
     width: 16.66667% !important;
     max-width: 16.66667% !important;
   }
-  .hp_flex_desktop3 {
+  .hp_desktop_flex3 {
     flex: 0 0 25% !important;
     width: 25% !important;
     max-width: 25% !important;
   }
-  .hp_flex_desktop4 {
+  .hp_desktop_flex4 {
     flex: 0 0 33.33333% !important;
     width: 33.33333% !important;
     max-width: 33.33333% !important;
   }
-  .hp_flex_desktop5 {
+  .hp_desktop_flex5 {
     flex: 0 0 41.66667% !important;
     width: 41.66667% !important;
     max-width: 41.66667% !important;
   }
-  .hp_flex_desktop6 {
+  .hp_desktop_flex6 {
     flex: 0 0 50% !important;
     width: 50% !important;
     max-width: 50% !important;
   }
-  .hp_flex_desktop7 {
+  .hp_desktop_flex7 {
     flex: 0 0 58.33333% !important;
     width: 58.33333% !important;
     max-width: 58.33333% !important;
   }
-  .hp_flex_desktop8 {
+  .hp_desktop_flex8 {
     flex: 0 0 66.66667% !important;
     width: 66.66667% !important;
     max-width: 66.66667% !important;
   }
-  .hp_flex_desktop9 {
+  .hp_desktop_flex9 {
     flex: 0 0 75% !important;
     width: 75% !important;
     max-width: 75% !important;
   }
-  .hp_flex_desktop10 {
+  .hp_desktop_flex10 {
     flex: 0 0 83.33333% !important;
     width: 83.33333% !important;
     max-width: 83.33333% !important;
   }
-  .hp_flex_desktop11 {
+  .hp_desktop_flex11 {
     flex: 0 0 91.66667% !important;
     width: 91.66667% !important;
     max-width: 91.66667% !important;
   }
-  .hp_flex_desktop12 {
+  .hp_desktop_flex12 {
     flex: 0 0 100% !important;
     width: 100% !important;
     max-width: 100% !important;
   }
-  .hp_flex_desktop_full {
+  .hp_desktop_flex_full {
     flex: 0 1 100% !important;
     width: 100% !important;
   }
-  .hp_flex_desktop_auto {
+  .hp_desktop_flex_auto {
     flex: 0 1 auto !important;
     width: auto !important;
   }
@@ -4187,74 +4187,74 @@ svg.el_icon {
   .hp_wide_xxs {
     font-size: 62.5% !important;
   }
-  .hp_flex_wide_grow {
+  .hp_wide_flex_grow {
     flex: 1 0 !important;
   }
-  .hp_flex_wide1 {
+  .hp_wide_flex1 {
     flex: 0 0 8.33333% !important;
     width: 8.33333% !important;
     max-width: 8.33333% !important;
   }
-  .hp_flex_wide2 {
+  .hp_wide_flex2 {
     flex: 0 0 16.66667% !important;
     width: 16.66667% !important;
     max-width: 16.66667% !important;
   }
-  .hp_flex_wide3 {
+  .hp_wide_flex3 {
     flex: 0 0 25% !important;
     width: 25% !important;
     max-width: 25% !important;
   }
-  .hp_flex_wide4 {
+  .hp_wide_flex4 {
     flex: 0 0 33.33333% !important;
     width: 33.33333% !important;
     max-width: 33.33333% !important;
   }
-  .hp_flex_wide5 {
+  .hp_wide_flex5 {
     flex: 0 0 41.66667% !important;
     width: 41.66667% !important;
     max-width: 41.66667% !important;
   }
-  .hp_flex_wide6 {
+  .hp_wide_flex6 {
     flex: 0 0 50% !important;
     width: 50% !important;
     max-width: 50% !important;
   }
-  .hp_flex_wide7 {
+  .hp_wide_flex7 {
     flex: 0 0 58.33333% !important;
     width: 58.33333% !important;
     max-width: 58.33333% !important;
   }
-  .hp_flex_wide8 {
+  .hp_wide_flex8 {
     flex: 0 0 66.66667% !important;
     width: 66.66667% !important;
     max-width: 66.66667% !important;
   }
-  .hp_flex_wide9 {
+  .hp_wide_flex9 {
     flex: 0 0 75% !important;
     width: 75% !important;
     max-width: 75% !important;
   }
-  .hp_flex_wide10 {
+  .hp_wide_flex10 {
     flex: 0 0 83.33333% !important;
     width: 83.33333% !important;
     max-width: 83.33333% !important;
   }
-  .hp_flex_wide11 {
+  .hp_wide_flex11 {
     flex: 0 0 91.66667% !important;
     width: 91.66667% !important;
     max-width: 91.66667% !important;
   }
-  .hp_flex_wide12 {
+  .hp_wide_flex12 {
     flex: 0 0 100% !important;
     width: 100% !important;
     max-width: 100% !important;
   }
-  .hp_flex_wide_full {
+  .hp_wide_flex_full {
     flex: 0 1 100% !important;
     width: 100% !important;
   }
-  .hp_flex_wide_auto {
+  .hp_wide_flex_auto {
     flex: 0 1 auto !important;
     width: auto !important;
   }
