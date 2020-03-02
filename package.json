@@ -14,8 +14,8 @@
     "framework",
     "japanese",
     "precss",
-    "precss-musubii",
-    "musubii"
+    "musubii",
+    "precss-musubii"
   ],
   "author": {
     "name": "Qrac",
@@ -45,13 +45,21 @@
     "musubii": "^7.0.1"
   },
   "devDependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "autoprefixer": "^9.7.4",
+    "babel-plugin-root-import": "^6.4.1",
     "clean-css-cli": "^4.3.0",
     "concat": "^1.0.3",
+    "highlight.js": "^9.18.1",
+    "next": "^9.2.2",
+    "next-compose-plugins": "^2.2.0",
     "node-sass": "^4.13.1",
     "postcss-cli": "^7.1.0",
     "postcss-flexbugs-fixes": "^4.2.0",
     "postcss-sort-media-queries": "^1.31.21",
+    "react": "^16.13.0",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.13.0",
     "replace": "^1.1.5"
   }
 }
