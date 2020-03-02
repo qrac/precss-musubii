@@ -3483,224 +3483,224 @@ svg.el_icon {
   margin-left: auto !important;
 }
 
-.is-padding-xxl {
+.hp_padding_xxl {
   padding: 28px !important;
 }
 
-.is-padding-xl {
+.hp_padding_xl {
   padding: 24px !important;
 }
 
-.is-padding-lg {
+.hp_padding_lg {
   padding: 20px !important;
 }
 
-.is-padding,
-.is-padding-md {
+.hp_padding,
+.hp_padding_md {
   padding: 16px !important;
 }
 
-.is-padding-sm {
+.hp_padding_sm {
   padding: 12px !important;
 }
 
-.is-padding-xs {
+.hp_padding_xs {
   padding: 8px !important;
 }
 
-.is-padding-xxs {
+.hp_padding_xxs {
   padding: 4px !important;
 }
 
-.is-padding-top-xxl {
+.hp_padding_top_xxl {
   padding-top: 28px !important;
 }
 
-.is-padding-top-xl {
+.hp_padding_top_xl {
   padding-top: 24px !important;
 }
 
-.is-padding-top-lg {
+.hp_padding_top_lg {
   padding-top: 20px !important;
 }
 
-.is-padding-top,
-.is-padding-top-md {
+.hp_padding_top,
+.hp_padding_top_md {
   padding-top: 16px !important;
 }
 
-.is-padding-top-sm {
+.hp_padding_top_sm {
   padding-top: 12px !important;
 }
 
-.is-padding-top-xs {
+.hp_padding_top_xs {
   padding-top: 8px !important;
 }
 
-.is-padding-top-xxs {
+.hp_padding_top_xxs {
   padding-top: 4px !important;
 }
 
-.is-padding-right-xxl {
+.hp_padding_right_xxl {
   padding-right: 28px !important;
 }
 
-.is-padding-right-xl {
+.hp_padding_right_xl {
   padding-right: 24px !important;
 }
 
-.is-padding-right-lg {
+.hp_padding_right_lg {
   padding-right: 20px !important;
 }
 
-.is-padding-right,
-.is-padding-right-md {
+.hp_padding_right,
+.hp_padding_right_md {
   padding-right: 16px !important;
 }
 
-.is-padding-right-sm {
+.hp_padding_right_sm {
   padding-right: 12px !important;
 }
 
-.is-padding-right-xs {
+.hp_padding_right_xs {
   padding-right: 8px !important;
 }
 
-.is-padding-right-xxs {
+.hp_padding_right_xxs {
   padding-right: 4px !important;
 }
 
-.is-padding-bottom-xxl {
+.hp_padding_bottom_xxl {
   padding-bottom: 28px !important;
 }
 
-.is-padding-bottom-xl {
+.hp_padding_bottom_xl {
   padding-bottom: 24px !important;
 }
 
-.is-padding-bottom-lg {
+.hp_padding_bottom_lg {
   padding-bottom: 20px !important;
 }
 
-.is-padding-bottom,
-.is-padding-bottom-md {
+.hp_padding_bottom,
+.hp_padding_bottom_md {
   padding-bottom: 16px !important;
 }
 
-.is-padding-bottom-sm {
+.hp_padding_bottom_sm {
   padding-bottom: 12px !important;
 }
 
-.is-padding-bottom-xs {
+.hp_padding_bottom_xs {
   padding-bottom: 8px !important;
 }
 
-.is-padding-bottom-xxs {
+.hp_padding_bottom_xxs {
   padding-bottom: 4px !important;
 }
 
-.is-padding-left-xxl {
+.hp_padding_left_xxl {
   padding-left: 28px !important;
 }
 
-.is-padding-left-xl {
+.hp_padding_left_xl {
   padding-left: 24px !important;
 }
 
-.is-padding-left-lg {
+.hp_padding_left_lg {
   padding-left: 20px !important;
 }
 
-.is-padding-left,
-.is-padding-left-md {
+.hp_padding_left,
+.hp_padding_left_md {
   padding-left: 16px !important;
 }
 
-.is-padding-left-sm {
+.hp_padding_left_sm {
   padding-left: 12px !important;
 }
 
-.is-padding-left-xs {
+.hp_padding_left_xs {
   padding-left: 8px !important;
 }
 
-.is-padding-left-xxs {
+.hp_padding_left_xxs {
   padding-left: 4px !important;
 }
 
-.is-padding-vertical-xxl {
+.hp_padding_vertical_xxl {
   padding-top: 28px !important;
   padding-bottom: 28px !important;
 }
 
-.is-padding-vertical-xl {
+.hp_padding_vertical_xl {
   padding-top: 24px !important;
   padding-bottom: 24px !important;
 }
 
-.is-padding-vertical-lg {
+.hp_padding_vertical_lg {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
 }
 
-.is-padding-vertical,
-.is-padding-vertical-md {
+.hp_padding_vertical,
+.hp_padding_vertical_md {
   padding-top: 16px !important;
   padding-bottom: 16px !important;
 }
 
-.is-padding-vertical-sm {
+.hp_padding_vertical_sm {
   padding-top: 12px !important;
   padding-bottom: 12px !important;
 }
 
-.is-padding-vertical-xs {
+.hp_padding_vertical_xs {
   padding-top: 8px !important;
   padding-bottom: 8px !important;
 }
 
-.is-padding-vertical-xxs {
+.hp_padding_vertical_xxs {
   padding-top: 4px !important;
   padding-bottom: 4px !important;
 }
 
-.is-padding-horizontal-xxl {
+.hp_padding_horizontal_xxl {
   padding-right: 28px !important;
   padding-left: 28px !important;
 }
 
-.is-padding-horizontal-xl {
+.hp_padding_horizontal_xl {
   padding-right: 24px !important;
   padding-left: 24px !important;
 }
 
-.is-padding-horizontal-lg {
+.hp_padding_horizontal_lg {
   padding-right: 20px !important;
   padding-left: 20px !important;
 }
 
-.is-padding-horizontal,
-.is-padding-horizontal-md {
+.hp_padding_horizontal,
+.hp_padding_horizontal_md {
   padding-right: 16px !important;
   padding-left: 16px !important;
 }
 
-.is-padding-horizontal-sm {
+.hp_padding_horizontal_sm {
   padding-right: 12px !important;
   padding-left: 12px !important;
 }
 
-.is-padding-horizontal-xs {
+.hp_padding_horizontal_xs {
   padding-right: 8px !important;
   padding-left: 8px !important;
 }
 
-.is-padding-horizontal-xxs {
+.hp_padding_horizontal_xxs {
   padding-right: 4px !important;
   padding-left: 4px !important;
 }
 
-.is-padding-safe {
+.hp_padding_safe {
   padding-top: constant(safe-area-inset-top);
   padding-top: env(safe-area-inset-top);
   padding-right: constant(safe-area-inset-right);
@@ -3711,34 +3711,34 @@ svg.el_icon {
   padding-left: env(safe-area-inset-left);
 }
 
-.is-padding-top-safe {
+.hp_padding_top_safe {
   padding-top: constant(safe-area-inset-top);
   padding-top: env(safe-area-inset-top);
 }
 
-.is-padding-right-safe {
+.hp_padding_right_safe {
   padding-right: constant(safe-area-inset-right);
   padding-right: env(safe-area-inset-right);
 }
 
-.is-padding-bottom-safe {
+.hp_padding_bottom_safe {
   padding-bottom: constant(safe-area-inset-bottom);
   padding-bottom: env(safe-area-inset-bottom);
 }
 
-.is-padding-left-safe {
+.hp_padding_left_safe {
   padding-left: constant(safe-area-inset-left);
   padding-left: env(safe-area-inset-left);
 }
 
-.is-padding-vertical-safe {
+.hp_padding_vertical_safe {
   padding-top: constant(safe-area-inset-top);
   padding-top: env(safe-area-inset-top);
   padding-bottom: constant(safe-area-inset-bottom);
   padding-bottom: env(safe-area-inset-bottom);
 }
 
-.is-padding-horizontal-safe {
+.hp_padding_horizontal_safe {
   padding-right: constant(safe-area-inset-right);
   padding-right: env(safe-area-inset-right);
   padding-left: constant(safe-area-inset-left);

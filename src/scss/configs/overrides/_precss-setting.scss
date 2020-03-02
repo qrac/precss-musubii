@@ -175,6 +175,7 @@ $n-multiple: "multiple" !default;
 $n-aspect: "aspect" !default;
 $n-fit: "fit" !default;
 $n-tail: "tail" !default;
+$n-safe: "safe" !default;
 $n-overflow: "overflow" !default;
 $n-hidden: "hidden" !default;
 $n-scroll: "scroll" !default;
@@ -1187,3 +1188,81 @@ $modifier-margin-horizontal-minus-xxs: $hp_ + $n-margin + $_ + $n-horizontal + $
 $modifier-margin-right-auto: $hp_ + $n-margin + $_ + $n-right + $_ + $n-auto !default;
 $modifier-margin-left-auto: $hp_ + $n-margin + $_ + $n-left + $_ + $n-auto !default;
 $modifier-margin-horizontal-auto: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-auto !default;
+
+//----------------------------------------------------
+// / Padding
+// - Docs: https://musubii.qranoko.jp/styles/utilities/padding
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/utilities/_padding.scss
+//----------------------------------------------------
+
+// Modifiers
+$modifier-padding: $hp_ + $n-padding !default;
+$modifier-padding-xxl: $hp_ + $n-padding + $_ + $n-xxl !default;
+$modifier-padding-xl: $hp_ + $n-padding + $_ + $n-xl !default;
+$modifier-padding-lg: $hp_ + $n-padding + $_ + $n-lg !default;
+$modifier-padding-md: $hp_ + $n-padding + $_ + $n-md !default;
+$modifier-padding-sm: $hp_ + $n-padding + $_ + $n-sm !default;
+$modifier-padding-xs: $hp_ + $n-padding + $_ + $n-xs !default;
+$modifier-padding-xxs: $hp_ + $n-padding + $_ + $n-xxs !default;
+
+$modifier-padding-top: $hp_ + $n-padding + $_ + $n-top !default;
+$modifier-padding-top-xxl: $hp_ + $n-padding + $_ + $n-top + $_ + $n-xxl !default;
+$modifier-padding-top-xl: $hp_ + $n-padding + $_ + $n-top + $_ + $n-xl !default;
+$modifier-padding-top-lg: $hp_ + $n-padding + $_ + $n-top + $_ + $n-lg !default;
+$modifier-padding-top-md: $hp_ + $n-padding + $_ + $n-top + $_ + $n-md !default;
+$modifier-padding-top-sm: $hp_ + $n-padding + $_ + $n-top + $_ + $n-sm !default;
+$modifier-padding-top-xs: $hp_ + $n-padding + $_ + $n-top + $_ + $n-xs !default;
+$modifier-padding-top-xxs: $hp_ + $n-padding + $_ + $n-top + $_ + $n-xxs !default;
+
+$modifier-padding-right: $hp_ + $n-padding + $_ + $n-right !default;
+$modifier-padding-right-xxl: $hp_ + $n-padding + $_ + $n-right + $_ + $n-xxl !default;
+$modifier-padding-right-xl: $hp_ + $n-padding + $_ + $n-right + $_ + $n-xl !default;
+$modifier-padding-right-lg: $hp_ + $n-padding + $_ + $n-right + $_ + $n-lg !default;
+$modifier-padding-right-md: $hp_ + $n-padding + $_ + $n-right + $_ + $n-md !default;
+$modifier-padding-right-sm: $hp_ + $n-padding + $_ + $n-right + $_ + $n-sm !default;
+$modifier-padding-right-xs: $hp_ + $n-padding + $_ + $n-right + $_ + $n-xs !default;
+$modifier-padding-right-xxs: $hp_ + $n-padding + $_ + $n-right + $_ + $n-xxs !default;
+
+$modifier-padding-bottom: $hp_ + $n-padding + $_ + $n-bottom !default;
+$modifier-padding-bottom-xxl: $hp_ + $n-padding + $_ + $n-bottom + $_ + $n-xxl !default;
+$modifier-padding-bottom-xl: $hp_ + $n-padding + $_ + $n-bottom + $_ + $n-xl !default;
+$modifier-padding-bottom-lg: $hp_ + $n-padding + $_ + $n-bottom + $_ + $n-lg !default;
+$modifier-padding-bottom-md: $hp_ + $n-padding + $_ + $n-bottom + $_ + $n-md !default;
+$modifier-padding-bottom-sm: $hp_ + $n-padding + $_ + $n-bottom + $_ + $n-sm !default;
+$modifier-padding-bottom-xs: $hp_ + $n-padding + $_ + $n-bottom + $_ + $n-xs !default;
+$modifier-padding-bottom-xxs: $hp_ + $n-padding + $_ + $n-bottom + $_ + $n-xxs !default;
+
+$modifier-padding-left: $hp_ + $n-padding + $_ + $n-left !default;
+$modifier-padding-left-xxl: $hp_ + $n-padding + $_ + $n-left + $_ + $n-xxl !default;
+$modifier-padding-left-xl: $hp_ + $n-padding + $_ + $n-left + $_ + $n-xl !default;
+$modifier-padding-left-lg: $hp_ + $n-padding + $_ + $n-left + $_ + $n-lg !default;
+$modifier-padding-left-md: $hp_ + $n-padding + $_ + $n-left + $_ + $n-md !default;
+$modifier-padding-left-sm: $hp_ + $n-padding + $_ + $n-left + $_ + $n-sm !default;
+$modifier-padding-left-xs: $hp_ + $n-padding + $_ + $n-left + $_ + $n-xs !default;
+$modifier-padding-left-xxs: $hp_ + $n-padding + $_ + $n-left + $_ + $n-xxs !default;
+
+$modifier-padding-vertical: $hp_ + $n-padding + $_ + $n-vertical !default;
+$modifier-padding-vertical-xxl: $hp_ + $n-padding + $_ + $n-vertical + $_ + $n-xxl !default;
+$modifier-padding-vertical-xl: $hp_ + $n-padding + $_ + $n-vertical + $_ + $n-xl !default;
+$modifier-padding-vertical-lg: $hp_ + $n-padding + $_ + $n-vertical + $_ + $n-lg !default;
+$modifier-padding-vertical-md: $hp_ + $n-padding + $_ + $n-vertical + $_ + $n-md !default;
+$modifier-padding-vertical-sm: $hp_ + $n-padding + $_ + $n-vertical + $_ + $n-sm !default;
+$modifier-padding-vertical-xs: $hp_ + $n-padding + $_ + $n-vertical + $_ + $n-xs !default;
+$modifier-padding-vertical-xxs: $hp_ + $n-padding + $_ + $n-vertical + $_ + $n-xxs !default;
+
+$modifier-padding-horizontal: $hp_ + $n-padding + $_ + $n-horizontal !default;
+$modifier-padding-horizontal-xxl: $hp_ + $n-padding + $_ + $n-horizontal + $_ + $n-xxl !default;
+$modifier-padding-horizontal-xl: $hp_ + $n-padding + $_ + $n-horizontal + $_ + $n-xl !default;
+$modifier-padding-horizontal-lg: $hp_ + $n-padding + $_ + $n-horizontal + $_ + $n-lg !default;
+$modifier-padding-horizontal-md: $hp_ + $n-padding + $_ + $n-horizontal + $_ + $n-md !default;
+$modifier-padding-horizontal-sm: $hp_ + $n-padding + $_ + $n-horizontal + $_ + $n-sm !default;
+$modifier-padding-horizontal-xs: $hp_ + $n-padding + $_ + $n-horizontal + $_ + $n-xs !default;
+$modifier-padding-horizontal-xxs: $hp_ + $n-padding + $_ + $n-horizontal + $_ + $n-xxs !default;
+
+$modifier-padding-safe: $hp_ + $n-padding + $_ + $n-safe !default;
+$modifier-padding-top-safe: $hp_ + $n-padding + $_ + $n-top + $_ + $n-safe !default;
+$modifier-padding-right-safe: $hp_ + $n-padding + $_ + $n-right + $_ + $n-safe !default;
+$modifier-padding-bottom-safe: $hp_ + $n-padding + $_ + $n-bottom + $_ + $n-safe !default;
+$modifier-padding-left-safe: $hp_ + $n-padding + $_ + $n-left + $_ + $n-safe !default;
+$modifier-padding-vertical-safe: $hp_ + $n-padding + $_ + $n-vertical + $_ + $n-safe !default;
+$modifier-padding-horizontal-safe: $hp_ + $n-padding + $_ + $n-horizontal + $_ + $n-safe !default;
