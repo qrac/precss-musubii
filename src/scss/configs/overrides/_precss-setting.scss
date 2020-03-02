@@ -116,6 +116,7 @@ $n-vertical: "vertical" !default;
 $n-horizontal: "horizontal" !default;
 $n-up: "up" !default;
 $n-down: "down" !default;
+$n-minus: "minus" !default;
 $n-checked: "checked" !default;
 $n-disabled: "disabled" !default;
 $n-fixed: "fixed" !default;
@@ -1049,3 +1050,140 @@ $modifier-space-left-md: $hp_ + $n-space + $_ + $n-left + $_ + $n-md !default;
 $modifier-space-left-sm: $hp_ + $n-space + $_ + $n-left + $_ + $n-sm !default;
 $modifier-space-left-xs: $hp_ + $n-space + $_ + $n-left + $_ + $n-xs !default;
 $modifier-space-left-xxs: $hp_ + $n-space + $_ + $n-left + $_ + $n-xxs !default;
+
+//----------------------------------------------------
+// / Margin
+// - Docs: https://musubii.qranoko.jp/styles/utilities/margin
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/utilities/_margin.scss
+//----------------------------------------------------
+
+// Modifiers
+$modifier-margin: $hp_ + $n-margin !default;
+$modifier-margin-xxl: $hp_ + $n-margin + $_ + $n-xxl !default;
+$modifier-margin-xl: $hp_ + $n-margin + $_ + $n-xl !default;
+$modifier-margin-lg: $hp_ + $n-margin + $_ + $n-lg !default;
+$modifier-margin-md: $hp_ + $n-margin + $_ + $n-md !default;
+$modifier-margin-sm: $hp_ + $n-margin + $_ + $n-sm !default;
+$modifier-margin-xs: $hp_ + $n-margin + $_ + $n-xs !default;
+$modifier-margin-xxs: $hp_ + $n-margin + $_ + $n-xxs !default;
+
+$modifier-margin-top: $hp_ + $n-margin + $_ + $n-top !default;
+$modifier-margin-top-xxl: $hp_ + $n-margin + $_ + $n-top + $_ + $n-xxl !default;
+$modifier-margin-top-xl: $hp_ + $n-margin + $_ + $n-top + $_ + $n-xl !default;
+$modifier-margin-top-lg: $hp_ + $n-margin + $_ + $n-top + $_ + $n-lg !default;
+$modifier-margin-top-md: $hp_ + $n-margin + $_ + $n-top + $_ + $n-md !default;
+$modifier-margin-top-sm: $hp_ + $n-margin + $_ + $n-top + $_ + $n-sm !default;
+$modifier-margin-top-xs: $hp_ + $n-margin + $_ + $n-top + $_ + $n-xs !default;
+$modifier-margin-top-xxs: $hp_ + $n-margin + $_ + $n-top + $_ + $n-xxs !default;
+
+$modifier-margin-right: $hp_ + $n-margin + $_ + $n-right !default;
+$modifier-margin-right-xxl: $hp_ + $n-margin + $_ + $n-right + $_ + $n-xxl !default;
+$modifier-margin-right-xl: $hp_ + $n-margin + $_ + $n-right + $_ + $n-xl !default;
+$modifier-margin-right-lg: $hp_ + $n-margin + $_ + $n-right + $_ + $n-lg !default;
+$modifier-margin-right-md: $hp_ + $n-margin + $_ + $n-right + $_ + $n-md !default;
+$modifier-margin-right-sm: $hp_ + $n-margin + $_ + $n-right + $_ + $n-sm !default;
+$modifier-margin-right-xs: $hp_ + $n-margin + $_ + $n-right + $_ + $n-xs !default;
+$modifier-margin-right-xxs: $hp_ + $n-margin + $_ + $n-right + $_ + $n-xxs !default;
+
+$modifier-margin-bottom: $hp_ + $n-margin + $_ + $n-bottom !default;
+$modifier-margin-bottom-xxl: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-xxl !default;
+$modifier-margin-bottom-xl: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-xl !default;
+$modifier-margin-bottom-lg: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-lg !default;
+$modifier-margin-bottom-md: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-md !default;
+$modifier-margin-bottom-sm: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-sm !default;
+$modifier-margin-bottom-xs: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-xs !default;
+$modifier-margin-bottom-xxs: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-xxs !default;
+
+$modifier-margin-left: $hp_ + $n-margin + $_ + $n-left !default;
+$modifier-margin-left-xxl: $hp_ + $n-margin + $_ + $n-left + $_ + $n-xxl !default;
+$modifier-margin-left-xl: $hp_ + $n-margin + $_ + $n-left + $_ + $n-xl !default;
+$modifier-margin-left-lg: $hp_ + $n-margin + $_ + $n-left + $_ + $n-lg !default;
+$modifier-margin-left-md: $hp_ + $n-margin + $_ + $n-left + $_ + $n-md !default;
+$modifier-margin-left-sm: $hp_ + $n-margin + $_ + $n-left + $_ + $n-sm !default;
+$modifier-margin-left-xs: $hp_ + $n-margin + $_ + $n-left + $_ + $n-xs !default;
+$modifier-margin-left-xxs: $hp_ + $n-margin + $_ + $n-left + $_ + $n-xxs !default;
+
+$modifier-margin-vertical: $hp_ + $n-margin + $_ + $n-vertical !default;
+$modifier-margin-vertical-xxl: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-xxl !default;
+$modifier-margin-vertical-xl: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-xl !default;
+$modifier-margin-vertical-lg: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-lg !default;
+$modifier-margin-vertical-md: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-md !default;
+$modifier-margin-vertical-sm: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-sm !default;
+$modifier-margin-vertical-xs: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-xs !default;
+$modifier-margin-vertical-xxs: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-xxs !default;
+
+$modifier-margin-horizontal: $hp_ + $n-margin + $_ + $n-horizontal !default;
+$modifier-margin-horizontal-xxl: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-xxl !default;
+$modifier-margin-horizontal-xl: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-xl !default;
+$modifier-margin-horizontal-lg: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-lg !default;
+$modifier-margin-horizontal-md: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-md !default;
+$modifier-margin-horizontal-sm: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-sm !default;
+$modifier-margin-horizontal-xs: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-xs !default;
+$modifier-margin-horizontal-xxs: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-xxs !default;
+
+$modifier-margin-minus: $hp_ + $n-margin + $_ + $n-minus !default;
+$modifier-margin-minus-xxl: $hp_ + $n-margin + $_ + $n-minus + $_ + $n-xxl !default;
+$modifier-margin-minus-xl: $hp_ + $n-margin + $_ + $n-minus + $_ + $n-xl !default;
+$modifier-margin-minus-lg: $hp_ + $n-margin + $_ + $n-minus + $_ + $n-lg !default;
+$modifier-margin-minus-md: $hp_ + $n-margin + $_ + $n-minus + $_ + $n-md !default;
+$modifier-margin-minus-sm: $hp_ + $n-margin + $_ + $n-minus + $_ + $n-sm !default;
+$modifier-margin-minus-xs: $hp_ + $n-margin + $_ + $n-minus + $_ + $n-xs !default;
+$modifier-margin-minus-xxs: $hp_ + $n-margin + $_ + $n-minus + $_ + $n-xxs !default;
+
+$modifier-margin-top-minus: $hp_ + $n-margin + $_ + $n-top + $_ + $n-minus !default;
+$modifier-margin-top-minus-xxl: $hp_ + $n-margin + $_ + $n-top + $_ + $n-minus + $_ + $n-xxl !default;
+$modifier-margin-top-minus-xl: $hp_ + $n-margin + $_ + $n-top + $_ + $n-minus + $_ + $n-xl !default;
+$modifier-margin-top-minus-lg: $hp_ + $n-margin + $_ + $n-top + $_ + $n-minus + $_ + $n-lg !default;
+$modifier-margin-top-minus-md: $hp_ + $n-margin + $_ + $n-top + $_ + $n-minus + $_ + $n-md !default;
+$modifier-margin-top-minus-sm: $hp_ + $n-margin + $_ + $n-top + $_ + $n-minus + $_ + $n-sm !default;
+$modifier-margin-top-minus-xs: $hp_ + $n-margin + $_ + $n-top + $_ + $n-minus + $_ + $n-xs !default;
+$modifier-margin-top-minus-xxs: $hp_ + $n-margin + $_ + $n-top + $_ + $n-minus + $_ + $n-xxs !default;
+
+$modifier-margin-right-minus: $hp_ + $n-margin + $_ + $n-right + $_ + $n-minus !default;
+$modifier-margin-right-minus-xxl: $hp_ + $n-margin + $_ + $n-right + $_ + $n-minus + $_ + $n-xxl !default;
+$modifier-margin-right-minus-xl: $hp_ + $n-margin + $_ + $n-right + $_ + $n-minus + $_ + $n-xl !default;
+$modifier-margin-right-minus-lg: $hp_ + $n-margin + $_ + $n-right + $_ + $n-minus + $_ + $n-lg !default;
+$modifier-margin-right-minus-md: $hp_ + $n-margin + $_ + $n-right + $_ + $n-minus + $_ + $n-md !default;
+$modifier-margin-right-minus-sm: $hp_ + $n-margin + $_ + $n-right + $_ + $n-minus + $_ + $n-sm !default;
+$modifier-margin-right-minus-xs: $hp_ + $n-margin + $_ + $n-right + $_ + $n-minus + $_ + $n-xs !default;
+$modifier-margin-right-minus-xxs: $hp_ + $n-margin + $_ + $n-right + $_ + $n-minus + $_ + $n-xxs !default;
+
+$modifier-margin-bottom-minus: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-minus !default;
+$modifier-margin-bottom-minus-xxl: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-minus + $_ + $n-xxl !default;
+$modifier-margin-bottom-minus-xl: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-minus + $_ + $n-xl !default;
+$modifier-margin-bottom-minus-lg: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-minus + $_ + $n-lg !default;
+$modifier-margin-bottom-minus-md: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-minus + $_ + $n-md !default;
+$modifier-margin-bottom-minus-sm: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-minus + $_ + $n-sm !default;
+$modifier-margin-bottom-minus-xs: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-minus + $_ + $n-xs !default;
+$modifier-margin-bottom-minus-xxs: $hp_ + $n-margin + $_ + $n-bottom + $_ + $n-minus + $_ + $n-xxs !default;
+
+$modifier-margin-left-minus: $hp_ + $n-margin + $_ + $n-left + $_ + $n-minus !default;
+$modifier-margin-left-minus-xxl: $hp_ + $n-margin + $_ + $n-left + $_ + $n-minus + $_ + $n-xxl !default;
+$modifier-margin-left-minus-xl: $hp_ + $n-margin + $_ + $n-left + $_ + $n-minus + $_ + $n-xl !default;
+$modifier-margin-left-minus-lg: $hp_ + $n-margin + $_ + $n-left + $_ + $n-minus + $_ + $n-lg !default;
+$modifier-margin-left-minus-md: $hp_ + $n-margin + $_ + $n-left + $_ + $n-minus + $_ + $n-md !default;
+$modifier-margin-left-minus-sm: $hp_ + $n-margin + $_ + $n-left + $_ + $n-minus + $_ + $n-sm !default;
+$modifier-margin-left-minus-xs: $hp_ + $n-margin + $_ + $n-left + $_ + $n-minus + $_ + $n-xs !default;
+$modifier-margin-left-minus-xxs: $hp_ + $n-margin + $_ + $n-left + $_ + $n-minus + $_ + $n-xxs !default;
+
+$modifier-margin-vertical-minus: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-minus !default;
+$modifier-margin-vertical-minus-xxl: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-minus + $_ + $n-xxl !default;
+$modifier-margin-vertical-minus-xl: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-minus + $_ + $n-xl !default;
+$modifier-margin-vertical-minus-lg: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-minus + $_ + $n-lg !default;
+$modifier-margin-vertical-minus-md: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-minus + $_ + $n-md !default;
+$modifier-margin-vertical-minus-sm: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-minus + $_ + $n-sm !default;
+$modifier-margin-vertical-minus-xs: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-minus + $_ + $n-xs !default;
+$modifier-margin-vertical-minus-xxs: $hp_ + $n-margin + $_ + $n-vertical + $_ + $n-minus + $_ + $n-xxs !default;
+
+$modifier-margin-horizontal-minus: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-minus !default;
+$modifier-margin-horizontal-minus-xxl: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-minus + $_ + $n-xxl !default;
+$modifier-margin-horizontal-minus-xl: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-minus + $_ + $n-xl !default;
+$modifier-margin-horizontal-minus-lg: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-minus + $_ + $n-lg !default;
+$modifier-margin-horizontal-minus-md: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-minus + $_ + $n-md !default;
+$modifier-margin-horizontal-minus-sm: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-minus + $_ + $n-sm !default;
+$modifier-margin-horizontal-minus-xs: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-minus + $_ + $n-xs !default;
+$modifier-margin-horizontal-minus-xxs: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-minus + $_ + $n-xxs !default;
+
+$modifier-margin-right-auto: $hp_ + $n-margin + $_ + $n-right + $_ + $n-auto !default;
+$modifier-margin-left-auto: $hp_ + $n-margin + $_ + $n-left + $_ + $n-auto !default;
+$modifier-margin-horizontal-auto: $hp_ + $n-margin + $_ + $n-horizontal + $_ + $n-auto !default;
