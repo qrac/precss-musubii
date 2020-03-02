@@ -1194,10 +1194,10 @@ minimist@^1.1.3:
   dependencies:
     minimist "0.0.8"
 
-musubii@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/musubii/-/musubii-7.0.0.tgz#a2133c70e65898e36c58126fb57e38644d7b9a66"
-  integrity sha512-TPUQy8r3ygVq43b0EtPFxXy9IGQypem0+moFqM8VRWx2rwJFzQBWWrBk/DXWnk5Ilo+JkNqGK5jOa79JgkY2rw==
+musubii@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/musubii/-/musubii-7.0.1.tgz#c672e9d79c046e4917307b81198534022ddbc87e"
+  integrity sha512-DFzPVQ2d6SFEhFpRuBCybcRkQWHJJHoMEV6PHViKz3m9b+Sx+e5xzSKvAfWaNZMyPM7ZjU+PEuATiKfvu3RZ8A==
 
 nan@^2.13.2:
   version "2.14.0"

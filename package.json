@@ -42,7 +42,7 @@
     "last 1 versions"
   ],
   "dependencies": {
-    "musubii": "^7.0.0"
+    "musubii": "^7.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.4",
