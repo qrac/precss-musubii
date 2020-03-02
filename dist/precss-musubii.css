@@ -2795,85 +2795,85 @@ svg.el_icon {
   flex: 1 0 !important;
 }
 
-.hp_flex-1,
-.hp_flex_mobile-1 {
+.hp_flex1,
+.hp_flex_mobile1 {
   flex: 0 0 8.33333% !important;
   width: 8.33333% !important;
   max-width: 8.33333% !important;
 }
 
-.hp_flex-2,
-.hp_flex_mobile-2 {
+.hp_flex2,
+.hp_flex_mobile2 {
   flex: 0 0 16.66667% !important;
   width: 16.66667% !important;
   max-width: 16.66667% !important;
 }
 
-.hp_flex-3,
-.hp_flex_mobile-3 {
+.hp_flex3,
+.hp_flex_mobile3 {
   flex: 0 0 25% !important;
   width: 25% !important;
   max-width: 25% !important;
 }
 
-.hp_flex-4,
-.hp_flex_mobile-4 {
+.hp_flex4,
+.hp_flex_mobile4 {
   flex: 0 0 33.33333% !important;
   width: 33.33333% !important;
   max-width: 33.33333% !important;
 }
 
-.hp_flex-5,
-.hp_flex_mobile-5 {
+.hp_flex5,
+.hp_flex_mobile5 {
   flex: 0 0 41.66667% !important;
   width: 41.66667% !important;
   max-width: 41.66667% !important;
 }
 
-.hp_flex-6,
-.hp_flex_mobile-6 {
+.hp_flex6,
+.hp_flex_mobile6 {
   flex: 0 0 50% !important;
   width: 50% !important;
   max-width: 50% !important;
 }
 
-.hp_flex-7,
-.hp_flex_mobile-7 {
+.hp_flex7,
+.hp_flex_mobile7 {
   flex: 0 0 58.33333% !important;
   width: 58.33333% !important;
   max-width: 58.33333% !important;
 }
 
-.hp_flex-8,
-.hp_flex_mobile-8 {
+.hp_flex8,
+.hp_flex_mobile8 {
   flex: 0 0 66.66667% !important;
   width: 66.66667% !important;
   max-width: 66.66667% !important;
 }
 
-.hp_flex-9,
-.hp_flex_mobile-9 {
+.hp_flex9,
+.hp_flex_mobile9 {
   flex: 0 0 75% !important;
   width: 75% !important;
   max-width: 75% !important;
 }
 
-.hp_flex-10,
-.hp_flex_mobile-10 {
+.hp_flex10,
+.hp_flex_mobile10 {
   flex: 0 0 83.33333% !important;
   width: 83.33333% !important;
   max-width: 83.33333% !important;
 }
 
-.hp_flex-11,
-.hp_flex_mobile-11 {
+.hp_flex11,
+.hp_flex_mobile11 {
   flex: 0 0 91.66667% !important;
   width: 91.66667% !important;
   max-width: 91.66667% !important;
 }
 
-.hp_flex-12,
-.hp_flex_mobile-12 {
+.hp_flex12,
+.hp_flex_mobile12 {
   flex: 0 0 100% !important;
   width: 100% !important;
   max-width: 100% !important;
@@ -3833,62 +3833,62 @@ svg.el_icon {
   .hp_flex_fablet_grow {
     flex: 1 0 !important;
   }
-  .hp_flex_fablet-1 {
+  .hp_flex_fablet1 {
     flex: 0 0 8.33333% !important;
     width: 8.33333% !important;
     max-width: 8.33333% !important;
   }
-  .hp_flex_fablet-2 {
+  .hp_flex_fablet2 {
     flex: 0 0 16.66667% !important;
     width: 16.66667% !important;
     max-width: 16.66667% !important;
   }
-  .hp_flex_fablet-3 {
+  .hp_flex_fablet3 {
     flex: 0 0 25% !important;
     width: 25% !important;
     max-width: 25% !important;
   }
-  .hp_flex_fablet-4 {
+  .hp_flex_fablet4 {
     flex: 0 0 33.33333% !important;
     width: 33.33333% !important;
     max-width: 33.33333% !important;
   }
-  .hp_flex_fablet-5 {
+  .hp_flex_fablet5 {
     flex: 0 0 41.66667% !important;
     width: 41.66667% !important;
     max-width: 41.66667% !important;
   }
-  .hp_flex_fablet-6 {
+  .hp_flex_fablet6 {
     flex: 0 0 50% !important;
     width: 50% !important;
     max-width: 50% !important;
   }
-  .hp_flex_fablet-7 {
+  .hp_flex_fablet7 {
     flex: 0 0 58.33333% !important;
     width: 58.33333% !important;
     max-width: 58.33333% !important;
   }
-  .hp_flex_fablet-8 {
+  .hp_flex_fablet8 {
     flex: 0 0 66.66667% !important;
     width: 66.66667% !important;
     max-width: 66.66667% !important;
   }
-  .hp_flex_fablet-9 {
+  .hp_flex_fablet9 {
     flex: 0 0 75% !important;
     width: 75% !important;
     max-width: 75% !important;
   }
-  .hp_flex_fablet-10 {
+  .hp_flex_fablet10 {
     flex: 0 0 83.33333% !important;
     width: 83.33333% !important;
     max-width: 83.33333% !important;
   }
-  .hp_flex_fablet-11 {
+  .hp_flex_fablet11 {
     flex: 0 0 91.66667% !important;
     width: 91.66667% !important;
     max-width: 91.66667% !important;
   }
-  .hp_flex_fablet-12 {
+  .hp_flex_fablet12 {
     flex: 0 0 100% !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -3952,62 +3952,62 @@ svg.el_icon {
   .hp_flex_tablet_grow {
     flex: 1 0 !important;
   }
-  .hp_flex_tablet-1 {
+  .hp_flex_tablet1 {
     flex: 0 0 8.33333% !important;
     width: 8.33333% !important;
     max-width: 8.33333% !important;
   }
-  .hp_flex_tablet-2 {
+  .hp_flex_tablet2 {
     flex: 0 0 16.66667% !important;
     width: 16.66667% !important;
     max-width: 16.66667% !important;
   }
-  .hp_flex_tablet-3 {
+  .hp_flex_tablet3 {
     flex: 0 0 25% !important;
     width: 25% !important;
     max-width: 25% !important;
   }
-  .hp_flex_tablet-4 {
+  .hp_flex_tablet4 {
     flex: 0 0 33.33333% !important;
     width: 33.33333% !important;
     max-width: 33.33333% !important;
   }
-  .hp_flex_tablet-5 {
+  .hp_flex_tablet5 {
     flex: 0 0 41.66667% !important;
     width: 41.66667% !important;
     max-width: 41.66667% !important;
   }
-  .hp_flex_tablet-6 {
+  .hp_flex_tablet6 {
     flex: 0 0 50% !important;
     width: 50% !important;
     max-width: 50% !important;
   }
-  .hp_flex_tablet-7 {
+  .hp_flex_tablet7 {
     flex: 0 0 58.33333% !important;
     width: 58.33333% !important;
     max-width: 58.33333% !important;
   }
-  .hp_flex_tablet-8 {
+  .hp_flex_tablet8 {
     flex: 0 0 66.66667% !important;
     width: 66.66667% !important;
     max-width: 66.66667% !important;
   }
-  .hp_flex_tablet-9 {
+  .hp_flex_tablet9 {
     flex: 0 0 75% !important;
     width: 75% !important;
     max-width: 75% !important;
   }
-  .hp_flex_tablet-10 {
+  .hp_flex_tablet10 {
     flex: 0 0 83.33333% !important;
     width: 83.33333% !important;
     max-width: 83.33333% !important;
   }
-  .hp_flex_tablet-11 {
+  .hp_flex_tablet11 {
     flex: 0 0 91.66667% !important;
     width: 91.66667% !important;
     max-width: 91.66667% !important;
   }
-  .hp_flex_tablet-12 {
+  .hp_flex_tablet12 {
     flex: 0 0 100% !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -4071,62 +4071,62 @@ svg.el_icon {
   .hp_flex_desktop_grow {
     flex: 1 0 !important;
   }
-  .hp_flex_desktop-1 {
+  .hp_flex_desktop1 {
     flex: 0 0 8.33333% !important;
     width: 8.33333% !important;
     max-width: 8.33333% !important;
   }
-  .hp_flex_desktop-2 {
+  .hp_flex_desktop2 {
     flex: 0 0 16.66667% !important;
     width: 16.66667% !important;
     max-width: 16.66667% !important;
   }
-  .hp_flex_desktop-3 {
+  .hp_flex_desktop3 {
     flex: 0 0 25% !important;
     width: 25% !important;
     max-width: 25% !important;
   }
-  .hp_flex_desktop-4 {
+  .hp_flex_desktop4 {
     flex: 0 0 33.33333% !important;
     width: 33.33333% !important;
     max-width: 33.33333% !important;
   }
-  .hp_flex_desktop-5 {
+  .hp_flex_desktop5 {
     flex: 0 0 41.66667% !important;
     width: 41.66667% !important;
     max-width: 41.66667% !important;
   }
-  .hp_flex_desktop-6 {
+  .hp_flex_desktop6 {
     flex: 0 0 50% !important;
     width: 50% !important;
     max-width: 50% !important;
   }
-  .hp_flex_desktop-7 {
+  .hp_flex_desktop7 {
     flex: 0 0 58.33333% !important;
     width: 58.33333% !important;
     max-width: 58.33333% !important;
   }
-  .hp_flex_desktop-8 {
+  .hp_flex_desktop8 {
     flex: 0 0 66.66667% !important;
     width: 66.66667% !important;
     max-width: 66.66667% !important;
   }
-  .hp_flex_desktop-9 {
+  .hp_flex_desktop9 {
     flex: 0 0 75% !important;
     width: 75% !important;
     max-width: 75% !important;
   }
-  .hp_flex_desktop-10 {
+  .hp_flex_desktop10 {
     flex: 0 0 83.33333% !important;
     width: 83.33333% !important;
     max-width: 83.33333% !important;
   }
-  .hp_flex_desktop-11 {
+  .hp_flex_desktop11 {
     flex: 0 0 91.66667% !important;
     width: 91.66667% !important;
     max-width: 91.66667% !important;
   }
-  .hp_flex_desktop-12 {
+  .hp_flex_desktop12 {
     flex: 0 0 100% !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -4190,62 +4190,62 @@ svg.el_icon {
   .hp_flex_wide_grow {
     flex: 1 0 !important;
   }
-  .hp_flex_wide-1 {
+  .hp_flex_wide1 {
     flex: 0 0 8.33333% !important;
     width: 8.33333% !important;
     max-width: 8.33333% !important;
   }
-  .hp_flex_wide-2 {
+  .hp_flex_wide2 {
     flex: 0 0 16.66667% !important;
     width: 16.66667% !important;
     max-width: 16.66667% !important;
   }
-  .hp_flex_wide-3 {
+  .hp_flex_wide3 {
     flex: 0 0 25% !important;
     width: 25% !important;
     max-width: 25% !important;
   }
-  .hp_flex_wide-4 {
+  .hp_flex_wide4 {
     flex: 0 0 33.33333% !important;
     width: 33.33333% !important;
     max-width: 33.33333% !important;
   }
-  .hp_flex_wide-5 {
+  .hp_flex_wide5 {
     flex: 0 0 41.66667% !important;
     width: 41.66667% !important;
     max-width: 41.66667% !important;
   }
-  .hp_flex_wide-6 {
+  .hp_flex_wide6 {
     flex: 0 0 50% !important;
     width: 50% !important;
     max-width: 50% !important;
   }
-  .hp_flex_wide-7 {
+  .hp_flex_wide7 {
     flex: 0 0 58.33333% !important;
     width: 58.33333% !important;
     max-width: 58.33333% !important;
   }
-  .hp_flex_wide-8 {
+  .hp_flex_wide8 {
     flex: 0 0 66.66667% !important;
     width: 66.66667% !important;
     max-width: 66.66667% !important;
   }
-  .hp_flex_wide-9 {
+  .hp_flex_wide9 {
     flex: 0 0 75% !important;
     width: 75% !important;
     max-width: 75% !important;
   }
-  .hp_flex_wide-10 {
+  .hp_flex_wide10 {
     flex: 0 0 83.33333% !important;
     width: 83.33333% !important;
     max-width: 83.33333% !important;
   }
-  .hp_flex_wide-11 {
+  .hp_flex_wide11 {
     flex: 0 0 91.66667% !important;
     width: 91.66667% !important;
     max-width: 91.66667% !important;
   }
-  .hp_flex_wide-12 {
+  .hp_flex_wide12 {
     flex: 0 0 100% !important;
     width: 100% !important;
     max-width: 100% !important;

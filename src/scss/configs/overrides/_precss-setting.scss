@@ -983,6 +983,7 @@ $modifier-flex-edge: $hp_ + $n-flex + $_ + $n-edge !default;
 $modifier-flex-ie: $hp_ + $n-flex + $_ + $n-ie !default;
 
 // Suffix
+$suffix-flex-pipe: "" !default;
 $suffix-flex-grow: $_ + $n-grow !default;
 $suffix-flex-full: $_ + $n-full !default;
 $suffix-flex-auto: $_ + $n-auto !default;
