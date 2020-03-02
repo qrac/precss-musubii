@@ -60,6 +60,15 @@ $n-fablet: "fablet" !default;
 $n-tablet: "tablet" !default;
 $n-desktop: "desktop" !default;
 $n-wide: "wide" !default;
+$n-iphone5: "iphone5" !default;
+$n-landscape: "landscape" !default;
+$n-portrait: "portrait" !default;
+$n-only: "only" !default;
+$n-all: "all" !default;
+$n-chrome: "chrome" !default;
+$n-firefox: "firefox" !default;
+$n-edge: "edge" !default;
+$n-ie: "ie" !default;
 $n-light: "light" !default;
 $n-dark: "dark" !default;
 $n-primary: "primary" !default;
@@ -107,6 +116,10 @@ $n-down: "down" !default;
 $n-checked: "checked" !default;
 $n-disabled: "disabled" !default;
 $n-fixed: "fixed" !default;
+$n-block: "block" !default;
+$n-none: "none" !default;
+$n-inline: "inline" !default;
+$n-flex: "flex" !default;
 $n-height: "height" !default;
 $n-bg: "bg" !default;
 $n-plain: "plain" !default;
@@ -114,9 +127,7 @@ $n-melt: "melt" !default;
 $n-border: "border" !default;
 $n-outline: "outline" !default;
 $n-line: "line" !default;
-$n-inline: "inline" !default;
 $n-underline: "underline" !default;
-$n-flex: "flex" !default;
 $n-baseline: "baseline" !default;
 $n-middle: "middle" !default;
 $n-center: "center" !default;
@@ -679,3 +690,105 @@ $selector-wysiwyg: $bl_ + $n-wysiwyg !default;
 
 // Modifiers
 $modifier-wysiwyg-link-reverse: $selector-wysiwyg + $__ + $n-link + $_ + $n-reverse !default;
+
+//----------------------------------------------------
+// / Display
+// - Docs: https://musubii.qranoko.jp/styles/utilities/display
+// - SCSS: https://github.com/qrac/musubii/tree/master/src/scss/styles/utilities/_display.scss
+//----------------------------------------------------
+
+// Modifiers
+$modifier-display-block: $hp_ + $n-block !default;
+$modifier-display-inline: $hp_ + $n-inline !default;
+$modifier-display-inline-block: $hp_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-none: $hp_ + $n-none !default;
+
+$modifier-display-mobile-block: $hp_ + $n-mobile + $_ + $n-block !default;
+$modifier-display-mobile-inline: $hp_ + $n-mobile + $_ + $n-inline !default;
+$modifier-display-mobile-inline-block: $hp_ + $n-mobile + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-mobile-none: $hp_ + $n-mobile + $_ + $n-none !default;
+
+$modifier-display-fablet-block: $hp_ + $n-fablet + $_ + $n-block !default;
+$modifier-display-fablet-inline: $hp_ + $n-fablet + $_ + $n-inline !default;
+$modifier-display-fablet-inline-block: $hp_ + $n-fablet + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-fablet-none: $hp_ + $n-fablet + $_ + $n-none !default;
+
+$modifier-display-tablet-block: $hp_ + $n-tablet + $_ + $n-block !default;
+$modifier-display-tablet-inline: $hp_ + $n-tablet + $_ + $n-inline !default;
+$modifier-display-tablet-inline-block: $hp_ + $n-tablet + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-tablet-none: $hp_ + $n-tablet + $_ + $n-none !default;
+
+$modifier-display-desktop-block: $hp_ + $n-desktop + $_ + $n-block !default;
+$modifier-display-desktop-inline: $hp_ + $n-desktop + $_ + $n-inline !default;
+$modifier-display-desktop-inline-block: $hp_ + $n-desktop + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-desktop-none: $hp_ + $n-desktop + $_ + $n-none !default;
+
+$modifier-display-wide-block: $hp_ + $n-wide + $_ + $n-block !default;
+$modifier-display-wide-inline: $hp_ + $n-wide + $_ + $n-inline !default;
+$modifier-display-wide-inline-block: $hp_ + $n-wide + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-wide-none: $hp_ + $n-wide + $_ + $n-none !default;
+
+$modifier-display-iphone5-only-block: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-block !default;
+$modifier-display-iphone5-only-inline: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-inline !default;
+$modifier-display-iphone5-only-inline-block: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-iphone5-only-none: $hp_ + $n-iphone5 + $_ + $n-only + $_ + $n-none !default;
+
+$modifier-display-mobile-only-block: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-block !default;
+$modifier-display-mobile-only-inline: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-inline !default;
+$modifier-display-mobile-only-inline-block: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-mobile-only-none: $hp_ + $n-mobile + $_ + $n-only + $_ + $n-none !default;
+
+$modifier-display-fablet-only-block: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-block !default;
+$modifier-display-fablet-only-inline: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-inline !default;
+$modifier-display-fablet-only-inline-block: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-fablet-only-none: $hp_ + $n-fablet + $_ + $n-only + $_ + $n-none !default;
+
+$modifier-display-tablet-only-block: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-block !default;
+$modifier-display-tablet-only-inline: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-inline !default;
+$modifier-display-tablet-only-inline-block: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-tablet-only-none: $hp_ + $n-tablet + $_ + $n-only + $_ + $n-none !default;
+
+$modifier-display-desktop-only-block: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-block !default;
+$modifier-display-desktop-only-inline: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-inline !default;
+$modifier-display-desktop-only-inline-block: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-desktop-only-none: $hp_ + $n-desktop + $_ + $n-only + $_ + $n-none !default;
+
+$modifier-display-landscape-block: $hp_ + $n-landscape + $_ + $n-block !default;
+$modifier-display-landscape-inline: $hp_ + $n-landscape + $_ + $n-inline !default;
+$modifier-display-landscape-inline-block: $hp_ + $n-landscape + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-landscape-none: $hp_ + $n-landscape + $_ + $n-none !default;
+
+$modifier-display-landscape-all-block: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-block !default;
+$modifier-display-landscape-all-inline: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-inline !default;
+$modifier-display-landscape-all-inline-block: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-landscape-all-none: $hp_ + $n-landscape + $_ + $n-all + $_ + $n-none !default;
+
+$modifier-display-portrait-block: $hp_ + $n-portrait + $_ + $n-block !default;
+$modifier-display-portrait-inline: $hp_ + $n-portrait + $_ + $n-inline !default;
+$modifier-display-portrait-inline-block: $hp_ + $n-portrait + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-portrait-none: $hp_ + $n-portrait + $_ + $n-none !default;
+
+$modifier-display-portrait-all-block: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-block !default;
+$modifier-display-portrait-all-inline: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-inline !default;
+$modifier-display-portrait-all-inline-block: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-portrait-all-none: $hp_ + $n-portrait + $_ + $n-all + $_ + $n-none !default;
+
+$modifier-display-chrome-block: $hp_ + $n-chrome + $_ + $n-block !default;
+$modifier-display-chrome-inline: $hp_ + $n-chrome + $_ + $n-inline !default;
+$modifier-display-chrome-inline-block: $hp_ + $n-chrome + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-chrome-none: $hp_ + $n-chrome + $_ + $n-none !default;
+
+$modifier-display-firefox-block: $hp_ + $n-firefox + $_ + $n-block !default;
+$modifier-display-firefox-inline: $hp_ + $n-firefox + $_ + $n-inline !default;
+$modifier-display-firefox-inline-block: $hp_ + $n-firefox + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-firefox-none: $hp_ + $n-firefox + $_ + $n-none !default;
+
+$modifier-display-edge-block: $hp_ + $n-edge + $_ + $n-block !default;
+$modifier-display-edge-inline: $hp_ + $n-edge + $_ + $n-inline !default;
+$modifier-display-edge-inline-block: $hp_ + $n-edge + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-edge-none: $hp_ + $n-edge + $_ + $n-none !default;
+
+$modifier-display-ie-block: $hp_ + $n-ie + $_ + $n-block !default;
+$modifier-display-ie-inline: $hp_ + $n-ie + $_ + $n-inline !default;
+$modifier-display-ie-inline-block: $hp_ + $n-ie + $_ + $n-inline + capitalize($n-block) !default;
+$modifier-display-ie-none: $hp_ + $n-ie + $_ + $n-none !default;

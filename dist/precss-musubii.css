@@ -2735,23 +2735,23 @@ svg.el_icon {
   font-size: 87.5%;
 }
 
-.is-block,
-.is-mobile-block {
+.hp_block,
+.hp_mobile_block {
   display: block !important;
 }
 
-.is-inline,
-.is-mobile-inline {
+.hp_inline,
+.hp_mobile_inline {
   display: inline !important;
 }
 
-.is-inline-block,
-.is-mobile-inline-block {
+.hp_inlineBlock,
+.hp_mobile_inlineBlock {
   display: inline-block !important;
 }
 
-.is-none,
-.is-mobile-none {
+.hp_none,
+.hp_mobile_none {
   display: none !important;
 }
 
@@ -3797,16 +3797,16 @@ svg.el_icon {
     width: 70%;
     border-left: 1px solid #d1d8dc;
   }
-  .is-fablet-block {
+  .hp_fablet_block {
     display: block !important;
   }
-  .is-fablet-inline {
+  .hp_fablet_inline {
     display: inline !important;
   }
-  .is-fablet-inline-block {
+  .hp_fablet_inlineBlock {
     display: inline-block !important;
   }
-  .is-fablet-none {
+  .hp_fablet_none {
     display: none !important;
   }
   .is-fablet-xxl {
@@ -3916,16 +3916,16 @@ svg.el_icon {
   .el_text.el_text__tablet_left {
     text-align: left;
   }
-  .is-tablet-block {
+  .hp_tablet_block {
     display: block !important;
   }
-  .is-tablet-inline {
+  .hp_tablet_inline {
     display: inline !important;
   }
-  .is-tablet-inline-block {
+  .hp_tablet_inlineBlock {
     display: inline-block !important;
   }
-  .is-tablet-none {
+  .hp_tablet_none {
     display: none !important;
   }
   .is-tablet-xxl {
@@ -4035,16 +4035,16 @@ svg.el_icon {
   .el_text.el_text__desktop_left {
     text-align: left;
   }
-  .is-desktop-block {
+  .hp_desktop_block {
     display: block !important;
   }
-  .is-desktop-inline {
+  .hp_desktop_inline {
     display: inline !important;
   }
-  .is-desktop-inline-block {
+  .hp_desktop_inlineBlock {
     display: inline-block !important;
   }
-  .is-desktop-none {
+  .hp_desktop_none {
     display: none !important;
   }
   .is-desktop-xxl {
@@ -4154,16 +4154,16 @@ svg.el_icon {
   .el_text.el_text__wide_left {
     text-align: left;
   }
-  .is-wide-block {
+  .hp_wide_block {
     display: block !important;
   }
-  .is-wide-inline {
+  .hp_wide_inline {
     display: inline !important;
   }
-  .is-wide-inline-block {
+  .hp_wide_inlineBlock {
     display: inline-block !important;
   }
-  .is-wide-none {
+  .hp_wide_none {
     display: none !important;
   }
   .is-wide-xxl {
