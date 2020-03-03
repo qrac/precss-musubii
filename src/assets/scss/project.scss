@@ -8,51 +8,94 @@
 $project-color-1: #e8473e;
 $project-color-2: #f7f7f7;
 
-.ly_sect_header {
-  position: relative;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  background-color: $light;
-  z-index: 100;
-  @include desktop() {
-    padding-top: 24px;
-    padding-bottom: 24px;
+.ly_sect {
+  &_header {
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: $light;
+    z-index: 100;
+    @include desktop() {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
   }
-}
-
-.ly_sect_hero {
-  position: relative;
-  padding-top: 40px;
-  padding-bottom: 200px;
-  margin-bottom: -160px;
-  background-color: $project-color-1;
-  background-image: linear-gradient(
-      115deg,
-      transparent 75%,
-      darken($project-color-1, 4%) 75%
-    ),
-    linear-gradient(245deg, transparent 75%, darken($project-color-1, 4%) 75%),
-    linear-gradient(115deg, transparent 75%, darken($project-color-1, 4%) 75%),
-    linear-gradient(245deg, transparent 75%, darken($project-color-1, 4%) 75%);
-  background-position: 0 0, 0 0, 20px -40px, 20px -40px;
-  background-size: 40px 80px;
-  background-repeat: repeat;
-  z-index: 10;
-}
-
-.ly_sect_nav {
-  position: relative;
-  z-index: 20;
+  &_hero {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 200px;
+    margin-bottom: -180px;
+    background-color: $project-color-1;
+    background-image: linear-gradient(
+        115deg,
+        transparent 75%,
+        darken($project-color-1, 4%) 75%
+      ),
+      linear-gradient(245deg, transparent 75%, darken($project-color-1, 4%) 75%),
+      linear-gradient(115deg, transparent 75%, darken($project-color-1, 4%) 75%),
+      linear-gradient(245deg, transparent 75%, darken($project-color-1, 4%) 75%);
+    background-position: 0 0, 0 0, 20px -40px, 20px -40px;
+    background-size: 40px 80px;
+    background-repeat: repeat;
+    z-index: 10;
+  }
+  &_footer {
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    z-index: 50;
+  }
+  &_inner {
+    &.ly_sect_inner__desk_max_w_tab {
+      @include desktop() {
+        max-width: $section-inner-width-tablet;
+      }
+      @include wide() {
+        max-width: $section-inner-width-tablet;
+      }
+    }
+  }
 }
 
 .ly_main {
   position: relative;
+  min-height: calc(100vh - 72px - 256px);
   z-index: 20;
 }
 
-.ly_sect_footer {
-  position: relative;
-  z-index: 50;
+.bl_card {
+  &__bg_pj2 {
+    background-color: $project-color-2;
+  }
+}
+
+.el_txt {
+  &__fontSans_en {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+}
+
+.el_icon {
+  &__externalLink_fix {
+    position: relative;
+    top: -0.125em;
+    margin-left: 0.25em;
+    font-size: 75%;
+    opacity: 0.75;
+  }
+}
+
+.hp_mob_tab_MG_t_2px {
+  @include mobile-tablet() {
+    margin-top: -2px;
+  }
+}
+
+.hp_desk_MG_t_6px {
+  @include desktop() {
+    margin-top: -6px;
+  }
 }
 
 .un_siteLogo_link {
