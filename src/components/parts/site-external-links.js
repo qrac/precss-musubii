@@ -11,7 +11,7 @@ export default () => {
       rel="noopener noreferrer"
       target="_blank"
     >
-      <FontAwesomeIcon icon={faGithub} className="el_icon hp_lg" />
+      <FontAwesomeIcon icon={faGithub} className="el_icon hp_lg hp_desk_xl" />
     </a>
   )
 }
