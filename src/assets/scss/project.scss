@@ -4,3 +4,19 @@
 
 @import "./configs/_import.scss";
 @import "./styles/_import.scss";
+
+$project-color-1: #e8473e;
+$project-color-2: #f7f7f7;
+
+.ly_sect_header {
+  background-color: $light;
+}
+
+.un_siteLogo_link {
+  display: block;
+  width: 196px;
+}
+
+.un_siteLogo path {
+  fill: $project-color-1;
+}

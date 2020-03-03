@@ -1,7 +1,10 @@
 import React from "react"
 import App from "next/app"
 
-import AppHead from "~/components/commons/app-head"
+import { config } from "@fortawesome/fontawesome-svg-core"
+import "@fortawesome/fontawesome-svg-core/styles.css"
+config.autoAddCss = false
+
 import AppHeader from "~/components/commons/app-header"
 import AppNav from "~/components/commons/app-nav"
 import AppFooter from "~/components/commons/app-footer"
@@ -18,7 +21,6 @@ class MyApp extends App {
     const { Component, pageProps } = this.props
     return (
       <div className="app">
-        <AppHead />
         <AppHeader />
         <AppNav />
         <main className="main">
