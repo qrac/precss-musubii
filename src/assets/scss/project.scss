@@ -135,6 +135,14 @@ $project-color-2: #f7f7f7;
   }
 }
 
+.bl_nest_nav_btns {
+  .bl_box.bl_box__link {
+    &:not(.bl_box__disabled):not([disabled]):hover {
+      background-color: $dark-9;
+    }
+  }
+}
+
 .bl_card {
   &__bg_pj2 {
     background-color: $project-color-2;

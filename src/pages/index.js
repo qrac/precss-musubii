@@ -11,7 +11,7 @@ const beautifyHtmlOptions = {
 
 export const meta = {}
 
-export class PreviewBasicMarkup extends React.Component {
+export class PageHome extends React.Component {
   constructor(props) {
     super(props)
     this.state = {}
@@ -28,4 +28,4 @@ export class PreviewBasicMarkup extends React.Component {
   }
 }
 
-export default PreviewBasicMarkup
+export default PageHome
