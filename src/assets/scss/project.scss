@@ -64,14 +64,51 @@ $project-color-2: #f7f7f7;
 
 .ly_main {
   position: relative;
-  min-height: 15vh;
+  min-height: 15vmax;
   z-index: 20;
 }
 
-.bl_card {
-  &__bg_pj2 {
-    background-color: $project-color-2;
+.bl_bar {
+  position: relative;
+  padding: 8px;
+  background-color: #3c3f41;
+  .el_bar_pathName {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 18px * 3 * 2 - 8px * 4);
+    text-align: center;
+    transform: translate(-50%, -50%);
+    @include musubii-style-overflow-ellipsis();
   }
+}
+
+.bl_bar_btns {
+  display: flex;
+  .el_bar_btn {
+    margin: 0 4px;
+  }
+}
+
+.el_bar_btn {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  &__red {
+    background-color: #df655b;
+  }
+  &__yellow {
+    background-color: #eab94d;
+  }
+  &__green {
+    background-color: #60c252;
+  }
+}
+
+.el_bar_pathName {
+  color: $light-4;
+  font-size: 75%;
 }
 
 .bl_nav_btns {
@@ -92,6 +129,12 @@ $project-color-2: #f7f7f7;
   color: $light;
   &.is_active {
     background-color: $dark-7;
+  }
+}
+
+.bl_card {
+  &__bg_pj2 {
+    background-color: $project-color-2;
   }
 }
 
