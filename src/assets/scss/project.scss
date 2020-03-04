@@ -39,6 +39,11 @@ $project-color-2: #f7f7f7;
     background-repeat: repeat;
     z-index: 10;
   }
+  &_nav {
+    position: relative;
+    padding-bottom: 16px;
+    z-index: 20;
+  }
   &_footer {
     position: relative;
     padding-top: 16px;
@@ -59,13 +64,34 @@ $project-color-2: #f7f7f7;
 
 .ly_main {
   position: relative;
-  min-height: calc(100vh - 72px - 256px);
+  min-height: 15vh;
   z-index: 20;
 }
 
 .bl_card {
   &__bg_pj2 {
     background-color: $project-color-2;
+  }
+}
+
+.bl_nav_btns {
+  display: flex;
+  flex-wrap: wrap;
+  &__c {
+    justify-content: center;
+  }
+  .bl_nav_item {
+    margin: 0 2px;
+  }
+}
+
+.el_nav_btn {
+  @include musubii-style-button();
+  @include musubii-style-button-strong();
+  @include musubii-style-button-melt();
+  color: $light;
+  &.is_active {
+    background-color: $dark-7;
   }
 }
 

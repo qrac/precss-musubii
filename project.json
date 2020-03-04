@@ -7,6 +7,33 @@
     "twitter_id": "Qrac_JP",
     "start_year": "2020"
   },
+  "navs": [
+    {
+      "id": "home",
+      "path": "/",
+      "title": "Home"
+    },
+    {
+      "id": "layout",
+      "path": "/layout/",
+      "title": "Layout"
+    },
+    {
+      "id": "block",
+      "path": "/block/",
+      "title": "Block"
+    },
+    {
+      "id": "element",
+      "path": "/element/",
+      "title": "Element"
+    },
+    {
+      "id": "helper",
+      "path": "/helper/",
+      "title": "Helper"
+    }
+  ],
   "menus": [
     {
       "id": "getting-started",

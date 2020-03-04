@@ -24,11 +24,11 @@ class MyApp extends App {
       <div className="ly_app">
         <AppHeader />
         <AppHero />
+        <AppNav />
         <main className="ly_main">
           <section className="ly_sect ly_sect_main">
             <div className="ly_sect_inner ly_sect_inner__desk_max_w_tab hp_pd_horiz_md">
               <div className="bl_card bl_card__bg_pj2 bl_card__flo bl_card__rad_md">
-                <AppNav />
                 <Component {...pageProps} />
               </div>
             </div>
