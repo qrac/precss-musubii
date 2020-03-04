@@ -1,6 +1,9 @@
 //----------------------------------------------------
-// Project
+// Block: Card
 //----------------------------------------------------
 
-@import "./configs/_import.scss";
-@import "./styles/_import.scss";
+.bl_card {
+  &__bg_pj2 {
+    background-color: $project-color-2;
+  }
+}

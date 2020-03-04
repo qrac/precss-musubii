@@ -1,0 +1,35 @@
+//----------------------------------------------------
+// Block: Nav Button
+//----------------------------------------------------
+
+.bl_nav_btns {
+  display: flex;
+  flex-wrap: wrap;
+  &__c {
+    justify-content: center;
+  }
+  .bl_nav_item {
+    margin: 0 2px;
+  }
+}
+
+.el_nav_btn {
+  @include musubii-style-button();
+  @include musubii-style-button-strong();
+  @include musubii-style-button-melt();
+  color: $light;
+  &:hover {
+    background-color: $dark-7;
+  }
+  &.is_active {
+    background-color: $dark-6;
+  }
+}
+
+.bl_nest_nav_btns {
+  .bl_box.bl_box__link {
+    &:not(.bl_box__disabled):not([disabled]):hover {
+      background-color: $dark-9;
+    }
+  }
+}

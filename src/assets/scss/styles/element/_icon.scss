@@ -1,0 +1,13 @@
+//----------------------------------------------------
+// Element: Icon
+//----------------------------------------------------
+
+.el_icon {
+  &__externalLink_fix {
+    position: relative;
+    top: -0.125em;
+    margin-left: 0.25em;
+    font-size: 75%;
+    opacity: 0.75;
+  }
+}

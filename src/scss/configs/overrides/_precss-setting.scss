@@ -159,7 +159,7 @@ $n-circle: "circle" !default;
 $n-weight: "weight" !default;
 $n-italic: "italic" !default;
 $n-delete: "delete" !default;
-$n-capitalize: if($option-om, "capt", "capitalize") !default;
+$n-capitalize: if($option-om, "capi", "capitalize") !default;
 $n-lowercase: if($option-om, "lower", "lowercase") !default;
 $n-uppercase: if($option-om, "upper", "uppercase") !default;
 $n-justify: if($option-om, "just", "justify") !default;

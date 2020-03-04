@@ -1,0 +1,15 @@
+//----------------------------------------------------
+// Unique: Site Logo
+//----------------------------------------------------
+
+.un_siteLogo_link {
+  display: block;
+  width: 196px;
+  @include desktop() {
+    width: 240px;
+  }
+}
+
+.un_siteLogo path {
+  fill: $project-color-1;
+}

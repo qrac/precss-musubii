@@ -1,0 +1,15 @@
+//----------------------------------------------------
+// Helper: Margin
+//----------------------------------------------------
+
+.hp_mob_tab_MG_t_2px {
+  @include mobile-tablet() {
+    margin-top: -2px;
+  }
+}
+
+.hp_desk_MG_t_6px {
+  @include desktop() {
+    margin-top: -6px;
+  }
+}

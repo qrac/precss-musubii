@@ -1,0 +1,106 @@
+//----------------------------------------------------
+// Block: Demo Box
+//----------------------------------------------------
+
+$theme-light-demo-box-line-border-color: rgba(0, 0, 0, 0.1) !default;
+$theme-light-demo-box-paint-background-color: #304244 !default;
+
+$convert-demo-box-line-border-color: $theme-light-demo-box-line-border-color !default;
+$convert-demo-box-paint-background-color: $theme-light-demo-box-paint-background-color !default;
+
+.bl_demo_box {
+  &__preview {
+    > .bl_demo_box,
+    > .bl_demo_options_wrap,
+    > .bl_demo_pre_wrap,
+    > .bl_demo_fx_table {
+      margin: 0;
+      &:not(:first-child),
+      &:not(:first-child) > .bl_demo_pre {
+        border-top: none;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+      }
+      &:not(:last-child),
+      &:not(:last-child) > .bl_demo_pre {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    }
+    > .bl_demo_fx_table {
+      &:first-child {
+        border-top-right-radius: 2px;
+        border-top-left-radius: 2px;
+      }
+      &:last-child {
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+      }
+    }
+  }
+  &__line {
+    padding: 1.25em;
+    //border: 1px solid $convert-demo-box-line-border-color;
+    border-bottom: 1px solid $convert-demo-box-line-border-color;
+    border-radius: 2px;
+  }
+  &__paint {
+    padding: 1.25em;
+    background-color: $convert-demo-box-paint-background-color;
+    border: 1px solid $convert-demo-box-line-border-color;
+    border-radius: 2px;
+  }
+  &__note {
+    padding: 1.25em;
+    background-color: $convert-background-2;
+    border: 1px solid $convert-border;
+    border-radius: 2px;
+    .custom-block-heading {
+      color: $convert-dark-4;
+      font-weight: 900;
+      font-family: $font-sans-en;
+      letter-spacing: 0.175em;
+      text-transform: uppercase;
+    }
+  }
+  &__tips {
+    padding: 1.25em;
+    background-color: $convert-alert-primary-background-color;
+    border: 1px solid $convert-alert-primary-border-color;
+    border-radius: 2px;
+    .custom-block-heading {
+      color: $convert-primary-strong;
+      font-weight: 900;
+      font-family: $font-sans-en;
+      letter-spacing: 0.175em;
+      text-transform: uppercase;
+    }
+  }
+  &__warning {
+    padding: 1.25em;
+    background-color: $convert-alert-warning-background-color;
+    border: 1px solid $convert-alert-warning-border-color;
+    border-radius: 2px;
+    .custom-block-heading {
+      color: $convert-warning-strong;
+      font-weight: 900;
+      font-family: $font-sans-en;
+      letter-spacing: 0.175em;
+      text-transform: uppercase;
+    }
+  }
+  .custom-block-heading {
+    + .custom-block-body {
+      margin-top: 8px;
+    }
+  }
+  .custom-block-body {
+  }
+  .el_demo_txt,
+  .el_demo_list {
+    margin-bottom: 0;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

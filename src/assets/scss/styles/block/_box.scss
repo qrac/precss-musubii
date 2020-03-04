@@ -1,0 +1,35 @@
+//----------------------------------------------------
+// Layouts: Box
+//----------------------------------------------------
+
+.bl_box.bl_box__custom_grid_demo {
+  .ly_grid {
+    &__middle,
+    &__bottom,
+    &__stretch {
+      min-height: 120px;
+    }
+    &__baseline {
+      > .ly_grid_col {
+        &:nth-child(2) {
+          font-size: 200%;
+        }
+        &:nth-child(4) {
+          font-size: 75%;
+        }
+      }
+    }
+    > .ly_grid_col {
+      > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 12px 20px;
+        background-color: $convert-table-paint-background-color;
+        border-radius: 2px;
+        color: $convert-table-paint-color;
+      }
+    }
+  }
+}

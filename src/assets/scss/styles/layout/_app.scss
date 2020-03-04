@@ -1,6 +1,10 @@
 //----------------------------------------------------
-// Project
+// Layout: App
 //----------------------------------------------------
 
-@import "./configs/_import.scss";
-@import "./styles/_import.scss";
+body {
+  background-color: $project-color-2;
+}
+
+.ly_app {
+}

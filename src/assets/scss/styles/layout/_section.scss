@@ -1,0 +1,65 @@
+//----------------------------------------------------
+// Layout: Section
+//----------------------------------------------------
+
+.ly_sect_header {
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: $light;
+  //background-color: $project-color-2;
+  z-index: 100;
+  @include desktop() {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.ly_sect_hero {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 200px;
+  margin-bottom: -180px;
+  background-color: $project-color-1;
+  background-image: linear-gradient(
+      115deg,
+      transparent 75%,
+      darken($project-color-1, 4%) 75%
+    ),
+    linear-gradient(245deg, transparent 75%, darken($project-color-1, 4%) 75%),
+    linear-gradient(115deg, transparent 75%, darken($project-color-1, 4%) 75%),
+    linear-gradient(245deg, transparent 75%, darken($project-color-1, 4%) 75%);
+  background-position: 0 0, 0 0, 20px -40px, 20px -40px;
+  background-size: 40px 80px;
+  background-repeat: repeat;
+  z-index: 10;
+}
+
+.ly_sect_nav {
+  position: relative;
+  padding-bottom: 12px;
+  z-index: 20;
+}
+
+.ly_sect_footer {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  z-index: 50;
+}
+
+.ly_sect_inner {
+  &.ly_sect_inner__desk_max_w_tab {
+    @include desktop() {
+      max-width: $section-inner-width-tablet;
+    }
+    @include wide() {
+      max-width: $section-inner-width-tablet;
+    }
+  }
+  &.ly_sect_inner__wide_max_w_desk {
+    @include wide() {
+      max-width: $section-inner-width-desktop;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+//----------------------------------------------------
+// Block: Demo Option
+//----------------------------------------------------
+
+.bl_demo_options_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 0;
+  //border: 1px solid $dark-9;
+  border-bottom: 1px solid $dark-9;
+  border-radius: 2px;
+}
+
+.bl_demo_options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bl_demo_option {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 4px 20px;
+}
+
+.bl_demo_option_ttl {
+  flex: 0 0 100%;
+  margin-top: -2px;
+  //margin-bottom: -4px;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  color: $dark-4;
+  font-size: 75%;
+  font-weight: 900;
+  font-family: $font-sans-en;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+}
+
+.bl_demo_option_box {
+  padding: 8px 0;
+  .el_form_select {
+    &:not(.is-multi) > select {
+      padding-right: 2em;
+    }
+    > select {
+      height: calc(1.5em + (1px * 2));
+      padding: 0 0.5em;
+    }
+  }
+}

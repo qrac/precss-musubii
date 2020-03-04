@@ -1,6 +1,9 @@
 //----------------------------------------------------
-// Project
+// Layout: Main
 //----------------------------------------------------
 
-@import "./configs/_import.scss";
-@import "./styles/_import.scss";
+.ly_main {
+  position: relative;
+  min-height: 15vmax;
+  z-index: 20;
+}

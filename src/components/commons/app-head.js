@@ -59,6 +59,12 @@ export default ({ meta }) => {
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Rokkitt:500&display=swap"
       ></link>*/}
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+        crossorigin="anonymous"
+        //SameSite="none Secure"
+      />
       <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       <link rel="icon" href="/favicon.png" />
     </Head>
