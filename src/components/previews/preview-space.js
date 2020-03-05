@@ -104,9 +104,9 @@ export class PreviewSpaceWay extends React.Component {
   render() {
     const way = this.state.way
     const space = this.state.space
-    const spaceClass = space ? "hp_space_" + way + "-" + space : ""
+    const spaceClass = space ? "hp_space_" + way + "_" + space : ""
     const minus = this.state.minus
-    const minusClass = minus && space ? "hp_MG_" + way + space : ""
+    const minusClass = minus && space ? "hp_MG_" + way + "_" + space : ""
     const fullClass = way === "t" || way === "b" ? "hp_fx_full" : ""
     const contents = `<div class="bl_box bl_box__fx ${spaceClass} ${minusClass}">
         <button class="el_btn el_btn__plain el_btn__primary ${fullClass}" type="button">ボタンA</button>

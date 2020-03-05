@@ -23,7 +23,7 @@ export class PreviewOverflowBasic extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      overflow: "hidden"
+      overflow: "hid"
     }
     this.changeOverflow = this.changeOverflow.bind(this)
   }

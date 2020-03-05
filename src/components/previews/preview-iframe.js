@@ -7,8 +7,8 @@ import DemoOptionBoxCheckbox from "~/components/parts/demo-option-box-checkbox"
 import DemoPre from "~/components/parts/demo-pre"
 
 const aspects = [
-  { id: 0, text: "16:9", value: "el_iframe__asp_16x9" },
-  { id: 1, text: "4:3", value: "el_iframe__asp_4x3" }
+  { id: 0, text: "16:9", value: "el_iframe__asp16x9" },
+  { id: 1, text: "4:3", value: "el_iframe__asp4x3" }
 ]
 
 const beautifyHtmlOptions = {
@@ -20,7 +20,7 @@ export class PreviewIframeBasic extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      aspect: "el_iframe__asp_16x9"
+      aspect: "el_iframe__asp16x9"
     }
     this.changeAspect = this.changeAspect.bind(this)
   }

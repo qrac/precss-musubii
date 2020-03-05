@@ -30,9 +30,9 @@ const multiplePatterns = [
 ]
 
 const buttonPatterns = [
-  { id: 0, text: "Plain", value: "el_form__plain" },
-  { id: 1, text: "Outline", value: "el_form__outline" },
-  { id: 2, text: "Melt", value: "el_form__melt" }
+  { id: 0, text: "Plain", value: "el_btn__plain" },
+  { id: 1, text: "Outline", value: "el_btn__outline" },
+  { id: 2, text: "Melt", value: "el_btn__melt" }
 ]
 
 const roles = [
@@ -43,11 +43,11 @@ const roles = [
 
 const buttonRoles = [
   { id: 0, text: "None", value: "" },
-  { id: 1, text: "Primary", value: "el_form__primary" },
-  { id: 2, text: "Info", value: "el_form__info" },
-  { id: 3, text: "Success", value: "el_form__success" },
-  { id: 4, text: "Warning", value: "el_form__warning" },
-  { id: 5, text: "Danger", value: "el_form__danger" }
+  { id: 1, text: "Primary", value: "el_btn__primary" },
+  { id: 2, text: "Info", value: "el_btn__info" },
+  { id: 3, text: "Success", value: "el_btn__success" },
+  { id: 4, text: "Warning", value: "el_btn__warning" },
+  { id: 5, text: "Danger", value: "el_btn__danger" }
 ]
 
 const beautifyHtmlOptions = {
@@ -252,7 +252,7 @@ export class PreviewFormFile extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      pattern: "el_form__plain",
+      pattern: "el_btn__plain",
       role: "",
       strong: false,
       round: false,
@@ -287,11 +287,11 @@ export class PreviewFormFile extends React.Component {
   render() {
     const pattern = this.state.pattern
     const role = this.state.role
-    const strong = this.state.strong ? "el_form__strong" : ""
-    const round = this.state.round ? "el_form__round" : ""
-    const floating = this.state.floating ? "el_form__flo" : ""
+    const strong = this.state.strong ? "el_btn__strong" : ""
+    const round = this.state.round ? "el_btn__round" : ""
+    const floating = this.state.floating ? "el_btn__flo" : ""
     const disabled = this.state.disabled
-    const disabledClass = disabled ? "el_form__disabled" : ""
+    const disabledClass = disabled ? "el_btn__disabled" : ""
     //const disabledTabIndex = disabled ? 'tabindex="-1"' : ""
     const contents = `<label class="el_btn ${pattern} ${role}
       ${strong} ${round} ${floating} ${disabledClass}">
@@ -625,7 +625,7 @@ export class PreviewFormButton extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      pattern: "el_form__plain",
+      pattern: "el_btn__plain",
       strong: false,
       round: false,
       floating: false,
@@ -654,9 +654,9 @@ export class PreviewFormButton extends React.Component {
   }
   render() {
     const pattern = this.state.pattern
-    const strong = this.state.strong ? "el_form__strong" : ""
-    const round = this.state.round ? "el_form__round" : ""
-    const floating = this.state.floating ? "el_form__flo" : ""
+    const strong = this.state.strong ? "el_btn__strong" : ""
+    const round = this.state.round ? "el_btn__round" : ""
+    const floating = this.state.floating ? "el_btn__flo" : ""
     const disabled = this.state.disabled ? "disabled" : ""
     const contents = `<div class="bl_box bl_box__fx hp_space_r_xs">
           <button class="el_btn ${pattern} ${strong} ${round} ${floating}" type="button" ${disabled}>ボタン</button>
@@ -711,7 +711,7 @@ export class PreviewFormButton extends React.Component {
         </div>
         <div className="bl_demo_box bl_demo_box__line">
           <div
-            className="box is-space-sm"
+            className="bl_box hp_space_sm"
             dangerouslySetInnerHTML={{ __html: formattedCode }}
           ></div>
         </div>

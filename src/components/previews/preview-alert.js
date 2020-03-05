@@ -18,6 +18,7 @@ const items = [
     id: 1,
     role: "bl_alert__primary",
     text: "WordPressプラグインの設定へようこそ！",
+    textRole: "el_txt__primary",
     icon: "thumbs-up",
     iconRole: "el_icon__primary"
   },
@@ -25,6 +26,7 @@ const items = [
     id: 2,
     role: "bl_alert__info",
     text: "プラグインに関するチュートリアルはこちら。",
+    textRole: "el_txt__info",
     icon: "info-circle",
     iconRole: "el_icon__info"
   },
@@ -32,6 +34,7 @@ const items = [
     id: 3,
     role: "bl_alert__success",
     text: "プラグインの設定は自動的に保存されました。",
+    textRole: "el_txt__success",
     icon: "check",
     iconRole: "el_icon__success"
   },
@@ -39,6 +42,7 @@ const items = [
     id: 4,
     role: "bl_alert__warning",
     text: "プラグインはアクティベートされていません。",
+    textRole: "el_txt__warning",
     icon: "exclamation-triangle",
     iconRole: "el_icon__warning"
   },
@@ -46,6 +50,7 @@ const items = [
     id: 5,
     role: "bl_alert__danger",
     text: "プラグインは削除されました。",
+    textRole: "el_txt__danger",
     icon: "times",
     iconRole: "el_icon__danger"
   }
@@ -82,7 +87,7 @@ export class PreviewAlertRole extends React.Component {
         item =>
           `<div class="bl_alert ${item.role}">
             <i aria-hidden="true" class="fas fa-${item.icon} ${item.iconRole} el_icon el_icon__fit hp_mg_r_xxs"></i>
-            <span class="el_txt ${item.role}">${item.text}</span>
+            <span class="el_txt ${item.textRole}">${item.text}</span>
           </div>`
       )
       .join("")

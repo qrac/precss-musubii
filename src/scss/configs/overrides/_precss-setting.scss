@@ -342,8 +342,8 @@ $modifier-box-angle-down: $selector-box + $__ + $n-angle + $_ + $n-down !default
 $selector-joint: $bl_ + $n-joint !default;
 $selector-joint-child-button: $el_ + $n-button !default;
 $selector-joint-child-badge: $el_ + $n-badge !default;
-$selector-joint-child-input: $el_ + $n-input !default;
-$selector-joint-child-select: $el_ + $n-select !default;
+$selector-joint-child-input: $el_ + $n-form + $_ + $n-input !default;
+$selector-joint-child-select: $el_ + $n-form + $_ + $n-select !default;
 //$selector-joint-child-select-core: "select" !default;
 
 // Modifiers
@@ -576,7 +576,7 @@ $modifier-form-middle: $selector-form + $__ + $n-middle !default;
 $modifier-form-center: $selector-form + $__ + $n-center !default;
 $modifier-form-checked: $selector-form + $__ + $n-checked !default;
 $modifier-form-disabled: $selector-form + $__ + $n-disabled !default;
-$modifier-form-multiple: $selector-form + $__ + $n-multiple !default;
+$modifier-form-multiple: $selector-form-select + $__ + $n-multiple !default;
 
 //----------------------------------------------------
 // / iframe
