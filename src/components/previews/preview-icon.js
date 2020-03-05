@@ -34,7 +34,7 @@ export class PreviewIconDark extends React.Component {
   render() {
     const texts = []
     for (let i = 0; i < 10; i++) {
-      const suffix = i === 0 ? "" : "-" + i
+      const suffix = i === 0 ? "" : i
       texts.push(
         `<i aria-hidden="true" class="el_icon fas fa-adjust el_icon__dark${suffix}"></i>`
       )
@@ -66,7 +66,7 @@ export class PreviewIconLight extends React.Component {
   render() {
     const texts = []
     for (let i = 0; i < 10; i++) {
-      const suffix = i === 0 ? "" : "-" + i
+      const suffix = i === 0 ? "" : i
       texts.push(
         `<i aria-hidden="true" class="el_icon fas fa-adjust el_icon__light${suffix}"></i>`
       )

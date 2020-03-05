@@ -10,10 +10,10 @@ import DemoPre from "~/components/parts/demo-pre"
 const outlines = [
   { id: 0, text: "None", value: "" },
   { id: 1, text: "All", value: "bl_box__outline" },
-  { id: 2, text: "Top", value: "bl_box__outline-top" },
-  { id: 3, text: "Right", value: "bl_box__outline-right" },
-  { id: 4, text: "Bottom", value: "bl_box__outline-bottom" },
-  { id: 5, text: "Left", value: "bl_box__outline-left" }
+  { id: 2, text: "Top", value: "bl_box__outline_t" },
+  { id: 3, text: "Right", value: "bl_box__outline_r" },
+  { id: 4, text: "Bottom", value: "bl_box__outline_b" },
+  { id: 5, text: "Left", value: "bl_box__outline_l" }
 ]
 
 const separates = [

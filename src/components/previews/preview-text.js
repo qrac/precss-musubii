@@ -91,7 +91,7 @@ export class PreviewTextDark extends React.Component {
   render() {
     const texts = []
     for (let i = 0; i < 10; i++) {
-      const suffix = i === 0 ? "" : "-" + i
+      const suffix = i === 0 ? "" : i
       texts.push(`<span class="el_txt el_txt__dark${suffix}">ダーク</span>`)
     }
     const contents = texts
@@ -121,7 +121,7 @@ export class PreviewTextLight extends React.Component {
   render() {
     const texts = []
     for (let i = 0; i < 10; i++) {
-      const suffix = i === 0 ? "" : "-" + i
+      const suffix = i === 0 ? "" : i
       texts.push(`<span class="el_txt el_txt__light${suffix}">ライト</span>`)
     }
     const contents = texts
