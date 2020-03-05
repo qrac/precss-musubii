@@ -33,13 +33,13 @@ const weights = [
 
 const lineHeights = [
   { id: 0, text: "None", value: "" },
-  { id: 7, text: "XXS", value: "el_txt__line_height_xxs" },
-  { id: 6, text: "XS", value: "el_txt__line_height_xs" },
-  { id: 5, text: "Small", value: "el_txt__line_height_sm" },
-  { id: 4, text: "Middle", value: "el_txt__line_height_md" },
-  { id: 3, text: "Large", value: "el_txt__line_height_lg" },
-  { id: 2, text: "XL", value: "el_txt__line_height_xl" },
-  { id: 1, text: "XXL", value: "el_txt__line_height_xxl" }
+  { id: 7, text: "XXS", value: "el_txt__lineHeight_xxs" },
+  { id: 6, text: "XS", value: "el_txt__lineHeight_xs" },
+  { id: 5, text: "Small", value: "el_txt__lineHeight_sm" },
+  { id: 4, text: "Middle", value: "el_txt__lineHeight_md" },
+  { id: 3, text: "Large", value: "el_txt__lineHeight_lg" },
+  { id: 2, text: "XL", value: "el_txt__lineHeight_xl" },
+  { id: 1, text: "XXL", value: "el_txt__lineHeight_xxl" }
 ]
 
 const transforms = [
