@@ -19,7 +19,7 @@ const outlines = [
 const separates = [
   { id: 0, text: "None", value: "" },
   { id: 1, text: "All", value: "bl_box__sepa" },
-  { id: 2, text: "Parent & Child", value: "bl_box__sepa-parent" }
+  { id: 2, text: "Parent & Child", value: "bl_box__sepa_parent" }
 ]
 
 const verticalAligns = [
