@@ -7,4 +7,12 @@ body {
 }
 
 .ly_app {
+  @include musubii-style-padding-vertical-safe();
+  .ly_sect_header,
+  .ly_sect_hero,
+  .ly_sect_nav,
+  .ly_mein,
+  .ly_sect_footer {
+    @include musubii-style-padding-horizontal-safe();
+  }
 }
