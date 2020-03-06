@@ -1,4 +1,4 @@
-/*! PRECSS + MUSUBii v0.1.0 MIT by Qrac */
+/*! PRECSS + MUSUBii v0.1.1 MIT by Qrac */
 
 *,
 ::before,
@@ -1554,8 +1554,15 @@ iframe {
 }
 
 .el_list.el_list__kome > .el_list_item {
-  display: list-item;
-  list-style: "\203B" outside;
+  position: relative;
+  display: block;
+}
+
+.el_list.el_list__kome > .el_list_item:before {
+  content: "\203B";
+  position: absolute;
+  top: 0;
+  left: -1em;
 }
 
 .el_list.el_list__deci > .el_list_item {
