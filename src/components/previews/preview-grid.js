@@ -219,7 +219,7 @@ export class PreviewGridGapVertical extends React.Component {
     const columnNum = this.state.columnNum
     const columnSize = this.state.columnSize
     const gap = this.state.gap
-    const gapClass = gap ? "ly_grid__gap_vert-" + gap : ""
+    const gapClass = gap ? "ly_grid__gap_vert_" + gap : ""
     const gridTagBefore = `<div class="ly_grid ${gapClass}">`
     const gridTagAfter = `</div>`
     const columns = []
@@ -283,7 +283,7 @@ export class PreviewGridGapHorizontal extends React.Component {
     const columnNum = this.state.columnNum
     const columnSize = this.state.columnSize
     const gap = this.state.gap
-    const gapClass = gap ? "ly_grid__gap_horiz-" + gap : ""
+    const gapClass = gap ? "ly_grid__gap_horiz_" + gap : ""
     const gridTagBefore = `<div class="ly_grid ${gapClass}">`
     const gridTagAfter = `</div>`
     const columns = []
