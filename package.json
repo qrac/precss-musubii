@@ -1,7 +1,7 @@
 {
   "name": "precss-musubii",
   "description": "Simple CSS Framework for PRECSS",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/precss-musubii.css",
   "license": "MIT",
   "homepage": "https://precss-musubii.qranoko.jp",
@@ -42,7 +42,7 @@
     "last 1 versions"
   ],
   "dependencies": {
-    "musubii": "^7.0.1"
+    "musubii": "^7.0.2"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
