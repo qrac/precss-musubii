@@ -1,4 +1,4 @@
-/*! PRECSS + MUSUBii v0.1.1 MIT by Qrac */
+/*! PRECSS + MUSUBii v0.1.2 MIT by Qrac */
 
 *,
 ::before,
@@ -20,7 +20,6 @@
 html {
   font-family: sans-serif;
   word-break: break-word;
-  overflow-y: scroll;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
