@@ -4666,10 +4666,10 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-musubii@^7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/musubii/-/musubii-7.0.2.tgz#c07f45bedc4530e8486d8b2c5009f2ed90e9c131"
-  integrity sha512-nnOymoxAR9/VDD8yLWxpsxCZEHECgndajmqnJw9JFXOK/e4w2xQuEHMDv+F+rhxMotKOgqc9wKVYBB1CDtJsVg==
+musubii@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/musubii/-/musubii-7.0.3.tgz#abcff781e039059631fd8207390215f87b5415e1"
+  integrity sha512-qVt9o8X+1Fte9tOMbwrDS5FGHCVtCMQqD+re4wgtwZREnYeLplvJOo59nkGjOIWh/gZvIJ5SAfx2iUGdFpx3iw==
 
 nan@^2.12.1, nan@^2.13.2:
   version "2.14.0"
