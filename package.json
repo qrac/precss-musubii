@@ -42,7 +42,7 @@
     "last 1 versions"
   ],
   "dependencies": {
-    "musubii": "^7.0.3"
+    "musubii": "^7.1.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
