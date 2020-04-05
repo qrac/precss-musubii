@@ -1,4 +1,4 @@
-/*! PRECSS + MUSUBii v0.1.2 MIT by Qrac */
+/*! PRECSS + MUSUBii v0.1.3 MIT by Qrac */
 
 *,
 ::before,
@@ -1775,6 +1775,18 @@ iframe {
   border-color: #d1d8dc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   color: rgba(0, 0, 0, 0.7);
+}
+
+.el_form_input[type="text"].el_form__r, .el_form_input[type="search"].el_form__r, .el_form_input[type="url"].el_form__r, .el_form_input[type="email"].el_form__r, .el_form_input[type="tel"].el_form__r, .el_form_input[type="password"].el_form__r, .el_form_input[type="datetime-local"].el_form__r, .el_form_input[type="date"].el_form__r, .el_form_input[type="month"].el_form__r, .el_form_input[type="week"].el_form__r, .el_form_input[type="time"].el_form__r, .el_form_input[type="number"].el_form__r {
+  text-align: right;
+}
+
+.el_form_input[type="text"].el_form__c, .el_form_input[type="search"].el_form__c, .el_form_input[type="url"].el_form__c, .el_form_input[type="email"].el_form__c, .el_form_input[type="tel"].el_form__c, .el_form_input[type="password"].el_form__c, .el_form_input[type="datetime-local"].el_form__c, .el_form_input[type="date"].el_form__c, .el_form_input[type="month"].el_form__c, .el_form_input[type="week"].el_form__c, .el_form_input[type="time"].el_form__c, .el_form_input[type="number"].el_form__c {
+  text-align: center;
+}
+
+.el_form_input[type="text"].el_form__l, .el_form_input[type="search"].el_form__l, .el_form_input[type="url"].el_form__l, .el_form_input[type="email"].el_form__l, .el_form_input[type="tel"].el_form__l, .el_form_input[type="password"].el_form__l, .el_form_input[type="datetime-local"].el_form__l, .el_form_input[type="date"].el_form__l, .el_form_input[type="month"].el_form__l, .el_form_input[type="week"].el_form__l, .el_form_input[type="time"].el_form__l, .el_form_input[type="number"].el_form__l {
+  text-align: left;
 }
 
 .el_form_input[type="text"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="search"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="url"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="email"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="tel"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="password"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="datetime-local"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="date"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="month"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="week"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="time"].el_form__success:not([disabled]):not([readonly]), .el_form_input[type="number"].el_form__success:not([disabled]):not([readonly]) {
