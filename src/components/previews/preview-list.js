@@ -11,12 +11,12 @@ const patterns = [
   { id: 1, text: "Circle", value: "el_list__circle" },
   { id: 2, text: "Square", value: "el_list__square" },
   { id: 3, text: "Kome", value: "el_list__kome" },
-  { id: 4, text: "Decimal", value: "el_list__deci" }
+  { id: 4, text: "Decimal", value: "el_list__deci" },
 ]
 
 const beautifyHtmlOptions = {
   inline: ["span", "div"],
-  indent_size: 2
+  indent_size: 2,
 }
 
 export class PreviewListBasic extends React.Component {
@@ -24,7 +24,7 @@ export class PreviewListBasic extends React.Component {
     super(props)
     this.state = {
       pattern: "el_list__disc",
-      nested: false
+      nested: false,
     }
     this.changePattern = this.changePattern.bind(this)
     this.toggleNested = this.toggleNested.bind(this)
@@ -65,7 +65,8 @@ export class PreviewListBasic extends React.Component {
             <DemoOption title={"Pattern"}>
               <DemoOptionBoxRadios
                 patterns={patterns}
-                parentChange={value => this.changePattern(value)}
+                name="radio-list-basic-pattern"
+                parentChange={(value) => this.changePattern(value)}
                 checked={this.state.pattern}
               />
             </DemoOption>
@@ -94,7 +95,7 @@ export class PreviewListNote extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      nested: false
+      nested: false,
     }
     this.toggleNested = this.toggleNested.bind(this)
   }
@@ -108,16 +109,18 @@ export class PreviewListNote extends React.Component {
     const nestedLists = []
     for (let i = 0; i < 4; i++) {
       nestedLists.push(
-        `<li class="el_list_item"><span>※${i +
-          1}</span><div class="el_txt hp_fx0"
+        `<li class="el_list_item"><span>※${
+          i + 1
+        }</span><div class="el_txt hp_fx0"
         >自由な見出しをインラインで置きつつインデント</div></li>`
       )
     }
     const lists = []
     for (let i = 0; i < 4; i++) {
       lists.push(
-        `<li class="el_list_item"><span>※${i +
-          1}</span><div class="el_txt hp_fx0"
+        `<li class="el_list_item"><span>※${
+          i + 1
+        }</span><div class="el_txt hp_fx0"
         >自由な見出しをインラインで置きつつインデント${
           nested && i === 3 ? tagBefore + nestedLists.join("") + tagAfter : ""
         }</div></li>`

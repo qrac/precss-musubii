@@ -106,6 +106,7 @@ export class PreviewGridBasic extends React.Component {
             <DemoOption title={"Columns"}>
               <DemoOptionBoxRadios
                 patterns={columnNums}
+                name="radio-grid-basic-column"
                 parentChange={(value) => this.changeColumnNum(value)}
                 checked={this.state.columnNum}
               />
@@ -113,6 +114,7 @@ export class PreviewGridBasic extends React.Component {
             <DemoOption title={"Flex"}>
               <DemoOptionBoxRadios
                 patterns={columnSizes}
+                name="radio-grid-basic-flex"
                 parentChange={(value) => this.changeColumnSize(value)}
                 checked={this.state.columnSize}
               />
@@ -178,6 +180,7 @@ export class PreviewGridGap extends React.Component {
             <DemoOption title={"Gap"}>
               <DemoOptionBoxRadios
                 patterns={gaps}
+                name="radio-grid-gap"
                 parentChange={(value) => this.changeGap(value)}
                 checked={this.state.gap}
               />
@@ -243,6 +246,7 @@ export class PreviewGridGapVertical extends React.Component {
             <DemoOption title={"Gap Vertical"}>
               <DemoOptionBoxRadios
                 patterns={gaps}
+                name="radio-grid-gap-vertical"
                 parentChange={(value) => this.changeGap(value)}
                 checked={this.state.gap}
               />
@@ -308,6 +312,7 @@ export class PreviewGridGapHorizontal extends React.Component {
             <DemoOption title={"Gap Horizontal"}>
               <DemoOptionBoxRadios
                 patterns={gaps}
+                name="radio-grid-gap-horizontal"
                 parentChange={(value) => this.changeGap(value)}
                 checked={this.state.gap}
               />
@@ -365,6 +370,7 @@ export class PreviewGridAlign extends React.Component {
             <DemoOption title={"Align"}>
               <DemoOptionBoxRadios
                 patterns={aligns}
+                name="radio-grid-align"
                 parentChange={(value) => this.changeAlign(value)}
                 checked={this.state.align}
               />

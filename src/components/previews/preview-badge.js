@@ -12,22 +12,22 @@ const items = [
   { id: 2, role: "el_badge__info", text: "情報", icon: "info" },
   { id: 3, role: "el_badge__success", text: "重要", icon: "check" },
   { id: 4, role: "el_badge__warning", text: "注意", icon: "info" },
-  { id: 5, role: "el_badge__danger", text: "必須", icon: "minus" }
+  { id: 5, role: "el_badge__danger", text: "必須", icon: "minus" },
 ]
 
 const tags = [
   { id: 0, text: "Span", value: "span" },
-  { id: 1, text: "Div", value: "div" }
+  { id: 1, text: "Div", value: "div" },
 ]
 
 const patterns = [
   { id: 0, text: "Plain", value: "el_badge__plain" },
-  { id: 1, text: "Outline", value: "el_badge__outline" }
+  { id: 1, text: "Outline", value: "el_badge__outline" },
 ]
 
 const beautifyHtmlOptions = {
   inline: ["i"],
-  indent_size: 2
+  indent_size: 2,
 }
 
 export class PreviewBadgeBasic extends React.Component {
@@ -38,7 +38,7 @@ export class PreviewBadgeBasic extends React.Component {
       pattern: "el_badge__plain",
       strong: false,
       round: false,
-      disabled: false
+      disabled: false,
     }
     this.changeTag = this.changeTag.bind(this)
     this.changePattern = this.changePattern.bind(this)
@@ -70,7 +70,7 @@ export class PreviewBadgeBasic extends React.Component {
     const disabledClass = disabled ? "el_badge__disabled" : ""
     const contents = items
       .map(
-        item =>
+        (item) =>
           `<${tag} class="el_badge ${pattern} ${item.role} ${strong} ${round} ${disabledClass}"
           >${item.text}</${tag}>`
       )
@@ -85,14 +85,16 @@ export class PreviewBadgeBasic extends React.Component {
             <DemoOption title={"Tag"}>
               <DemoOptionBoxRadios
                 patterns={tags}
-                parentChange={value => this.changeTag(value)}
+                name="radio-badge-basic-tag"
+                parentChange={(value) => this.changeTag(value)}
                 checked={this.state.tag}
               />
             </DemoOption>
             <DemoOption title={"Pattern"}>
               <DemoOptionBoxRadios
                 patterns={patterns}
-                parentChange={value => this.changePattern(value)}
+                name="radio-badge-basic-pattern"
+                parentChange={(value) => this.changePattern(value)}
                 checked={this.state.pattern}
               />
             </DemoOption>
@@ -135,7 +137,7 @@ export class PreviewBadgeSquare extends React.Component {
     this.state = {
       tag: "span",
       pattern: "el_badge__plain",
-      disabled: false
+      disabled: false,
     }
     this.changeTag = this.changeTag.bind(this)
     this.changePattern = this.changePattern.bind(this)
@@ -157,7 +159,7 @@ export class PreviewBadgeSquare extends React.Component {
     const disabledClass = disabled ? "el_badge__disabled" : ""
     const contents = items
       .map(
-        item =>
+        (item) =>
           `<${tag} class="el_badge ${pattern} el_badge__square ${item.role} ${disabledClass}"
           ><i aria-hidden="true" class="fas fa-${item.icon} el_icon"></i></${tag}>`
       )
@@ -172,14 +174,16 @@ export class PreviewBadgeSquare extends React.Component {
             <DemoOption title={"Tag"}>
               <DemoOptionBoxRadios
                 patterns={tags}
-                parentChange={value => this.changeTag(value)}
+                name="radio-badge-square-tag"
+                parentChange={(value) => this.changeTag(value)}
                 checked={this.state.tag}
               />
             </DemoOption>
             <DemoOption title={"Pattern"}>
               <DemoOptionBoxRadios
                 patterns={patterns}
-                parentChange={value => this.changePattern(value)}
+                name="radio-badge-square-pattern"
+                parentChange={(value) => this.changePattern(value)}
                 checked={this.state.pattern}
               />
             </DemoOption>
@@ -212,7 +216,7 @@ export class PreviewBadgeCircle extends React.Component {
     this.state = {
       tag: "span",
       pattern: "el_badge__plain",
-      disabled: false
+      disabled: false,
     }
     this.changeTag = this.changeTag.bind(this)
     this.changePattern = this.changePattern.bind(this)
@@ -234,7 +238,7 @@ export class PreviewBadgeCircle extends React.Component {
     const disabledClass = disabled ? "el_badge__disabled" : ""
     const contents = items
       .map(
-        item =>
+        (item) =>
           `<${tag} class="el_badge ${pattern} el_badge__circle ${item.role} ${disabledClass}"
           ><i aria-hidden="true" class="fas fa-${item.icon} el_icon"></i></${tag}>`
       )
@@ -249,14 +253,16 @@ export class PreviewBadgeCircle extends React.Component {
             <DemoOption title={"Tag"}>
               <DemoOptionBoxRadios
                 patterns={tags}
-                parentChange={value => this.changeTag(value)}
+                name="radio-badge-circle-tag"
+                parentChange={(value) => this.changeTag(value)}
                 checked={this.state.tag}
               />
             </DemoOption>
             <DemoOption title={"Pattern"}>
               <DemoOptionBoxRadios
                 patterns={patterns}
-                parentChange={value => this.changePattern(value)}
+                name="radio-badge-circle-pattern"
+                parentChange={(value) => this.changePattern(value)}
                 checked={this.state.pattern}
               />
             </DemoOption>

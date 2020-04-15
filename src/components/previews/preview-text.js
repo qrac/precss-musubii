@@ -13,7 +13,7 @@ const items = [
   { id: 2, role: "el_txt__info", text: "情報あり" },
   { id: 3, role: "el_txt__success", text: "成功した" },
   { id: 4, role: "el_txt__warning", text: "注意する" },
-  { id: 5, role: "el_txt__danger", text: "禁止する" }
+  { id: 5, role: "el_txt__danger", text: "禁止する" },
 ]
 
 const weights = [
@@ -28,7 +28,7 @@ const weights = [
   { id: 8, text: "W600", value: "el_txt__weight600" },
   { id: 9, text: "W700", value: "el_txt__weight700" },
   { id: 10, text: "W800", value: "el_txt__weight800" },
-  { id: 11, text: "W900", value: "el_txt__weight900" }
+  { id: 11, text: "W900", value: "el_txt__weight900" },
 ]
 
 const lineHeights = [
@@ -39,7 +39,7 @@ const lineHeights = [
   { id: 4, text: "Middle", value: "el_txt__lineHeight_md" },
   { id: 3, text: "Large", value: "el_txt__lineHeight_lg" },
   { id: 2, text: "XL", value: "el_txt__lineHeight_xl" },
-  { id: 1, text: "XXL", value: "el_txt__lineHeight_xxl" }
+  { id: 1, text: "XXL", value: "el_txt__lineHeight_xxl" },
 ]
 
 const transforms = [
@@ -48,14 +48,14 @@ const transforms = [
   { id: 2, text: "Delete", value: "el_txt__delete" },
   { id: 3, text: "Capitalize", value: "el_txt__capi" },
   { id: 4, text: "Lowercase", value: "el_txt__lower" },
-  { id: 5, text: "Uppercase", value: "el_txt__upper" }
+  { id: 5, text: "Uppercase", value: "el_txt__upper" },
 ]
 
 const aligns = [
   { id: 0, text: "None", value: "" },
   { id: 1, text: "left", value: "el_txt__l" },
   { id: 2, text: "Center", value: "el_txt__c" },
-  { id: 3, text: "Right", value: "el_txt__r" }
+  { id: 3, text: "Right", value: "el_txt__r" },
 ]
 
 const verticalAligns = [
@@ -63,13 +63,13 @@ const verticalAligns = [
   { id: 1, text: "baseline", value: "el_txt__baseline" },
   { id: 2, text: "top", value: "el_txt__t" },
   { id: 3, text: "middle", value: "el_txt__middle" },
-  { id: 4, text: "bottom", value: "el_txt__b" }
+  { id: 4, text: "bottom", value: "el_txt__b" },
 ]
 
 const wraps = [
   { id: 0, text: "None", value: "" },
   { id: 1, text: "No Wrap", value: "el_txt__nowrap" },
-  { id: 2, text: "Break", value: "el_txt__break" }
+  { id: 2, text: "Break", value: "el_txt__break" },
 ]
 
 const longTextJa =
@@ -80,7 +80,7 @@ const longTextEn =
 
 const beautifyHtmlOptions = {
   inline: ["i"],
-  indent_size: 2
+  indent_size: 2,
 }
 
 export class PreviewTextDark extends React.Component {
@@ -94,10 +94,7 @@ export class PreviewTextDark extends React.Component {
       const suffix = i === 0 ? "" : i
       texts.push(`<span class="el_txt el_txt__dark${suffix}">ダーク</span>`)
     }
-    const contents = texts
-      .join("")
-      .replace(/\s+/g, " ")
-      .replace(/\s\"/g, '"')
+    const contents = texts.join("").replace(/\s+/g, " ").replace(/\s\"/g, '"')
     const formattedCode = beautify.html(contents, beautifyHtmlOptions)
     return (
       <div className="bl_demo_box bl_demo_box__preview">
@@ -124,10 +121,7 @@ export class PreviewTextLight extends React.Component {
       const suffix = i === 0 ? "" : i
       texts.push(`<span class="el_txt el_txt__light${suffix}">ライト</span>`)
     }
-    const contents = texts
-      .join("")
-      .replace(/\s+/g, " ")
-      .replace(/\s\"/g, '"')
+    const contents = texts.join("").replace(/\s+/g, " ").replace(/\s\"/g, '"')
     const formattedCode = beautify.html(contents, beautifyHtmlOptions)
     return (
       <div className="bl_demo_box bl_demo_box__preview">
@@ -150,7 +144,7 @@ export class PreviewTextRole extends React.Component {
   }
   render() {
     const contents = items
-      .map(item => `<span class="el_txt ${item.role}">${item.text}</span>`)
+      .map((item) => `<span class="el_txt ${item.role}">${item.text}</span>`)
       .join("")
       .replace(/\s+/g, " ")
       .replace(/\s\"/g, '"')
@@ -173,7 +167,7 @@ export class PreviewTextWeight extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      weight: ""
+      weight: "",
     }
     this.changeWeight = this.changeWeight.bind(this)
   }
@@ -184,7 +178,7 @@ export class PreviewTextWeight extends React.Component {
     const weight = this.state.weight
     const contents = items
       .map(
-        item =>
+        (item) =>
           `<span class="el_txt ${item.role} ${weight}">${item.text}</span>`
       )
       .join("")
@@ -198,7 +192,8 @@ export class PreviewTextWeight extends React.Component {
             <DemoOption title={"Weight"}>
               <DemoOptionBoxRadios
                 patterns={weights}
-                parentChange={value => this.changeWeight(value)}
+                name="radio-text-weight"
+                parentChange={(value) => this.changeWeight(value)}
                 checked={this.state.weight}
               />
             </DemoOption>
@@ -220,7 +215,7 @@ export class PreviewTextLineHeight extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      lineHeight: ""
+      lineHeight: "",
     }
     this.changeLineHeight = this.changeLineHeight.bind(this)
   }
@@ -240,7 +235,8 @@ export class PreviewTextLineHeight extends React.Component {
             <DemoOption title={"Line Height"}>
               <DemoOptionBoxRadios
                 patterns={lineHeights}
-                parentChange={value => this.changeLineHeight(value)}
+                name="radio-text-line-height"
+                parentChange={(value) => this.changeLineHeight(value)}
                 checked={this.state.lineHeight}
               />
             </DemoOption>
@@ -262,7 +258,7 @@ export class PreviewTextTransform extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      transform: ""
+      transform: "",
     }
     this.changeTransform = this.changeTransform.bind(this)
   }
@@ -292,7 +288,8 @@ export class PreviewTextTransform extends React.Component {
             <DemoOption title={"Transform"}>
               <DemoOptionBoxRadios
                 patterns={transforms}
-                parentChange={value => this.changeTransform(value)}
+                name="radio-text-transform"
+                parentChange={(value) => this.changeTransform(value)}
                 checked={this.state.transform}
               />
             </DemoOption>
@@ -314,7 +311,7 @@ export class PreviewTextAlign extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      align: ""
+      align: "",
     }
     this.changeAlign = this.changeAlign.bind(this)
   }
@@ -334,7 +331,8 @@ export class PreviewTextAlign extends React.Component {
             <DemoOption title={"Align"}>
               <DemoOptionBoxRadios
                 patterns={aligns}
-                parentChange={value => this.changeAlign(value)}
+                name="radio-text-align"
+                parentChange={(value) => this.changeAlign(value)}
                 checked={this.state.align}
               />
             </DemoOption>
@@ -356,7 +354,7 @@ export class PreviewTextAlignJustify extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      justify: true
+      justify: true,
     }
     this.toggleJustify = this.toggleJustify.bind(this)
   }
@@ -399,7 +397,7 @@ export class PreviewTextVerticalAlign extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      verticalAlign: ""
+      verticalAlign: "",
     }
     this.changeVerticalAlign = this.changeVerticalAlign.bind(this)
   }
@@ -420,7 +418,8 @@ export class PreviewTextVerticalAlign extends React.Component {
             <DemoOption title={"Vertical Align"}>
               <DemoOptionBoxRadios
                 patterns={verticalAligns}
-                parentChange={value => this.changeVerticalAlign(value)}
+                name="radio-text-vertical-align"
+                parentChange={(value) => this.changeVerticalAlign(value)}
                 checked={this.state.verticalAlign}
               />
             </DemoOption>
@@ -442,7 +441,7 @@ export class PreviewTextWrap extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      wrap: ""
+      wrap: "",
     }
     this.changeWrap = this.changeWrap.bind(this)
   }
@@ -462,7 +461,8 @@ export class PreviewTextWrap extends React.Component {
             <DemoOption title={"Wrap"}>
               <DemoOptionBoxRadios
                 patterns={wraps}
-                parentChange={value => this.changeWrap(value)}
+                name="radio-text-wrap"
+                parentChange={(value) => this.changeWrap(value)}
                 checked={this.state.wrap}
               />
             </DemoOption>
@@ -486,7 +486,7 @@ export class PreviewTextLink extends React.Component {
     this.state = {
       reverse: false,
       disabled: false,
-      externalLink: false
+      externalLink: false,
     }
     this.toggleReverse = this.toggleReverse.bind(this)
     this.toggleDisabled = this.toggleDisabled.bind(this)
@@ -512,7 +512,7 @@ export class PreviewTextLink extends React.Component {
       : ""
     const contents = items
       .map(
-        item =>
+        (item) =>
           `<a class="el_txt ${item.role} ${linkClass} ${disabledClass}"
           href="#" ${externalLink} ${disabledTabIndex}>${item.text}</a>`
       )

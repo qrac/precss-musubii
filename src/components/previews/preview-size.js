@@ -15,19 +15,19 @@ const sizes = [
   { id: 4, text: "Medium", value: "hp_md" },
   { id: 3, text: "Large", value: "hp_lg" },
   { id: 2, text: "XL", value: "hp_xl" },
-  { id: 1, text: "XXL", value: "hp_xxl" }
+  { id: 1, text: "XXL", value: "hp_xxl" },
 ]
 
 const beautifyHtmlOptions = {
   inline: ["i"],
-  indent_size: 2
+  indent_size: 2,
 }
 
 export class PreviewSizeBasic extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      size: ""
+      size: "",
     }
     this.changeSize = this.changeSize.bind(this)
   }
@@ -48,7 +48,8 @@ export class PreviewSizeBasic extends React.Component {
             <DemoOption title={"Size"}>
               <DemoOptionBoxRadios
                 patterns={sizes}
-                parentChange={value => this.changeSize(value)}
+                name="radio-size-basic"
+                parentChange={(value) => this.changeSize(value)}
                 checked={this.state.size}
               />
             </DemoOption>

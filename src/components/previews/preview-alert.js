@@ -12,7 +12,7 @@ const items = [
     id: 0,
     role: "",
     text: "WordPressプラグインの設定へようこそ！",
-    icon: "thumbs-up"
+    icon: "thumbs-up",
   },
   {
     id: 1,
@@ -20,7 +20,7 @@ const items = [
     text: "WordPressプラグインの設定へようこそ！",
     textRole: "el_txt__primary",
     icon: "thumbs-up",
-    iconRole: "el_icon__primary"
+    iconRole: "el_icon__primary",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const items = [
     text: "プラグインに関するチュートリアルはこちら。",
     textRole: "el_txt__info",
     icon: "info-circle",
-    iconRole: "el_icon__info"
+    iconRole: "el_icon__info",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const items = [
     text: "プラグインの設定は自動的に保存されました。",
     textRole: "el_txt__success",
     icon: "check",
-    iconRole: "el_icon__success"
+    iconRole: "el_icon__success",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const items = [
     text: "プラグインはアクティベートされていません。",
     textRole: "el_txt__warning",
     icon: "exclamation-triangle",
-    iconRole: "el_icon__warning"
+    iconRole: "el_icon__warning",
   },
   {
     id: 5,
@@ -52,8 +52,8 @@ const items = [
     text: "プラグインは削除されました。",
     textRole: "el_txt__danger",
     icon: "times",
-    iconRole: "el_icon__danger"
-  }
+    iconRole: "el_icon__danger",
+  },
 ]
 
 const tails = [
@@ -68,12 +68,12 @@ const tails = [
   { id: 8, text: "Bottom Left", value: "bl_alert__tail_b_l" },
   { id: 9, text: "Left Bottom", value: "bl_alert__tail_l_b" },
   { id: 10, text: "Left Middle", value: "bl_alert__tail_l_middle" },
-  { id: 11, text: "Left Top", value: "bl_alert__tail_l_t" }
+  { id: 11, text: "Left Top", value: "bl_alert__tail_l_t" },
 ]
 
 const beautifyHtmlOptions = {
   inline: ["s"],
-  indent_size: 2
+  indent_size: 2,
 }
 
 export class PreviewAlertRole extends React.Component {
@@ -84,7 +84,7 @@ export class PreviewAlertRole extends React.Component {
   render() {
     const contents = items
       .map(
-        item =>
+        (item) =>
           `<div class="bl_alert ${item.role}">
             <i aria-hidden="true" class="fas fa-${item.icon} ${item.iconRole} el_icon el_icon__fit hp_mg_r_xxs"></i>
             <span class="el_txt ${item.textRole}">${item.text}</span>
@@ -112,7 +112,7 @@ export class PreviewAlertTail extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      tail: "bl_alert__tail_t_l"
+      tail: "bl_alert__tail_t_l",
     }
     this.changeTail = this.changeTail.bind(this)
   }
@@ -123,7 +123,7 @@ export class PreviewAlertTail extends React.Component {
     const tail = this.state.tail
     const contents = items
       .map(
-        item =>
+        (item) =>
           `<div class="bl_alert ${item.role} ${tail}">
             <i aria-hidden="true" class="fas fa-${item.icon} ${item.iconRole} el_icon el_icon__fit hp_mg_r_xxs"></i>
             <span class="text ${item.role}">${item.text}</span>
@@ -140,7 +140,8 @@ export class PreviewAlertTail extends React.Component {
             <DemoOption title={"Tail"}>
               <DemoOptionBoxRadios
                 patterns={tails}
-                parentChange={value => this.changeTail(value)}
+                name="radio-alert-tail"
+                parentChange={(value) => this.changeTail(value)}
                 checked={this.state.tail}
               />
             </DemoOption>

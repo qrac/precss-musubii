@@ -1,11 +1,12 @@
-export default ({ patterns, checked, parentChange }) => {
+export default ({ patterns, name, checked, parentChange }) => {
   return (
     <>
-      {patterns.map(patternEl => (
+      {patterns.map((patternEl) => (
         <div className="bl_demo_option_box hp_mg_r_md" key={patternEl.id}>
           <input
             className="el_form_input"
             type="radio"
+            name={name}
             onChange={() => parentChange(patternEl.value)}
             checked={checked === patternEl.value}
           />

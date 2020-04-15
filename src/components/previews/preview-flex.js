@@ -23,19 +23,19 @@ const sizes = [
   { id: 11, text: "11/12", value: "hp_fx11" },
   { id: 12, text: "12/12", value: "hp_fx12" },
   { id: 14, text: "Full", value: "hp_fx_full" },
-  { id: 15, text: "Auto", value: "hp_fx_auto" }
+  { id: 15, text: "Auto", value: "hp_fx_auto" },
 ]
 
 const beautifyHtmlOptions = {
   inline: ["i"],
-  indent_size: 2
+  indent_size: 2,
 }
 
 export class PreviewFlexBasic extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      size: ""
+      size: "",
     }
     this.changeSize = this.changeSize.bind(this)
   }
@@ -62,7 +62,8 @@ export class PreviewFlexBasic extends React.Component {
             <DemoOption title={"Flex"}>
               <DemoOptionBoxRadios
                 patterns={sizes}
-                parentChange={value => this.changeSize(value)}
+                name="radio-flex-basic"
+                parentChange={(value) => this.changeSize(value)}
                 checked={this.state.size}
               />
             </DemoOption>

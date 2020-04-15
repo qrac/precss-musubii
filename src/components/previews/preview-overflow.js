@@ -11,19 +11,19 @@ const overflows = [
   { id: 0, text: "Hidden", value: "hid" },
   { id: 1, text: "Scroll X", value: "scrollX" },
   { id: 2, text: "Scroll Y", value: "scrollY" },
-  { id: 3, text: "Ellipsis", value: "elli" }
+  { id: 3, text: "Ellipsis", value: "elli" },
 ]
 
 const beautifyHtmlOptions = {
   inline: ["i"],
-  indent_size: 2
+  indent_size: 2,
 }
 
 export class PreviewOverflowBasic extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      overflow: "hid"
+      overflow: "hid",
     }
     this.changeOverflow = this.changeOverflow.bind(this)
   }
@@ -46,7 +46,8 @@ export class PreviewOverflowBasic extends React.Component {
             <DemoOption title={"Overflow"}>
               <DemoOptionBoxRadios
                 patterns={overflows}
-                parentChange={value => this.changeOverflow(value)}
+                name="radio-overflow-basic"
+                parentChange={(value) => this.changeOverflow(value)}
                 checked={this.state.overflow}
               />
             </DemoOption>

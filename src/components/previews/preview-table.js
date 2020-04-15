@@ -10,7 +10,7 @@ import DemoPre from "~/components/parts/demo-pre"
 const patterns = [
   { id: 2, text: "Border", value: "bl_table__border" },
   { id: 0, text: "Line", value: "bl_table__line" },
-  { id: 1, text: "Outline", value: "bl_table__outline" }
+  { id: 1, text: "Outline", value: "bl_table__outline" },
 ]
 
 const aligns = [
@@ -18,19 +18,19 @@ const aligns = [
   { id: 1, text: "left", value: "bl_table__left" },
   { id: 2, text: "Center", value: "bl_table__center" },
   { id: 3, text: "Right", value: "bl_table__right" },
-  { id: 4, text: "middle", value: "bl_table__middle" }
+  { id: 4, text: "middle", value: "bl_table__middle" },
 ]
 
 const beautifyHtmlOptions = {
   inline: ["th", "td", "br", "span"],
-  indent_size: 2
+  indent_size: 2,
 }
 
 export class PreviewTableBasic extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      pattern: "bl_table__border"
+      pattern: "bl_table__border",
     }
     this.changePattern = this.changePattern.bind(this)
   }
@@ -58,7 +58,8 @@ export class PreviewTableBasic extends React.Component {
             <DemoOption title={"Pattern"}>
               <DemoOptionBoxRadios
                 patterns={patterns}
-                parentChange={value => this.changePattern(value)}
+                name="radio-table-basic-pattern"
+                parentChange={(value) => this.changePattern(value)}
                 checked={this.state.pattern}
               />
             </DemoOption>
@@ -146,7 +147,7 @@ export class PreviewTableAlign extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      align: ""
+      align: "",
     }
     this.changeAlign = this.changeAlign.bind(this)
   }
@@ -174,7 +175,8 @@ export class PreviewTableAlign extends React.Component {
             <DemoOption title={"Align"}>
               <DemoOptionBoxRadios
                 patterns={aligns}
-                parentChange={value => this.changeAlign(value)}
+                name="radio-table-align"
+                parentChange={(value) => this.changeAlign(value)}
                 checked={this.state.align}
               />
             </DemoOption>
